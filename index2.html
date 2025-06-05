@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>黒本ルーレット - ドカベン風</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a3d66;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .button-container button {
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: 0.3rem;
+    }
+    .button-container button:first-child {
+      background-color: #ffffff;
+      color: #0a3d66;
+    }
+    .button-container button:first-child:hover {
+      background-color: #ddd;
+    }
+    .button-container button:last-child {
+      background-color: #ffffff33;
+      color: #ccc;
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+    }
+    .button-container button:last-child:hover {
+      background-color: #ffffff44;
+    }
+    #dokaben {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      font-size: 3rem;
+      font-weight: bold;
+      color: yellow;
+      text-shadow: 2px 2px 10px red;
+      opacity: 0;
+      transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+      z-index: 10;
+    }
+    #dokaben.show {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    #result {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    #result.animate {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    #history {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+      max-height: 200px;
+      overflow-y: auto;
+      width: 100%;
+      max-width: 400px;
+    }
+    #history ul {
+      padding-left: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>黒本1 ルーレット</h1>
+  <div class="button-container">
+    <button onclick="pickRandomTune()">ランダムで1曲選ぶ</button>
+    <button onclick="resetHistory()">リセット</button>
+  </div>
+  <div id="dokaben">ドカベン！！</div>
+  <div id="result">🎷 結果がここに表示されます</div>
+  <div id="history">
+    <h2 style="font-size: 1rem; margin-top: 2rem;">🎼 やった曲リスト</h2>
+    <ul id="historyList"></ul>
+  </div>
+
+  <script>
+    let songs = [];
+    const historyList = [];
+
+    async function loadSongs() {
+      const response = await fetch("jazz_standard_bible_1.json");
+      const data = await response.json();
+      songs = [...data];
+    }
+
+    async function pickRandomTune() {
+      if (songs.length === 0) {
+        alert("全ての曲を再生しました。リセットしてください。");
+        return;
+      }
+
+      // アニメーション演出（ドカベン風）
+      const dokaben = document.getElementById("dokaben");
+      dokaben.classList.add("show");
+      setTimeout(() => {
+        dokaben.classList.remove("show");
+      }, 1000);
+
+      // 音声再生（再生される環境であれば）
+      const audio = new Audio("https://freesound.org/data/previews/569/569769_13034311-lq.mp3");
+      audio.play().catch(() => {});
+
+      const index = Math.floor(Math.random() * songs.length);
+      const selected = songs.splice(index, 1)[0];
+      const resultText = `🎵 ${selected.title}（p.${selected.page}）`;
+
+      const resultEl = document.getElementById("result");
+      resultEl.classList.add("animate");
+      setTimeout(() => {
+        resultEl.classList.remove("animate");
+        resultEl.innerHTML = resultText;
+      }, 300);
+
+      historyList.unshift(resultText);
+      updateHistory();
+    }
+
+    function updateHistory() {
+      const ul = document.getElementById("historyList");
+      ul.innerHTML = "";
+      historyList.slice(0, 20).forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul.appendChild(li);
+      });
+    }
+
+    async function resetHistory() {
+      await loadSongs();
+      historyList.length = 0;
+      document.getElementById("result").innerHTML = "🎷 結果がここに表示されます";
+      updateHistory();
+    }
+
+    // 初期読み込み
+    loadSongs();
+  </script>
+</body>
+</html>
