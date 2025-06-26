@@ -21,10 +21,18 @@
       font-size: 2rem;
       margin-bottom: 0.5rem;
     }
-    .wip {
-      font-size: 0.9rem;
-      color: #cccccc;
+    .filters {
       margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    select {
+      padding: 0.4rem;
+      border-radius: 5px;
+      border: none;
+      font-size: 0.9rem;
     }
     .button-container {
       display: flex;
@@ -58,13 +66,10 @@
     }
     #result {
       margin-top: 1.5rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      line-height: 1.6;
       font-weight: bold;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-    }
-    #result.animate {
-      transform: scale(1.2);
-      opacity: 0.5;
+      text-align: center;
     }
     #history {
       margin-top: 3rem;
@@ -73,16 +78,34 @@
       max-height: 200px;
       overflow-y: auto;
       width: 100%;
-      max-width: 400px;
+      max-width: 600px;
     }
     #history ul {
       padding-left: 1rem;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .button-container button {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
   <h1>黒本1 ルーレット</h1>
-  <div class="wip">🛠 WIP: キーフィルター・黒本2対応予定</div>
+  <div class="filters">
+    <label>キー:
+      <select id="keyFilter" multiple size="4"></select>
+    </label>
+    <label>スタイル:
+      <select id="styleFilter" multiple size="4"></select>
+    </label>
+  </div>
   <div class="button-container">
     <button onclick="pickRandomTune()">ランダムで1曲選ぶ</button>
     <button onclick="resetHistory()">リセット</button>
@@ -94,31 +117,63 @@
   </div>
 
   <script>
+    let allSongs = [];
     let songs = [];
     const historyList = [];
 
     async function loadSongs() {
       const response = await fetch("jazz_standard_bible_1_full.json");
       const data = await response.json();
-      songs = [...data];
+      allSongs = data;
+      populateFilters(data);
+      applyFilters();
     }
 
-    async function pickRandomTune() {
+    function populateFilters(data) {
+      const keySet = new Set();
+      const styleSet = new Set();
+      data.forEach(song => {
+        if (song.key) song.key.split(',').forEach(k => keySet.add(k.trim()));
+        if (song.style) song.style.split(',').forEach(s => styleSet.add(s.trim()));
+      });
+      const keyFilter = document.getElementById("keyFilter");
+      [...keySet].sort().forEach(k => {
+        const option = document.createElement("option");
+        option.value = k;
+        option.textContent = k;
+        keyFilter.appendChild(option);
+      });
+      const styleFilter = document.getElementById("styleFilter");
+      [...styleSet].sort().forEach(s => {
+        const option = document.createElement("option");
+        option.value = s;
+        option.textContent = s;
+        styleFilter.appendChild(option);
+      });
+      keyFilter.onchange = applyFilters;
+      styleFilter.onchange = applyFilters;
+    }
+
+    function applyFilters() {
+      const keySelected = [...document.getElementById("keyFilter").selectedOptions].map(o => o.value);
+      const styleSelected = [...document.getElementById("styleFilter").selectedOptions].map(o => o.value);
+      songs = allSongs.filter(song => {
+        const keyMatch = keySelected.length === 0 || keySelected.some(k => (song.key || '').includes(k));
+        const styleMatch = styleSelected.length === 0 || styleSelected.some(s => (song.style || '').includes(s));
+        return keyMatch && styleMatch;
+      });
+    }
+
+    function pickRandomTune() {
       if (songs.length === 0) {
-        alert("全ての曲を再生しました。リセットしてください。");
+        alert("該当する曲がありません。フィルターをリセットしてください。");
         return;
       }
       const index = Math.floor(Math.random() * songs.length);
       const selected = songs.splice(index, 1)[0];
-      const resultText = `🎵 ${selected.title}（p.${selected.page}）`;
-
+      const resultText = `🎵 ${selected.title}（p.${selected.page}）<br>作曲: ${selected.composer || "不明"}<br>キー: ${selected.key || "不明"}<br>スタイル: ${selected.style || "不明"}<br>備考: ${selected.note || "なし"}`;
       const resultEl = document.getElementById("result");
-      resultEl.classList.add("animate");
-      setTimeout(() => {
-        resultEl.classList.remove("animate");
-        resultEl.innerHTML = resultText;
-      }, 300);
-
+      resultEl.innerHTML = resultText;
       historyList.unshift(resultText);
       updateHistory();
     }
@@ -128,19 +183,18 @@
       ul.innerHTML = "";
       historyList.slice(0, 20).forEach(item => {
         const li = document.createElement("li");
-        li.textContent = item;
+        li.innerHTML = item;
         ul.appendChild(li);
       });
     }
 
-    async function resetHistory() {
-      await loadSongs();
+    function resetHistory() {
       historyList.length = 0;
       document.getElementById("result").innerHTML = "🎷 結果がここに表示されます";
       updateHistory();
+      applyFilters();
     }
 
-    // 初期読み込み
     loadSongs();
   </script>
 </body>
