@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>黒本ルーレット</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黒本1 ルーレット</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -22,23 +22,57 @@
       margin-bottom: 0.5rem;
     }
     .filters {
+      background: #0c4c7a;
+      padding: 1rem;
+      border-radius: 10px;
       margin-bottom: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
+      width: 100%;
+      max-width: 600px;
     }
-    select {
+    .filter-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .filter-row label {
+      width: 80px;
+      text-align: right;
+      margin-right: 0.5rem;
+    }
+    .filter-row select {
+      flex: 1;
       padding: 0.4rem;
       border-radius: 5px;
       border: none;
+      font-size: 0.9rem;
+    }
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+      margin-left: 80px;
+    }
+    .tag {
+      background: #1d88d6;
+      padding: 0.3rem 0.6rem;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .tag button {
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
       font-size: 0.9rem;
     }
     .button-container {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
     .button-container button {
       border: none;
@@ -47,29 +81,27 @@
       border-radius: 10px;
       cursor: pointer;
       margin: 0.3rem;
-    }
-    .button-container button:first-child {
       background-color: #ffffff;
       color: #0a3d66;
     }
-    .button-container button:first-child:hover {
+    .button-container button:hover {
       background-color: #ddd;
-    }
-    .button-container button:last-child {
-      background-color: #ffffff33;
-      color: #ccc;
-      font-size: 0.85rem;
-      padding: 0.5rem 1rem;
-    }
-    .button-container button:last-child:hover {
-      background-color: #ffffff44;
     }
     #result {
       margin-top: 1.5rem;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 1.6;
       font-weight: bold;
       text-align: center;
+    }
+    .result-sub {
+      font-size: 0.9rem;
+      color: #ccc;
+      font-weight: normal;
+      margin-top: 0.5rem;
+    }
+    .result-sub a {
+      color: #ffd700;
     }
     #history {
       margin-top: 3rem;
@@ -83,32 +115,30 @@
     #history ul {
       padding-left: 1rem;
     }
-    @media (max-width: 600px) {
-      body {
-        padding: 1rem;
-      }
-      h1 {
-        font-size: 1.5rem;
-      }
-      .button-container button {
-        width: 100%;
-      }
-    }
   </style>
 </head>
 <body>
   <h1>黒本1 ルーレット</h1>
   <div class="filters">
-    <label>キー:
-      <select id="keyFilter" multiple size="4"></select>
-    </label>
-    <label>スタイル:
-      <select id="styleFilter" multiple size="4"></select>
-    </label>
+    <div class="filter-row">
+      <label for="keySelector">キー:</label>
+      <select id="keySelector">
+        <option value="">選択してください</option>
+      </select>
+    </div>
+    <div id="keyTags" class="tag-container"></div>
+
+    <div class="filter-row">
+      <label for="styleSelector">スタイル:</label>
+      <select id="styleSelector">
+        <option value="">選択してください</option>
+      </select>
+    </div>
+    <div id="styleTags" class="tag-container"></div>
   </div>
+
   <div class="button-container">
     <button onclick="pickRandomTune()">ランダムで1曲選ぶ</button>
-    <button onclick="resetHistory()">リセット</button>
   </div>
   <div id="result">🎷 結果がここに表示されます</div>
   <div id="history">
@@ -117,6 +147,10 @@
   </div>
 
   <script>
+    const keyOptions = ["C", "D", "E♭", "F", "G", "A", "B♭", "B", "A♭", "E", "D♭", "G♯ minor"];
+    const styleOptions = ["Jazz Standard", "Swing", "Ballad", "Blues", "Bebop", "Latin", "Hard Bop", "Jazz", "Funk"];
+    const keyTags = new Set();
+    const styleTags = new Set();
     let allSongs = [];
     let songs = [];
     const historyList = [];
@@ -125,55 +159,98 @@
       const response = await fetch("jazz_standard_bible_1_full.json");
       const data = await response.json();
       allSongs = data;
-      populateFilters(data);
       applyFilters();
     }
 
-    function populateFilters(data) {
-      const keySet = new Set();
-      const styleSet = new Set();
-      data.forEach(song => {
-        if (song.key) song.key.split(',').forEach(k => keySet.add(k.trim()));
-        if (song.style) song.style.split(',').forEach(s => styleSet.add(s.trim()));
+    function normalizeKeys(keys) {
+      return keys.split(/[,/]/).map(k => k.trim()).filter(Boolean);
+    }
+
+    function updateTagDisplay() {
+      const kt = document.getElementById("keyTags");
+      const st = document.getElementById("styleTags");
+      kt.innerHTML = "";
+      st.innerHTML = "";
+
+      keyTags.forEach(k => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.innerHTML = `${k} <button onclick="removeTag('key', '${k}')">×</button>`;
+        kt.appendChild(span);
       });
-      const keyFilter = document.getElementById("keyFilter");
-      [...keySet].sort().forEach(k => {
-        const option = document.createElement("option");
-        option.value = k;
-        option.textContent = k;
-        keyFilter.appendChild(option);
+      styleTags.forEach(s => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.innerHTML = `${s} <button onclick="removeTag('style', '${s}')">×</button>`;
+        st.appendChild(span);
       });
-      const styleFilter = document.getElementById("styleFilter");
-      [...styleSet].sort().forEach(s => {
-        const option = document.createElement("option");
-        option.value = s;
-        option.textContent = s;
-        styleFilter.appendChild(option);
+    }
+
+    function removeTag(type, value) {
+      if (type === 'key') keyTags.delete(value);
+      if (type === 'style') styleTags.delete(value);
+      updateTagDisplay();
+      applyFilters();
+    }
+
+    function addTagFromSelector(selectorId, tagSet) {
+      const selector = document.getElementById(selectorId);
+      const val = selector.value;
+      if (val && !tagSet.has(val)) {
+        tagSet.add(val);
+        selector.value = "";
+        updateTagDisplay();
+        applyFilters();
+      }
+    }
+
+    function setupTagSelectors() {
+      const keySel = document.getElementById("keySelector");
+      keyOptions.forEach(k => {
+        const opt = document.createElement("option");
+        opt.value = k;
+        opt.textContent = k;
+        keySel.appendChild(opt);
       });
-      keyFilter.onchange = applyFilters;
-      styleFilter.onchange = applyFilters;
+      keySel.onchange = () => addTagFromSelector("keySelector", keyTags);
+
+      const styleSel = document.getElementById("styleSelector");
+      styleOptions.forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s;
+        opt.textContent = s;
+        styleSel.appendChild(opt);
+      });
+      styleSel.onchange = () => addTagFromSelector("styleSelector", styleTags);
     }
 
     function applyFilters() {
-      const keySelected = [...document.getElementById("keyFilter").selectedOptions].map(o => o.value);
-      const styleSelected = [...document.getElementById("styleFilter").selectedOptions].map(o => o.value);
+      const keySelected = [...keyTags];
+      const styleSelected = [...styleTags];
       songs = allSongs.filter(song => {
-        const keyMatch = keySelected.length === 0 || keySelected.some(k => (song.key || '').includes(k));
-        const styleMatch = styleSelected.length === 0 || styleSelected.some(s => (song.style || '').includes(s));
+        const keys = song.key ? normalizeKeys(song.key) : [];
+        const styles = song.style ? song.style.split(',').map(s => s.trim()) : [];
+        const keyMatch = keySelected.length === 0 || keySelected.some(k => keys.includes(k));
+        const styleMatch = styleSelected.length === 0 || styleSelected.some(s => styles.includes(s));
         return keyMatch && styleMatch;
       });
     }
 
     function pickRandomTune() {
       if (songs.length === 0) {
-        alert("該当する曲がありません。フィルターをリセットしてください。");
+        alert("該当する曲がありません。条件を見直してください。")
         return;
       }
       const index = Math.floor(Math.random() * songs.length);
-      const selected = songs.splice(index, 1)[0];
-      const resultText = `🎵 ${selected.title}（p.${selected.page}）<br>作曲: ${selected.composer || "不明"}<br>キー: ${selected.key || "不明"}<br>スタイル: ${selected.style || "不明"}<br>備考: ${selected.note || "なし"}`;
-      const resultEl = document.getElementById("result");
-      resultEl.innerHTML = resultText;
+      const selected = songs[index];
+      const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
+      const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
+        作曲: ${selected.composer || "不明"}<br>
+        キー: ${selected.key || "不明"}<br>
+        スタイル: ${selected.style || "不明"}<br>
+        備考: ${selected.note || "なし"}<br>
+        🔗 <a href="${searchUrl}" target="_blank">YouTubeで検索</a></div>`;
+      document.getElementById("result").innerHTML = resultText;
       historyList.unshift(resultText);
       updateHistory();
     }
@@ -188,13 +265,8 @@
       });
     }
 
-    function resetHistory() {
-      historyList.length = 0;
-      document.getElementById("result").innerHTML = "🎷 結果がここに表示されます";
-      updateHistory();
-      applyFilters();
-    }
-
+    setupTagSelectors();
+    updateTagDisplay();
     loadSongs();
   </script>
 </body>
