@@ -118,6 +118,34 @@
     #history ul {
       padding-left: 1rem;
     }
+    .support-section {
+      background: #092d4d;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      color: #fff;
+      max-width: 600px;
+      text-align: center;
+    }
+    .support-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.7rem;
+      margin-top: 1rem;
+    }
+    .support-buttons a {
+      background: #ffd700;
+      color: #0a3d66;
+      padding: 0.6rem 1rem;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .support-buttons a:hover {
+      background: #ffea80;
+    }
   </style>
 </head>
 <body>
@@ -148,6 +176,20 @@
     <h2 style="font-size: 1rem; margin-top: 2rem;">🎼 やった曲リスト</h2>
     <ul id="historyList"></ul>
   </div>
+
+          <div class="support-section">
+    <h2>🎷 このサイトを応援する</h2>
+    <p>よろしければ、以下の方法でご支援いただけます。</p>
+    <div class="support-buttons">
+      <a href="https://coff.ee/sopurani88f" target="_blank">☕ Buy Me a Coffee</a>
+      <a href="https://github.com/sponsors/Ranats" target="_blank">💖 GitHub Sponsors</a>
+      <a href="https://ofuse.me/d2c3aa65" target="_blank">✉️ OFUSE</a>
+      <a href="#" onclick="alert('codocのURLが未設定です。'); return false;">📄 codoc（準備中）</a>
+      <a href="https://ko-fi.com/ranats" target="_blank">🍩 Ko-fi</a>
+    </div>
+    <p style="margin-top: 1rem;">📚 おすすめ教材 → <a href="https://www.amazon.co.jp/dp/B01M2Y･･･" target="_blank">黒本をAmazonで見る</a></p>
+  </div>
+
 
   <script>
     const keyOptions = ["C", "D", "E♭", "F", "G", "A", "B♭", "B", "A♭", "E", "D♭", "G♯ minor"];
