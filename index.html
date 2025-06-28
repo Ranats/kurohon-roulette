@@ -118,33 +118,93 @@
     #history ul {
       padding-left: 1rem;
     }
-    .support-section {
-      background: #092d4d;
+
+    .support-section, .amazon-section {
+      background: none;
+      border: 1px dashed #888;
       border-radius: 10px;
-      padding: 1.5rem;
+      padding: 1rem;
       margin-top: 2rem;
-      color: #fff;
-      max-width: 600px;
+      color: #ccc;
+      max-width: 800px;
+      font-size: 0.85rem;
       text-align: center;
     }
     .support-buttons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.7rem;
-      margin-top: 1rem;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
     }
     .support-buttons a {
-      background: #ffd700;
+      background: #ffe066;
       color: #0a3d66;
-      padding: 0.6rem 1rem;
-      border-radius: 30px;
-      font-weight: bold;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
       text-decoration: none;
       transition: background 0.2s;
     }
     .support-buttons a:hover {
-      background: #ffea80;
+      background: #fff0a0;
+    }
+    .carousel-title {
+      font-size: 1rem;
+      margin: 1.5rem 0 0.5rem;
+      color: #ffd;
+      text-align: left;
+    }
+    .carousel-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .carousel-button {
+      background: #1d88d6;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      padding: 0.2rem 0.6rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 0 0.3rem;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+    .carousel-item {
+      flex: 0 0 auto;
+      background: #1d88d6;
+      padding: 0.6rem;
+      border-radius: 8px;
+      color: white;
+      font-size: 0.85rem;
+      text-align: center;
+      min-width: 160px;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 0.3rem;
+    }
+    .carousel-item a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    .carousel-item a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -177,21 +237,68 @@
     <ul id="historyList"></ul>
   </div>
 
-          <div class="support-section">
-    <h2>🎷 このサイトを応援する</h2>
-    <p>よろしければ、以下の方法でご支援いただけます。</p>
-    <div class="support-buttons">
-      <a href="https://coff.ee/sopurani88f" target="_blank">☕ Buy Me a Coffee</a>
-      <a href="https://github.com/sponsors/Ranats" target="_blank">💖 GitHub Sponsors</a>
-      <a href="https://ofuse.me/d2c3aa65" target="_blank">✉️ OFUSE</a>
-      <a href="#" onclick="alert('codocのURLが未設定です。'); return false;">📄 codoc（準備中）</a>
-      <a href="https://ko-fi.com/ranats" target="_blank">🍩 Ko-fi</a>
+
+  <div class="amazon-section">
+    <div class="carousel-title">📚 黒本シリーズ</div>
+    <div class="carousel-container">
+      <button class="carousel-button" onclick="scrollCarousel('carousel1', -200)">◀</button>
+      <div class="carousel" id="carousel1">
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=C" alt="C">黒本1（in C）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Handy" alt="Handy">黒本1 ハンディ</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Bb" alt="Bb">黒本1（in Bb）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Handy" alt="Handy">Bb ハンディ</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Eb" alt="Eb">黒本1（in Eb）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Handy" alt="Handy">Eb ハンディ</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Vol.2" alt="Vol.2">黒本2</a></div>
+      </div>
+      <button class="carousel-button" onclick="scrollCarousel('carousel1', 200)">▶</button>
     </div>
-    <p style="margin-top: 1rem;">📚 おすすめ教材 → <a href="https://www.amazon.co.jp/dp/B01M2Y･･･" target="_blank">黒本をAmazonで見る</a></p>
+
+    <div class="carousel-title">📖 セオリーブック</div>
+    <div class="carousel-container">
+      <button class="carousel-button" onclick="scrollCarousel('carousel2', -200)">◀</button>
+      <div class="carousel" id="carousel2">
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Intro" alt="入門">ジャズ理論入門</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Theory" alt="セオリー">ジャズ・セオリー・ブック</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Workbook" alt="ワークブック">ジャズ・セオリー・ワークブック</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Practice" alt="実践">実践ジャズ理論</a></div>
+      </div>
+      <button class="carousel-button" onclick="scrollCarousel('carousel2', 200)">▶</button>
+    </div>
+
+    <div class="carousel-title">📘 リアルブック</div>
+    <div class="carousel-container">
+      <button class="carousel-button" onclick="scrollCarousel('carousel3', -200)">◀</button>
+      <div class="carousel" id="carousel3">
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Real1C" alt="C">The Real Book vol.1（C）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Real1Bb" alt="Bb">The Real Book vol.1（Bb）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Real1Eb" alt="Eb">The Real Book vol.1（Eb）</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Real2" alt="2">The Real Book vol.2</a></div>
+        <div class="carousel-item"><a href="#"><img src="https://via.placeholder.com/120x160?text=Real3" alt="3">The Real Book vol.3</a></div>
+      </div>
+      <button class="carousel-button" onclick="scrollCarousel('carousel3', 200)">▶</button>
+    </div>
   </div>
 
+  
+  <div class="support-section">
+    🎷 このサイトを応援する →
+    <div class="support-buttons">
+      <a href="https://coff.ee/sopurani88f" target="_blank">Buy Me a Coffee</a>
+      <a href="https://github.com/sponsors/Ranats" target="_blank">GitHub Sponsors</a>
+      <a href="https://ofuse.me/d2c3aa65" target="_blank">OFUSE</a>
+      <a href="https://ko-fi.com/ranats" target="_blank">Ko-fi</a>
+    </div>
+    <div style="margin-top: 0.5rem;">
+      📚 <a href="https://www.amazon.co.jp/dp/B01M2Y･･･" target="_blank">黒本をAmazonで見る</a>
+    </div>
+  </div>
 
   <script>
+  function scrollCarousel(id, distance) {
+    document.getElementById(id).scrollBy({ left: distance, behavior: 'smooth' });
+  }
+
     const keyOptions = ["C", "D", "E♭", "F", "G", "A", "B♭", "B", "A♭", "E", "D♭", "G♯ minor"];
     const styleOptions = ["Jazz Standard", "Swing", "Ballad", "Blues", "Bebop", "Latin", "Hard Bop", "Jazz", "Funk"];
     const keyTags = new Set();
@@ -201,7 +308,7 @@
     const historyList = [];
 
     async function loadSongs() {
-      const response = await fetch("jazz_standard_bible_1_full.json");
+      const response = await fetch("jazz_standard_bible_1.json");
       const data = await response.json();
       allSongs = data;
       applyFilters();
