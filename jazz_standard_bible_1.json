@@ -35,7 +35,7 @@
     "title": "ALL OF ME",
     "page": 12,
     "composer": "Gerald Marks & Seymour Simons",
-    "key": "C major (Real Book版)",
+    "key": "C major",
     "style": "Jazz Standard",
     "note": "特にジプシージャズで人気。"
   },
@@ -112,12 +112,12 @@
     "note": "シンプルなリフブルース。"
   },
   {
-    "title": "BAPTISTE",
+    "title": "BEATRICE",
     "page": 22,
-    "composer": "Jon Batiste",
-    "key": "不明",
-    "style": "New Orleans jazz, Funk, R&B",
-    "note": "特定のジャズスタンダード曲としての情報が見つからず。Jon Batisteの一般的なスタイル。"
+    "composer": "Sam Rivers",
+    "key": "F Major",
+    "style": "Swing, Lyrical Ballad, Modal Jazz",
+    "note": "ハードバップとフリージャズの橋渡しをするような曲。"
   },
   {
     "title": "BEAUTIFUL LOVE",
@@ -176,12 +176,12 @@
     "note": "マイルス・デイビスの「Kind of Blue」収録。"
   },
   {
-    "title": "BLUE MOND",
+    "title": "BLUE MONK",
     "page": 30,
-    "composer": "不明",
-    "key": "不明",
-    "style": "不明",
-    "note": "ジャズスタンダード曲としての情報が見つからず。"
+    "composer": "Thelonious Monk",
+    "key": "B♭ major",
+    "style": "Blues, Bebop",
+    "note": "セロニアス・モンクの代表的なブルース曲。"
   },
   {
     "title": "BLUESETTE",
@@ -234,10 +234,10 @@
   {
     "title": "CANDY",
     "page": 37,
-    "composer": "不明",
-    "key": "不明",
-    "style": "不明",
-    "note": "ジャズスタンダード曲としての情報が見つからず。"
+    "composer": "Alex Kramer, Joan Whitney, & Mack David",
+    "key": "C Major",
+    "style": "Ballad, Jazz Standard, Pop",
+    "note": "1944年のポップソングがジャズスタンダードとして定着。"
   },
   {
     "title": "CANTALOUPE ISLAND",
@@ -872,6 +872,14 @@
     "note": "クリフォード・ブラウンの代表曲。"
   },
   {
+    "title": "JUST FRIENDS",
+    "page": 110,
+    "composer": "John Klenner & Sam M. Lewis",
+    "key": "G major / F major",
+    "style": "Swing",
+    "note": "アップテンポで演奏されることが多い、Real Bookの定番曲。"
+  },
+  {
     "title": "JUST ONE OF THOSE THINGS",
     "page": 120,
     "composer": "Cole Porter",
@@ -879,14 +887,7 @@
     "style": "Swing, Jazz Standard",
     "note": "非常に速いテンポで演奏されることが多い。"
   },
-  {
-    "title": "JUST THE WAY YOU ARE",
-    "page": 121,
-    "composer": "Billy Joel",
-    "key": "D Major",
-    "style": "Jazz, Pop, R&B, Soft Rock",
-    "note": "Billy Joelの曲がジャズスタンダードとして演奏される。Bruno Marsの同名曲はポップ。"
-  },
+  
   {
     "title": "KILLER JOE",
     "page": 122,
@@ -1026,10 +1027,10 @@
   {
     "title": "MOANIN'",
     "page": 139,
-    "composer": null,
-    "key": null,
-    "style": null,
-    "note": null
+    "composer": "Bobby Timmons",
+    "key": "F minor",
+    "style": "Hard Bop",
+    "note": "ソウルフルでゴスペル調のハードバップ曲。"
   },
   {
     "title": "MOMENT'S NOTICE",
@@ -1056,12 +1057,12 @@
     "note": "「サウンド・オブ・ミュージック」の曲、コルトレーンによってジャズスタンダードに。"
   },
   {
-    "title": "My Foolish Heart",
+    "title": "MY FOOLISH HEART",
     "page": 144,
-    "composer": null,
-    "key": null,
-    "style": null,
-    "note": null
+    "composer": "Victor Young & Ned Washington",
+    "key": "B♭ Major (オリジナル), A Major (Bill Evans版)",
+    "style": "Ballad, Jazz Standard",
+    "note": "ビル・エヴァンスの演奏が有名。"
   },
   {
     "title": "MY FUNNY VALENTINE",
@@ -1432,9 +1433,9 @@
     "note": "ホレス・シルバーの代表曲。"
   },
   {
-    "title": "SONG FOR YOU, THE",
+    "title": "SONG IS YOU",
     "page": 198,
-    "composer": "Jerome Kern",
+    "composer": "Jerome Kern & Oscar Hammerstein II",
     "key": "C",
     "style": "Swing, Jazz Standard, Musical",
     "note": "ミュージカル「Music in the Air」より。"
@@ -1656,12 +1657,12 @@
     "note": "ブルースのような形式を持つボサノヴァ。"
   },
   {
-    "title": "WEAVER OF DREAMS",
+    "title": "WELL YOU NEEDN'T",
     "page": 232,
-    "composer": "Victor Young",
-    "key": "C / F",
-    "style": "Jazz, Standards",
-    "note": "ケニー・バレルやキャノンボール・アダレイの録音で有名。Cが一般的。"
+    "composer": "Thelonious Monk",
+    "key": "F major",
+    "style": "Swing, Bebop",
+    "note": "セロニアス・モンクの代表的なビバップ曲。"
   },
   {
     "title": "WHAT A DIFFERENCE A DAY MADE",
