@@ -62,6 +62,25 @@
       font-size: 0.9rem;
     }
 
+    .book-selector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.book-selector label {
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.book-selector input[type="checkbox"] {
+  margin-right: 0.3rem;
+}
+
+
     .tag-container {
       display: flex;
       flex-wrap: wrap;
@@ -376,6 +395,17 @@
   <main>
   <h1>黒本 ルーレット</h1>
   <div class="filters">
+
+    <div class="filter-row">
+      <label>対象本:</label>
+      <div id="bookSelector" style="margin-left: 0.5rem;">
+        <label><input type="checkbox" value="bible1" checked disabled> 黒本1</label>
+        <label><input type="checkbox" value="bible2" disabled> 黒本2（準備中）</label>
+      </div>
+    </div>
+    
+    
+
     <div class="filter-row">
       <label for="keySelector">キー:</label>
       <select id="keySelector">
@@ -558,6 +588,28 @@
   </div>
 
   <script>
+const fileMap = {
+  bible1: "data/jazz_standard_bible_1.json",
+  bible2: "data/jazz_standard_bible_2.json" // 将来追加用
+};
+
+const selectedBooks = new Set(["bible1"]); // 初期は黒本1のみ
+
+function setupBookSelector() {
+  const checkboxes = document.querySelectorAll('#bookSelector input[type="checkbox"]');
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) {
+        selectedBooks.add(cb.value);
+      } else {
+        selectedBooks.delete(cb.value);
+      }
+      loadSongs(); // チェックが変わるたびに再読み込み
+    });
+  });
+}
+
+
     function switchCarouselTab(groupId, tabElement) {
       document.querySelectorAll('.carousel-group').forEach(group => group.classList.remove('active'));
       document.getElementById(groupId).classList.add('active');
@@ -621,10 +673,18 @@ function updateButtonState(id) {
     const historyList = [];
 
     async function loadSongs() {
-      const response = await fetch("jazz_standard_bible_1.json");
-      const data = await response.json();
-      allSongs = data;
-      applyFilters();
+      allSongs = []; // 初期化
+
+const fetches = [...selectedBooks].map(async book => {
+  const file = fileMap[book];
+  const res = await fetch(file);
+  const data = await res.json();
+  data.forEach(song => song.book = book === "bible1" ? "黒本1" : "黒本2");
+  allSongs.push(...data);
+});
+
+await Promise.all(fetches);
+applyFilters();
     }
 
     function normalizeKeys(keys) {
@@ -669,6 +729,8 @@ function updateButtonState(id) {
       }
     }
 
+    setupBookSelector();
+
     function setupTagSelectors() {
       const keySel = document.getElementById("keySelector");
       keyOptions.forEach(k => {
@@ -703,23 +765,23 @@ function updateButtonState(id) {
 
     function pickRandomTune() {
       if (songs.length === 0) {
-        alert("全ての曲を選びました！\nリストをリセットするか，条件を変更してください．");
-        //document.getElementById("result").innerHTML = "リストが空です。リセットしてください。";
-        return;
-      }
-      const index = Math.floor(Math.random() * songs.length);
-      const selected = songs[index];
-      songs.splice(index, 1); // 選ばれた曲を除外
-      const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
-      const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
-        作曲: ${selected.composer || "不明"}<br>
-        キー: ${selected.key || "不明"}<br>
-        スタイル: ${selected.style || "不明"}<br>
-        備考: ${selected.note || "なし"}<br>
-        🔗 <a href="${searchUrl}" target="_blank">YouTubeで検索</a></div>`;
-      document.getElementById("result").innerHTML = resultText;
-      historyList.unshift(`🎵 ${selected.title}`);
-      updateHistory();
+    alert("全ての曲を選びました！\nリストをリセットするか，条件を変更してください．");
+    return;
+  }
+  const index = Math.floor(Math.random() * songs.length);
+  const selected = songs[index];
+  songs.splice(index, 1);
+  const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
+  const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
+    作曲: ${selected.composer || "不明"}<br>
+    キー: ${selected.key || "不明"}<br>
+    スタイル: ${selected.style || "不明"}<br>
+    備考: ${selected.note || "なし"}<br>
+    🗂 掲載本: ${selected.book || "不明"}<br>
+    🔗 <a href="${searchUrl}" target="_blank">YouTubeで検索</a></div>`;
+  document.getElementById("result").innerHTML = resultText;
+  historyList.unshift(`🎵 ${selected.title}（${selected.book || "不明"}）`);
+  updateHistory();
     }
 
     function resetSongs() {

@@ -317,7 +317,8 @@
     "composer": "Dizzy Gillespie",
     "key": "E major",
     "style": "Bebop, Latin Jazz",
-    "note": "頻繁なキーチェンジが特徴。E majorが開始キー。"
+    "note": "頻繁なキーチェンジが特徴。E majorが開始キー。",
+    "note_en": "Characterized by frequent key changes. E major is the starting key."
   },
   {
     "title": "CONFIRMATION",
@@ -325,7 +326,8 @@
     "composer": "Charlie Parker",
     "key": "F",
     "style": "Bebop, Jazz Standard",
-    "note": "複雑なメロディと速いコードチェンジが特徴。"
+    "note": "複雑なメロディと速いコードチェンジが特徴。",
+    "note_en": "Characterized by complex melodies and fast chord changes."
   },
   {
     "title": "CORCOVADO",
@@ -357,7 +359,8 @@
     "composer": "Sammy Cahn, Axel Stordahl, Paul Weston",
     "key": "G major",
     "style": "Jazz, Swing, Traditional Pop",
-    "note": "パラマウントテレビシリーズのテーマ曲。"
+    "note": "パラマウントテレビシリーズのテーマ曲。",
+    "note_en": "Theme song from a Paramount TV series."
   },
   {
     "title": "DAYS OF WINE AND ROSES, THE",
@@ -365,7 +368,8 @@
     "composer": "Henry Mancini",
     "key": "F",
     "style": "Swing, Jazz Standard",
-    "note": "オスカー受賞映画のテーマ曲。"
+    "note": "オスカー受賞映画のテーマ曲。",
+    "note_en": "The theme song of an Academy Award-winning film."
   },
   {
     "title": "DEAR OLD STOCKHOLM",
