@@ -399,11 +399,36 @@
   pointer-events: none;
   visibility: hidden;
 }
+.lang-switch {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 0.85rem;
+  z-index: 999;
+}
 
+.lang-switch a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ffd700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  transition: background 0.2s, color 0.2s;
+  background: rgba(10, 61, 102, 0.8); /* 背景になじむ半透明 */
+}
+
+.lang-switch a:hover {
+  background-color: #fff0a0;
+  color: #0a3d66;
+}
   </style>
 </head>
 
 <body>
+<div class="lang-switch">
+  <a href="/en/">🌐English</a>
+</div>
   <main>
   <h1>黒本 ルーレット</h1>
   <div class="filters">
