@@ -16,14 +16,6 @@ function setupBookSelector() {
                 selectedBooks.add(value);
             } else {
                 selectedBooks.delete(value);
-
-                // 両方外されている場合、キャンセルして元に戻す
-                if (selectedBooks.size === 0) {
-                    alert("少なくとも1つは選択してください。");
-                    cb.checked = true;
-                    selectedBooks.add(value);
-                    return;
-                }
             }
 
             loadSongs(); // データの再読み込み

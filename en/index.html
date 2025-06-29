@@ -211,30 +211,6 @@ title: JAZZ STANDARD BIBLE 1 Roulette (EN)
 
   <script>
 
-    function setupBookSelector() {
-      const checkboxes = document.querySelectorAll('#bookSelector input[type="checkbox"]');
-      checkboxes.forEach(cb => {
-        cb.addEventListener('change', (event) => {
-          const value = cb.value;
-
-          if (cb.checked) {
-            selectedBooks.add(value);
-          } else {
-            selectedBooks.delete(value);
-
-            // 両方外されている場合、キャンセルして元に戻す
-            if (selectedBooks.size === 0) {
-              alert("Please select at least one.");
-              cb.checked = true;
-              selectedBooks.add(value);
-              return;
-            }
-          }
-
-          loadSongs(); // データの再読み込み
-        });
-      });
-    }
 
     async function loadSongs() {
       allSongs = [];
@@ -254,6 +230,13 @@ title: JAZZ STANDARD BIBLE 1 Roulette (EN)
     }
 
     function pickRandomTune() {
+
+      
+      if (selectedBooks.size === 0) {
+        alert("Please select the most relevant book.");
+        return;
+      }
+
       if (songs.length === 0) {
         alert("All tunes have been picked!\nPlease reset the list or change the filters.");
         return;

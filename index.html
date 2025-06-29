@@ -20,8 +20,8 @@ title: 黒本ルーレット
       <div class="filter-row">
         <label>対象本:</label>
         <div id="bookSelector" style="margin-left: 0.5rem;">
-          <label><input type="checkbox" id="book1" onchange="toggleBookSet()" value="bible_1" checked> 黒本1</label>
-          <label><input type="checkbox" id="book2" onchange="toggleBookSet()" value="bible_2"> 黒本2</label>
+          <label><input type="checkbox" id="book1"  value="bible_1" checked> 黒本1</label>
+          <label><input type="checkbox" id="book2"  value="bible_2"> 黒本2</label>
         </div>
       </div>
 
@@ -210,30 +210,6 @@ title: 黒本ルーレット
 
   <script src="assets/main.js"></script>
   <script>
-    function setupBookSelector() {
-      const checkboxes = document.querySelectorAll('#bookSelector input[type="checkbox"]');
-      checkboxes.forEach(cb => {
-        cb.addEventListener('change', (event) => {
-          const value = cb.value;
-
-          if (cb.checked) {
-            selectedBooks.add(value);
-          } else {
-            selectedBooks.delete(value);
-
-            // 両方外されている場合、キャンセルして元に戻す
-            if (selectedBooks.size === 0) {
-              alert("少なくとも1つは選択してください。");
-              cb.checked = true;
-              selectedBooks.add(value);
-              return;
-            }
-          }
-
-          loadSongs(); // データの再読み込み
-        });
-      });
-    }
 
     async function loadSongs() {
       allSongs = [];
@@ -253,13 +229,21 @@ title: 黒本ルーレット
     }
 
     function pickRandomTune() {
+
+      if (selectedBooks.size === 0) {
+        alert("対象の本を少なくとも1つ選択してください。");
+        return;
+      }
+
       if (songs.length === 0) {
         alert("全ての曲を選びました！\nリストをリセットするか，条件を変更してください．");
         return;
       }
+
       const index = Math.floor(Math.random() * songs.length);
       const selected = songs[index];
       songs.splice(index, 1);
+
       const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
       const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
       作曲: ${selected.composer || "不明"}<br>
