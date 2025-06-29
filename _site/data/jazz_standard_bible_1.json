@@ -1,0 +1,1823 @@
+[
+  {
+    "title": "AFTERNOON IN PARIS",
+    "page": 8,
+    "composer": "John Lewis",
+    "key": "C major",
+    "style": "Jazz Standard",
+    "note": "複雑なハーモニー構造を持つ。"
+  },
+  {
+    "title": "AIREGIN",
+    "page": 9,
+    "composer": "Sonny Rollins",
+    "key": "B♭ major",
+    "style": "Bebop, Contrafact",
+    "note": "「I Got Rhythm」のコード進行に基づく。"
+  },
+  {
+    "title": "ALICE IN WONDERLAND",
+    "page": 10,
+    "composer": "Sammy Fain",
+    "key": "C major",
+    "style": "Jazz Standard, Soundtrack",
+    "note": "ディズニー映画「ふしぎの国のアリス」より。"
+  },
+  {
+    "title": "ALL BLUES",
+    "page": 11,
+    "composer": "Miles Davis",
+    "key": "G",
+    "style": "Jazz Waltz, Blues, Modal Jazz",
+    "note": "6/8拍子、ジャズワルツのフィーリング。"
+  },
+  {
+    "title": "ALL OF ME",
+    "page": 12,
+    "composer": "Gerald Marks & Seymour Simons",
+    "key": "C major",
+    "style": "Jazz Standard",
+    "note": "特にジプシージャズで人気。"
+  },
+  {
+    "title": "ALL OF YOU",
+    "page": 13,
+    "composer": "Cole Porter",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": null
+  },
+  {
+    "title": "ALL THE THINGS YOU ARE",
+    "page": 14,
+    "composer": "Jerome Kern",
+    "key": "A♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "循環コード進行が特徴。"
+  },
+  {
+    "title": "ALONE TOGETHER",
+    "page": 15,
+    "composer": "Arthur Schwartz",
+    "key": "D minor",
+    "style": "Swing, Jazz Standard",
+    "note": "ブロードウェイミュージカル発祥、マイナーキーの曲。"
+  },
+  {
+    "title": "ANTHROPOLOGY",
+    "page": 16,
+    "composer": "Charlie Parker",
+    "key": "B♭",
+    "style": "Bebop, Rhythm Changes",
+    "note": "「Thriving From A Riff」としても知られる。"
+  },
+  {
+    "title": "APRIL IN PARIS",
+    "page": 17,
+    "composer": "Vernon Duke",
+    "key": "C major",
+    "style": "Jazz Standard, Ballad, Swing",
+    "note": "Count Basieのビッグバンドアレンジが有名。キーはオリジナルC major。"
+  },
+  {
+    "title": "AU PRIVAVE",
+    "page": 18,
+    "composer": "Charlie Parker",
+    "key": "F",
+    "style": "Bebop, Blues",
+    "note": "12小節ブルース形式。"
+  },
+  {
+    "title": "AUTUMN IN NEW YORK",
+    "page": 19,
+    "composer": "Vernon Duke",
+    "key": "F Major",
+    "style": "Ballad, Jazz Standard",
+    "note": "カクテルピアノの定番曲。"
+  },
+  {
+    "title": "AUTUMN LEAVES",
+    "page": 20,
+    "composer": "Joseph Kosma",
+    "key": "G minor",
+    "style": "Jazz Standard, Chanson, Pop",
+    "note": "ジャズで最も録音された曲の一つ、ii-V-I進行の学習に最適。最も一般的なキーはG minor。"
+  },
+  {
+    "title": "BAG'S GROOVE",
+    "page": 21,
+    "composer": "Milt Jackson",
+    "key": "F",
+    "style": "Blues, Jazz Standard",
+    "note": "シンプルなリフブルース。"
+  },
+  {
+    "title": "BEATRICE",
+    "page": 22,
+    "composer": "Sam Rivers",
+    "key": "F Major",
+    "style": "Swing, Lyrical Ballad, Modal Jazz",
+    "note": "ハードバップとフリージャズの橋渡しをするような曲。"
+  },
+  {
+    "title": "BEAUTIFUL LOVE",
+    "page": 23,
+    "composer": "Victor Young, Wayne King & Egbert Van Alstyne",
+    "key": "D minor",
+    "style": "Swing, Jazz Standard",
+    "note": "マイナーキーの曲、バラードとしてもアップテンポでも演奏される。"
+  },
+  {
+    "title": "BESSIE'S BLUES",
+    "page": 24,
+    "composer": "John Coltrane",
+    "key": "E♭",
+    "style": "Blues, Post-Bop",
+    "note": "コルトレーンのブルース曲。"
+  },
+  {
+    "title": "BILLIE'S BOUNCE",
+    "page": 25,
+    "composer": "Charlie Parker",
+    "key": "F",
+    "style": "Bebop, Blues",
+    "note": "リラックスしたビバップブルース。"
+  },
+  {
+    "title": "BLACK NILE",
+    "page": 26,
+    "composer": "Wayne Shorter",
+    "key": "D minor",
+    "style": "Swing, Hard Bop, Post-Bop",
+    "note": "アップテンポで演奏されることが多い。"
+  },
+  {
+    "title": "BLACK ORPHEUS",
+    "page": 27,
+    "composer": "Luiz Bonfá",
+    "key": "A minor",
+    "style": "Bossa Nova, Jazz Standard",
+    "note": "映画「黒いオルフェ」のテーマ曲。"
+  },
+  {
+    "title": "BLUE BOSSA",
+    "page": 28,
+    "composer": "Kenny Dorham",
+    "key": "C minor",
+    "style": "Bossa Nova, Latin, Jazz Standard",
+    "note": "ブリッジでキーが変わるのが特徴。"
+  },
+  {
+    "title": "BLUE IN GREEN",
+    "page": 29,
+    "composer": "Bill Evans",
+    "key": "D minor",
+    "style": "Ballad, Modal Jazz",
+    "note": "マイルス・デイビスの「Kind of Blue」収録。"
+  },
+  {
+    "title": "BLUE MONK",
+    "page": 30,
+    "composer": "Thelonious Monk",
+    "key": "B♭ major",
+    "style": "Blues, Bebop",
+    "note": "セロニアス・モンクの代表的なブルース曲。"
+  },
+  {
+    "title": "BLUESETTE",
+    "page": 31,
+    "composer": "Toots Thielemans",
+    "key": "B♭",
+    "style": "Jazz Waltz, Jazz Standard",
+    "note": "3/4拍子のジャズワルツ。"
+  },
+  {
+    "title": "BODY AND SOUL",
+    "page": 32,
+    "composer": "Johnny Green",
+    "key": "D♭ major",
+    "style": "Jazz Standard, Ballad",
+    "note": "複雑なコード進行が特徴。"
+  },
+  {
+    "title": "BOLIVIA",
+    "page": 33,
+    "composer": "Cedar Walton",
+    "key": "G major",
+    "style": "Afro-Cuban, Swing, Jazz Standard",
+    "note": "ベースのオスティナートが特徴。C Majorも言及あり。"
+  },
+  {
+    "title": "BUT NOT FOR ME",
+    "page": 34,
+    "composer": "George Gershwin",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "ブロードウェイミュージカル発祥。"
+  },
+  {
+    "title": "BYE BYE BLACKBIRD",
+    "page": 35,
+    "composer": "Ray Henderson",
+    "key": "F major",
+    "style": "Swing, Jazz Standard",
+    "note": "1920年代のポピュラーソング。"
+  },
+  {
+    "title": "C JAM BLUES",
+    "page": 36,
+    "composer": "Duke Ellington",
+    "key": "C major",
+    "style": "Blues, Jazz Standard",
+    "note": "12小節ブルース、メロディがシンプル。"
+  },
+  {
+    "title": "CANDY",
+    "page": 37,
+    "composer": "Alex Kramer, Joan Whitney, & Mack David",
+    "key": "C major",
+    "style": "Ballad, Jazz Standard, Pop",
+    "note": "1944年のポップソングがジャズスタンダードとして定着。"
+  },
+  {
+    "title": "CANTALOUPE ISLAND",
+    "page": 38,
+    "composer": "Herbie Hancock",
+    "key": "F minor",
+    "style": "Modal, Hard Bop, Jazz Standards, Soul-Jazz",
+    "note": null
+  },
+  {
+    "title": "CARAVAN",
+    "page": 39,
+    "composer": "Duke Ellington, Juan Tizol",
+    "key": "F minor",
+    "style": "Latin/Swing, Jazz Standard",
+    "note": "エキゾチックな雰囲気を持つ。"
+  },
+  {
+    "title": "CHEROKEE",
+    "page": 40,
+    "composer": "Ray Noble",
+    "key": "B♭ major",
+    "style": "Swing, Jazz Standard, Bebop",
+    "note": "非常に速いテンポで演奏されることが多い。"
+  },
+  {
+    "title": "CHERYL",
+    "page": 41,
+    "composer": "Charlie Parker",
+    "key": "C major",
+    "style": "Swing, Bebop, Blues",
+    "note": "12小節メジャーブルース。"
+  },
+  {
+    "title": "CHICKEN, THE",
+    "page": 42,
+    "composer": "Jaco Pastorius (Pee Wee Ellis)",
+    "key": "E♭ major / C minor",
+    "style": "Funk, R&B, Jazz",
+    "note": "Jaco Pastoriusの代表曲として知られるが、オリジナルはPee Wee Ellis。キーはE♭ major, C minorなどが言及。"
+  },
+  {
+    "title": "CHILD IS BORN, A",
+    "page": 43,
+    "composer": "Thad Jones",
+    "key": "B♭ major",
+    "style": "Jazz, Waltz",
+    "note": "3拍子のジャズワルツ。"
+  },
+  {
+    "title": "CHRISTMAS SONG, THE",
+    "page": 44,
+    "composer": "Mel Tormé & Robert Wells",
+    "key": "D♭ major",
+    "style": "Jazz Standard, Holiday Song, Ballad",
+    "note": "Nat King Coleのバージョンが有名。ジャズでは様々なキーで演奏される。"
+  },
+  {
+    "title": "CLEOPATRA'S DREAM",
+    "page": 45,
+    "composer": "Bud Powell",
+    "key": "B major / G♯ minor (A♭ minor)",
+    "style": "Bebop, Jazz",
+    "note": "非常に速いテンポで複雑なハーモニーを持つ。"
+  },
+  {
+    "title": "COME RAIN OR COME SHINE",
+    "page": 46,
+    "composer": "Harold Arlen",
+    "key": "F / D minor",
+    "style": "Swing, Jazz Standard",
+    "note": "キーが不安定な特徴がある（F majorで始まりD minorで終わる）。"
+  },
+  {
+    "title": "CON ALMA",
+    "page": 47,
+    "composer": "Dizzy Gillespie",
+    "key": "E major",
+    "style": "Bebop, Latin Jazz",
+    "note": "頻繁なキーチェンジが特徴。E majorが開始キー。",
+    "note_en": "Characterized by frequent key changes. E major is the starting key."
+  },
+  {
+    "title": "CONFIRMATION",
+    "page": 48,
+    "composer": "Charlie Parker",
+    "key": "F",
+    "style": "Bebop, Jazz Standard",
+    "note": "複雑なメロディと速いコードチェンジが特徴。",
+    "note_en": "Characterized by complex melodies and fast chord changes."
+  },
+  {
+    "title": "CORCOVADO",
+    "page": 50,
+    "composer": "Antônio Carlos Jobim",
+    "key": "A minor",
+    "style": "Bossa Nova, Jazz Standard",
+    "note": "AセクションはF、BとCセクションはCとキーが変化する。"
+  },
+  {
+    "title": "CUTE",
+    "page": 51,
+    "composer": "Neal Hefti",
+    "key": "C major",
+    "style": "Big Band Standard, Jazz",
+    "note": "ビッグバンドの定番曲。"
+  },
+  {
+    "title": "DAAHOUD",
+    "page": 52,
+    "composer": "Clifford Brown",
+    "key": "E♭ major",
+    "style": "Hard Bop, Jazz",
+    "note": "速いテンポ、複雑なハーモニー。"
+  },
+  {
+    "title": "DAY BY DAY",
+    "page": 53,
+    "composer": "Sammy Cahn, Axel Stordahl, Paul Weston",
+    "key": "G major",
+    "style": "Jazz, Swing, Traditional Pop",
+    "note": "パラマウントテレビシリーズのテーマ曲。",
+    "note_en": "Theme song from a Paramount TV series."
+  },
+  {
+    "title": "DAYS OF WINE AND ROSES, THE",
+    "page": 54,
+    "composer": "Henry Mancini",
+    "key": "F",
+    "style": "Swing, Jazz Standard",
+    "note": "オスカー受賞映画のテーマ曲。",
+    "note_en": "The theme song of an Academy Award-winning film."
+  },
+  {
+    "title": "DEAR OLD STOCKHOLM",
+    "page": 55,
+    "composer": "Swedish Traditional",
+    "key": "D minor",
+    "style": "Jazz Standard, Swing",
+    "note": "マイルス・デイビスのアレンジが有名。"
+  },
+  {
+    "title": "DOLPHIN DANCE",
+    "page": 56,
+    "composer": "Herbie Hancock",
+    "key": "E♭, G, B major (キーセンターが頻繁に変化)",
+    "style": "Modal, Jazz, Post-Bop",
+    "note": "ハービー・ハンコックの代表曲。調性の曖昧さが特徴。"
+  },
+  {
+    "title": "DONNA LEE",
+    "page": 57,
+    "composer": "Charlie Parker",
+    "key": "A♭ major",
+    "style": "Bebop, Jazz Standard",
+    "note": "「Indiana」のコード進行に基づく。"
+  },
+  {
+    "title": "DOXY",
+    "page": 58,
+    "composer": "Sonny Rollins",
+    "key": "B♭ major",
+    "style": "Swing, Jazz Standard, Blues",
+    "note": "ブルージーな16小節の曲。"
+  },
+  {
+    "title": "EASY LIVING",
+    "page": 59,
+    "composer": "Ralph Rainger",
+    "key": "F major",
+    "style": "Jazz, Swing, Ballad",
+    "note": "Billie Holidayのバージョンが有名。E♭ majorも言及あり。"
+  },
+  {
+    "title": "EMILY",
+    "page": 60,
+    "composer": "Johnny Mandel",
+    "key": "G",
+    "style": "Jazz Standard, Ballad",
+    "note": "ビル・エヴァンスの演奏が有名。"
+  },
+  {
+    "title": "EVERYTHING HAPPENS TO ME",
+    "page": 61,
+    "composer": "Matt Dennis",
+    "key": "B♭ major",
+    "style": "Ballad, Jazz Standard",
+    "note": "フランク・シナトラの録音が有名。"
+  },
+  {
+    "title": "EVIDENCE",
+    "page": 62,
+    "composer": "Thelonious Monk",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "「Just You, Just Me」のコード進行に基づく。"
+  },
+  {
+    "title": "FALLING IN LOVE WITH LOVE",
+    "page": 63,
+    "composer": "Richard Rodgers",
+    "key": "F / B♭",
+    "style": "Swing, Jazz Standard, Musical",
+    "note": "ブロードウェイミュージカル発祥。ボーカルアレンジによってキーが異なる。"
+  },
+  {
+    "title": "FEEL LIKE MAKIN' LOVE",
+    "page": 64,
+    "composer": "Eugene McDaniels",
+    "key": "D Major",
+    "style": "Soul Jazz, R&B, Funk, Neo Soul",
+    "note": "Roberta Flackのヒット曲。ジャズスタンダードとしても演奏される。D'Angelo版はD Major。"
+  },
+  {
+    "title": "FLY ME TO THE MOON",
+    "page": 65,
+    "composer": "Bart Howard",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "フランク・シナトラのバージョンが有名。"
+  },
+  {
+    "title": "FOGGY DAY, A",
+    "page": 66,
+    "composer": "George Gershwin",
+    "key": "F major",
+    "style": "Swing, Jazz Standard",
+    "note": "ロンドンを舞台にした曲。"
+  },
+  {
+    "title": "FOOTPRINTS",
+    "page": 67,
+    "composer": "Wayne Shorter",
+    "key": "C minor",
+    "style": "Jazz Waltz, Modal, Post-Bop, Blues",
+    "note": "6/4拍子のジャズワルツ。"
+  },
+  {
+    "title": "FOREST FLOWER",
+    "page": 68,
+    "composer": "Charles Lloyd",
+    "key": "C Major",
+    "style": "Jazz, Post-Bop",
+    "note": "ストレートとスウィングのフィーリングを組み合わせることが多い。"
+  },
+  {
+    "title": "FOUR",
+    "page": 69,
+    "composer": "Miles Davis",
+    "key": "E♭",
+    "style": "Swing, Jazz Standard",
+    "note": "マイルス・デイビスがキャリアを通じて演奏した曲。"
+  },
+  {
+    "title": "FOUR ON SIX",
+    "page": 70,
+    "composer": "Wes Montgomery",
+    "key": "G minor",
+    "style": "Swing, Hard Bop, Jazz",
+    "note": "「Summertime」のコード進行に基づく。"
+  },
+  {
+    "title": "FREDDIE THE FREELOADER",
+    "page": 71,
+    "composer": "Miles Davis",
+    "key": "B♭",
+    "style": "Blues, Jazz Standard",
+    "note": "「Kind of Blue」収録のブルース。"
+  },
+  {
+    "title": "GEORGIA ON MY MIND",
+    "page": 72,
+    "composer": "Hoagy Carmichael",
+    "key": "F major",
+    "style": "Swing, Jazz Standard, Traditional Pop, Ballad",
+    "note": "レイ・チャールズのバージョンはG majorで有名だが、Real BookではF major。"
+  },
+  {
+    "title": "GIANT STEPS",
+    "page": 73,
+    "composer": "John Coltrane",
+    "key": "B, G, E♭ (頻繁にキーが変化)",
+    "style": "Jazz, Hard Bop",
+    "note": "「Coltrane Changes」として知られる複雑なコード進行。非常に速いテンポで、3つの遠隔キー間を頻繁に転調する。"
+  },
+  {
+    "title": "GIRL FROM IPANEMA, THE",
+    "page": 74,
+    "composer": "Antônio Carlos Jobim",
+    "key": "F (アメリカ版)",
+    "style": "Bossa Nova, Jazz, Samba, Easy Listening",
+    "note": "世界的なヒット曲。演奏される地域やバージョンによってキーが異なる。"
+  },
+  {
+    "title": "GOOD BAIT",
+    "page": 75,
+    "composer": "Tadd Dameron",
+    "key": "B♭ major",
+    "style": "Swing, Bebop, Jazz Standard",
+    "note": "「I Got Rhythm」のコード進行に基づく。"
+  },
+  {
+    "title": "GROOVIN' HIGH",
+    "page": 76,
+    "composer": "Dizzy Gillespie",
+    "key": "E♭ / D♭",
+    "style": "Bebop, Swing, Jazz",
+    "note": "ビバップの代表曲。"
+  },
+  {
+    "title": "HAVE YOU MET MISS JONES?",
+    "page": 77,
+    "composer": "Richard Rodgers",
+    "key": "F major",
+    "style": "Swing, Jazz Standard",
+    "note": "ブリッジのハーモニーが特徴的。"
+  },
+  {
+    "title": "HERE'S THAT RAINY DAY",
+    "page": 78,
+    "composer": "Jimmy Van Heusen",
+    "key": "G Major",
+    "style": "Jazz Ballad, Jazz Standard",
+    "note": "ビル・エヴァンスの録音が有名。"
+  },
+  {
+    "title": "HOT HOUSE",
+    "page": 79,
+    "composer": "Tadd Dameron",
+    "key": "C",
+    "style": "Bebop, Jazz Standard",
+    "note": "「What Is This Thing Called Love」のコード進行に基づく。D Majorも言及あり。"
+  },
+  {
+    "title": "HOW DEEP IS THE OCEAN",
+    "page": 80,
+    "composer": "Irving Berlin",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard, Traditional Pop, Vocal Jazz",
+    "note": "ビリー・ホリデイの録音が有名。"
+  },
+  {
+    "title": "HOW HIGH THE MOON",
+    "page": 81,
+    "composer": "Morgan Lewis",
+    "key": "G major",
+    "style": "Swing, Bebop, Jazz Standard",
+    "note": "ビバップの「国歌」とも呼ばれる。"
+  },
+  {
+    "title": "HOW INSENSITIVE",
+    "page": 82,
+    "composer": "Antônio Carlos Jobim",
+    "key": "D minor",
+    "style": "Bossa Nova, Jazz Standard",
+    "note": "ショパンの曲に緩く基づく。"
+  },
+  {
+    "title": "I CAN'T GET STARTED",
+    "page": 83,
+    "composer": "Vernon Duke",
+    "key": "C / B♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "トランペット奏者に人気の曲。"
+  },
+  {
+    "title": "I CAN'T GIVE YOU ANYTHING BUT LOVE",
+    "page": 84,
+    "composer": "Jimmy McHugh, Dorothy Fields",
+    "key": "B♭",
+    "style": "Swing, Jazz Standard",
+    "note": "トニー・ベネットとレディー・ガガの録音でも有名。"
+  },
+  {
+    "title": "I CONCENTRATE ON YOU",
+    "page": 85,
+    "composer": "Cole Porter",
+    "key": "E♭ major",
+    "style": "Jazz, Swing, Traditional Pop",
+    "note": null
+  },
+  {
+    "title": "I COULD WRITE A BOOK",
+    "page": 86,
+    "composer": "Richard Rodgers",
+    "key": "C / E♭",
+    "style": "Swing, Jazz Standard",
+    "note": "マイルス・デイビスによってジャズ曲として人気に。"
+  },
+  {
+    "title": "I DIDN'T KNOW WHAT TIME IT WAS",
+    "page": 87,
+    "composer": "Richard Rodgers",
+    "key": "C Major",
+    "style": "Jazz Standard, Show/Broadway Musical, Vocal Pop",
+    "note": "曖昧な調性が特徴。"
+  },
+  {
+    "title": "I FALL IN LOVE TOO EASILY",
+    "page": 88,
+    "composer": "Jule Styne",
+    "key": "E♭ major",
+    "style": "Ballad, Jazz Standard",
+    "note": "フランク・シナトラの映画で紹介。"
+  },
+  {
+    "title": "I HEAR A RHAPSODY",
+    "page": 89,
+    "composer": "George Fragos, Jack Baker, Dick Gasparre",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "一般的なジャズスタンダード。"
+  },
+  {
+    "title": "I LOVE YOU",
+    "page": 90,
+    "composer": "Cole Porter",
+    "key": "F major",
+    "style": "Swing",
+    "note": "コール・ポーターがミュージカル「Mexican Hayride」のために作曲。ジョン・コルトレーンやビル・エヴァンスの録音で有名。"
+  },
+  {
+    "title": "I MEAN YOU",
+    "page": 92,
+    "composer": "Thelonious Monk",
+    "key": "F",
+    "style": "Swing, Bebop, Jazz Standard",
+    "note": "セロニアス・モンクの代表曲。"
+  },
+  {
+    "title": "I REMEMBER CLIFFORD",
+    "page": 94,
+    "composer": "Benny Golson",
+    "key": "F major / E♭",
+    "style": "Jazz, Ballad, Hard Bop",
+    "note": "クリフォード・ブラウンへの追悼曲。"
+  },
+  {
+    "title": "I REMEMBER YOU",
+    "page": 95,
+    "composer": "Victor Schertzinger",
+    "key": "F / A♭ major",
+    "style": "Swing, Jazz Standard, Traditional Pop",
+    "note": "チェット・ベイカーの録音が有名。"
+  },
+  {
+    "title": "I SHOULD CARE",
+    "page": 96,
+    "composer": "Axel Stordahl, Paul Weston, Sammy Cahn",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "フランク・シナトラのヒット曲。"
+  },
+  {
+    "title": "I THOUGHT ABOUT YOU",
+    "page": 97,
+    "composer": "Jimmy Van Heusen",
+    "key": "F / B♭",
+    "style": "Swing, Jazz Standard, Ballad",
+    "note": "ジャズミュージシャンに人気のバラード。"
+  },
+  {
+    "title": "I'LL CLOSE MY EYES",
+    "page": 98,
+    "composer": "Billy Reid",
+    "key": "C Major",
+    "style": "Jazz Standard, Swing",
+    "note": "1945年発表の曲。"
+  },
+  {
+    "title": "I'LL REMEMBER APRIL",
+    "page": 99,
+    "composer": "Gene de Paul",
+    "key": "G Major",
+    "style": "Swing, Jazz Standard",
+    "note": "ラテンとスウィングの組み合わせで演奏されることが多い。"
+  },
+  {
+    "title": "I'M OLD FASHIONED",
+    "page": 100,
+    "composer": "Jerome Kern",
+    "key": "C Major / E♭ major / F",
+    "style": "Jazz Standard, Ballad, Traditional Pop",
+    "note": "映画「You Were Never Lovelier」より。"
+  },
+  {
+    "title": "IF I SHOULD LOSE YOU",
+    "page": 101,
+    "composer": "Ralph Rainger",
+    "key": "A minor / B♭ major",
+    "style": "Jazz Standard, Ballad, Latin",
+    "note": "タンゴのようなリズムで演奏されることもある。"
+  },
+  {
+    "title": "IF I WERE A BELL",
+    "page": 102,
+    "composer": "Frank Loesser",
+    "key": "F",
+    "style": "Swing, Jazz Standard, Musical",
+    "note": "ブロードウェイミュージカル「Guys and Dolls」より。"
+  },
+  {
+    "title": "IF YOU COULD SEE ME NOW",
+    "page": 103,
+    "composer": "Tadd Dameron",
+    "key": "A♭ major / E♭ major",
+    "style": "Ballad, Jazz Standard",
+    "note": "サラ・ヴォーンの録音が有名。"
+  },
+  {
+    "title": "IMPRESSIONS",
+    "page": 104,
+    "composer": "John Coltrane",
+    "key": "D minor",
+    "style": "Modal, Swing, Jazz Standard",
+    "note": "マイルス・デイビスの「So What」のコード進行に基づく。"
+  },
+  {
+    "title": "IN A MELLOW TONE",
+    "page": 105,
+    "composer": "Duke Ellington",
+    "key": "A♭",
+    "style": "Swing, Jazz Standard",
+    "note": "キャッチーなリフが特徴。"
+  },
+  {
+    "title": "IN A SENTIMENTAL MOOD",
+    "page": 106,
+    "composer": "Duke Ellington",
+    "key": "F major",
+    "style": "Jazz, Ballad, Jazz Standard",
+    "note": "デューク・エリントンとジョン・コルトレーンの共演が有名。オリジナルはF major。"
+  },
+  {
+    "title": "IN YOUR OWN SWEET WAY",
+    "page": 107,
+    "composer": "Dave Brubeck",
+    "key": "E♭ major",
+    "style": "Swing, Jazz, Cool Jazz, West Coast Jazz, Piano Jazz",
+    "note": "デイヴ・ブルーベックの代表曲。"
+  },
+  {
+    "title": "INNER URGE",
+    "page": 108,
+    "composer": "Joe Henderson",
+    "key": "G",
+    "style": "Swing, Jazz, Post-Bop",
+    "note": "ノンファンクショナルなハーモニーが特徴。"
+  },
+  {
+    "title": "INTERPLAY",
+    "page": 109,
+    "composer": "Bill Evans",
+    "key": "C (C Instruments and Chords)",
+    "style": "Jazz, Standards",
+    "note": "ビル・エヴァンス作曲。繊細なタッチと和音の拡張が特徴。"
+  },
+  {
+    "title": "INVITATION",
+    "page": 110,
+    "composer": "Bronislau Kaper",
+    "key": "C minor",
+    "style": "Swing, Jazz Standard",
+    "note": "映画音楽として作曲された独特な曲。"
+  },
+  {
+    "title": "ISRAEL",
+    "page": 111,
+    "composer": "John Carisi",
+    "key": "C minor",
+    "style": "Jazz, Cool Jazz, Minor Blues",
+    "note": "マイルス・デイビスの「Birth of the Cool」収録。"
+  },
+  {
+    "title": "IT COULD HAPPEN TO YOU",
+    "page": 112,
+    "composer": "Jimmy Van Heusen",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "バラードからミディアムアップテンポまで柔軟に演奏される。"
+  },
+  {
+    "title": "IT DON'T MEAN A THING",
+    "page": 113,
+    "composer": "Duke Ellington",
+    "key": "B♭ / F minor",
+    "style": "Swing, Jazz Standard",
+    "note": "「スウィング」という言葉を広めた曲。キーが変化する特徴がある。"
+  },
+  {
+    "title": "IT MIGHT AS WELL BE SPRING",
+    "page": 114,
+    "composer": "Richard Rodgers",
+    "key": "G / C major",
+    "style": "Swing, Jazz Standard",
+    "note": "歌詞とメロディが繊細。"
+  },
+  {
+    "title": "IT'S ALL RIGHT WITH ME",
+    "page": 115,
+    "composer": "Cole Porter",
+    "key": "E♭ major",
+    "style": "Jazz, Show/Broadway, Traditional Pop",
+    "note": "映画「High Society」より。"
+  },
+  {
+    "title": "IT'S ONLY A PAPER MOON",
+    "page": 116,
+    "composer": "Harold Arlen",
+    "key": "G major / F Major",
+    "style": "Jazz, Swing, Traditional Pop",
+    "note": "シンコペーションが特徴。"
+  },
+  {
+    "title": "IT'S YOU OR NO ONE",
+    "page": 117,
+    "composer": "Jule Styne",
+    "key": "F / E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "映画「Romance on the High Seas」より。"
+  },
+  {
+    "title": "JORDU",
+    "page": 118,
+    "composer": "Duke Jordan",
+    "key": "E♭ major",
+    "style": "Hard Bop, Swing, Jazz",
+    "note": "クリフォード・ブラウンによって有名に。"
+  },
+  {
+    "title": "JOY SPRING",
+    "page": 119,
+    "composer": "Clifford Brown",
+    "key": "F",
+    "style": "Hard Bop, Swing, Jazz Standard",
+    "note": "クリフォード・ブラウンの代表曲。"
+  },
+  {
+    "title": "JUST FRIENDS",
+    "page": 120,
+    "composer": "John Klenner & Sam M. Lewis",
+    "key": "G major / F major",
+    "style": "Swing",
+    "note": "アップテンポで演奏されることが多い、Real Bookの定番曲。"
+  },
+  {
+    "title": "JUST ONE OF THOSE THINGS",
+    "page": 121,
+    "composer": "Cole Porter",
+    "key": "F Major / D minor",
+    "style": "Swing, Jazz Standard",
+    "note": "非常に速いテンポで演奏されることが多い。"
+  },
+  
+  {
+    "title": "KILLER JOE",
+    "page": 122,
+    "composer": "Benny Golson",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "シンプルなリフベースの曲。"
+  },
+  {
+    "title": "LADY BIRD",
+    "page": 123,
+    "composer": "Tadd Dameron",
+    "key": "C",
+    "style": "Bebop, Jazz Standard",
+    "note": "タッド・ダメロン・ターンアラウンドの元になった曲。"
+  },
+  {
+    "title": "LAMENT",
+    "page": 124,
+    "composer": "J.J. Johnson",
+    "key": "F major / D minor",
+    "style": "Jazz",
+    "note": "J.J. Johnsonの代表曲。"
+  },
+  {
+    "title": "LAZY BIRD",
+    "page": 125,
+    "composer": "John Coltrane",
+    "key": "G",
+    "style": "Swing, Jazz Standard",
+    "note": "ジョン・コルトレーンの曲。"
+  },
+  {
+    "title": "LEFT ALONE",
+    "page": 126,
+    "composer": "Mal Waldron",
+    "key": "D minor",
+    "style": "Jazz Standard, Ballad",
+    "note": "Fiona Appleの同名曲とは異なる。"
+  },
+  {
+    "title": "LIKE SOMEONE IN LOVE",
+    "page": 127,
+    "composer": "Jimmy Van Heusen",
+    "key": "E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "多くのジャズミュージシャンに演奏される。"
+  },
+  {
+    "title": "LITTLE B'S POEM",
+    "page": 128,
+    "composer": "Bobby Hutcherson",
+    "key": "F minor",
+    "style": "Jazz, Waltz",
+    "note": "3/4拍子の曲。"
+  },
+  {
+    "title": "L-O-V-E",
+    "page": 129,
+    "composer": "Bert Kaempfert",
+    "key": "G Major",
+    "style": "Jazz, Pop, Singer-Songwriter",
+    "note": "ナット・キング・コールのヒット曲。"
+  },
+  {
+    "title": "LOVE FOR SALE",
+    "page": 130,
+    "composer": "Cole Porter",
+    "key": "E♭ / B♭ major / B♭ minor",
+    "style": "Swing, Jazz Standard",
+    "note": "ラテン/スウィングの切り替えで演奏されることが多い。頻繁にキーが変化する。"
+  },
+  {
+    "title": "LOVE IS HERE TO STAY",
+    "page": 131,
+    "composer": "George Gershwin",
+    "key": "F / E♭ major",
+    "style": "Swing, Jazz Standard",
+    "note": "ガーシュウィンの最後の作品。"
+  },
+  {
+    "title": "LOVE LETTERS",
+    "page": 132,
+    "composer": "Victor Young",
+    "key": "D Major",
+    "style": "Pop, Jazz",
+    "note": "1945年のポピュラーソング。ジャズスタンダードとしても演奏される。"
+  },
+  {
+    "title": "LOVE COME BACK TO ME",
+    "page": 133,
+    "composer": "Sigmund Romberg",
+    "key": "B♭",
+    "style": "Jazz, Samba, Musical",
+    "note": "様々なスタイルで演奏される。"
+  },
+  {
+    "title": "LOVER MAN",
+    "page": 134,
+    "composer": "Jimmy Davis, Roger Ramirez, Jimmy Sherman",
+    "key": "F / C major",
+    "style": "Ballad, Jazz Standard, Bluesy",
+    "note": "ビリー・ホリデイと密接に関連。"
+  },
+  {
+    "title": "LULLABY OF BIRDLAND",
+    "page": 135,
+    "composer": "George Shearing",
+    "key": "B♭ / F Minor / A♭ Major",
+    "style": "Swing, Jazz Standard",
+    "note": "バードランドのラジオジングルとして作られた。B♭が一般的。"
+  },
+  {
+    "title": "MACK THE KNIFE",
+    "page": 136,
+    "composer": "Kurt Weill",
+    "key": "C major / B♭",
+    "style": "Swing, Jazz Standard, Cabaret",
+    "note": "ルイ・アームストロングやエラ・フィッツジェラルドのバージョンが有名。オリジナルはC major。"
+  },
+  {
+    "title": "MAIDEN VOYAGE",
+    "page": 137,
+    "composer": "Herbie Hancock",
+    "key": "D Dorian (D)",
+    "style": "Modal, Swing, Jazz, Hard Bop, Soul-Jazz",
+    "note": "サスコードが特徴的な雰囲気のある曲。"
+  },
+  {
+    "title": "MILESTONES",
+    "page": 138,
+    "composer": "Miles Davis",
+    "key": "G minor",
+    "style": "Modal, Swing, Jazz",
+    "note": "マイルス・デイビスの初期のモーダル作品。"
+  },
+  {
+    "title": "MOANIN'",
+    "page": 139,
+    "composer": "Bobby Timmons",
+    "key": "F minor",
+    "style": "Hard Bop",
+    "note": "ソウルフルでゴスペル調のハードバップ曲。"
+  },
+  {
+    "title": "MOMENT'S NOTICE",
+    "page": 140,
+    "composer": "John Coltrane",
+    "key": "E♭",
+    "style": "Swing, Jazz Standard",
+    "note": "ジョン・コルトレーンの複雑なハーモニーを持つ曲。"
+  },
+  {
+    "title": "MR. P.C.",
+    "page": 142,
+    "composer": "John Coltrane",
+    "key": "C minor",
+    "style": "Blues, Jazz",
+    "note": "ベーシストのポール・チェンバースにちなんで名付けられた速いマイナーブルース。"
+  },
+  {
+    "title": "MY FAVORITE THINGS",
+    "page": 143,
+    "composer": "Richard Rodgers",
+    "key": "E minor",
+    "style": "Jazz Waltz, Jazz Standard, Musical",
+    "note": "「サウンド・オブ・ミュージック」の曲、コルトレーンによってジャズスタンダードに。"
+  },
+  {
+    "title": "MY FOOLISH HEART",
+    "page": 144,
+    "composer": "Victor Young & Ned Washington",
+    "key": "B♭ Major (オリジナル), A Major (Bill Evans版)",
+    "style": "Ballad, Jazz Standard",
+    "note": "ビル・エヴァンスの演奏が有名。"
+  },
+  {
+    "title": "MY FUNNY VALENTINE",
+    "page": 145,
+    "composer": "Richard Rodgers",
+    "key": "C minor / E♭ Major",
+    "style": "Ballad, Jazz Standard, Musical",
+    "note": "「Babes in Arms」より、チェット・ベイカーのバージョンが有名。キーがC minorとE♭ Majorの間で変化する。"
+  },
+  {
+    "title": "MY LITTLE SUEDE SHOES",
+    "page": 146,
+    "composer": "Charlie Parker",
+    "key": "E♭",
+    "style": "Latin, Jazz",
+    "note": "キャッチーなリフベースのラテン曲。"
+  },
+  {
+    "title": "MY ONE AND ONLY LOVE",
+    "page": 147,
+    "composer": "Guy Wood",
+    "key": "C",
+    "style": "Ballad, Jazz Standard",
+    "note": "フランク・シナトラやジョン・コルトレーンとジョニー・ハートマンの録音が有名。"
+  },
+  {
+    "title": "MY ROMANCE",
+    "page": 148,
+    "composer": "Richard Rodgers",
+    "key": "C / B♭ major",
+    "style": "Swing, Jazz Standard, Musical",
+    "note": "「Jumbo」より。C majorがオリジナルキーだがB♭ majorも一般的。"
+  },
+  {
+    "title": "NAIMA",
+    "page": 149,
+    "composer": "John Coltrane",
+    "key": "A♭ major",
+    "style": "Jazz Ballad, Jazz",
+    "note": "ジョン・コルトレーンの代表的なバラード。"
+  },
+  {
+    "title": "NARDIS",
+    "page": 150,
+    "composer": "Miles Davis",
+    "key": "E minor",
+    "style": "Modal, Swing, Jazz",
+    "note": "ビル・エヴァンスと密接に関連。"
+  },
+  {
+    "title": "NICA'S DREAM",
+    "page": 152,
+    "composer": "Horace Silver",
+    "key": "B♭ minor",
+    "style": "Latin, Jazz, Hard Bop",
+    "note": "ジャズのパトロンPannonica de Koenigswarterへのトリビュート曲。"
+  },
+  {
+    "title": "NIGHT AND DAY",
+    "page": 154,
+    "composer": "Cole Porter",
+    "key": "C",
+    "style": "Swing, Jazz, Latin",
+    "note": "ブロードウェイミュージカル「Gay Divorce」より。Cが一般的だが、E♭, F majorも演奏される。"
+  },
+  {
+    "title": "NIGHT HAS A THOUSAND EYES, THE",
+    "page": 155,
+    "composer": "Jerry Brainin",
+    "key": "G",
+    "style": "Latin, Jazz, Hard Bop",
+    "note": "ジョン・コルトレーンのバージョンで有名。"
+  },
+  {
+    "title": "NIGHT IN TUNISIA, A",
+    "page": 156,
+    "composer": "Dizzy Gillespie",
+    "key": "D minor",
+    "style": "Bebop, Latin, Jazz",
+    "note": "アフロ・キューバンリズムとビバップの融合。"
+  },
+  {
+    "title": "NOW'S THE TIME",
+    "page": 157,
+    "composer": "Charlie Parker",
+    "key": "F",
+    "style": "Blues, Bebop, Jazz",
+    "note": "チャーリー・パーカーのブルース曲。"
+  },
+  {
+    "title": "OLD DEVIL MOON",
+    "page": 158,
+    "composer": "Burton Lane",
+    "key": "F Major",
+    "style": "Swing, Jazz, Musical, Traditional Pop",
+    "note": "ミュージカル「Finian's Rainbow」より。D minorも言及あり。"
+  },
+  {
+    "title": "OLD FOLKS",
+    "page": 159,
+    "composer": "Willard Robison",
+    "key": "F major",
+    "style": "Jazz, Ballad, Folk-song",
+    "note": "フォークソングのようなブルージーなメロディ。A♭も言及あり。"
+  },
+  {
+    "title": "OLEO",
+    "page": 160,
+    "composer": "Sonny Rollins",
+    "key": "B♭ major",
+    "style": "Swing, Jazz, Rhythm Changes",
+    "note": "「I Got Rhythm」のコード進行に基づく。"
+  },
+  {
+    "title": "ON A CLEAR DAY",
+    "page": 161,
+    "composer": "Burton Lane",
+    "key": "E major",
+    "style": "Musical, Jazz, Traditional Pop",
+    "note": "ブロードウェイミュージカルより。"
+  },
+  {
+    "title": "ON GREEN DOLPHIN STREET",
+    "page": 162,
+    "composer": "Bronislau Kaper",
+    "key": "E♭ / C",
+    "style": "Latin/Swing, Jazz",
+    "note": "ベースペダルが特徴。"
+  },
+  {
+    "title": "ON THE SUNNY SIDE OF THE STREET",
+    "page": 163,
+    "composer": "Jimmy McHugh",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "明るい雰囲気の曲。"
+  },
+  {
+    "title": "ONCE I LOVED",
+    "page": 164,
+    "composer": "Antônio Carlos Jobim",
+    "key": "D minor",
+    "style": "Bossa Nova, Latin, Jazz",
+    "note": "ボサノヴァの代表曲。"
+  },
+  {
+    "title": "ONE NOTE SAMBA",
+    "page": 165,
+    "composer": "Antônio Carlos Jobim",
+    "key": "B♭",
+    "style": "Bossa Nova, Latin Jazz, Jazz",
+    "note": "単一の音符に基づいたサンバ。"
+  },
+  {
+    "title": "ORNITHOLOGY",
+    "page": 166,
+    "composer": "Charlie Parker, Benny Harris",
+    "key": "G",
+    "style": "Bebop, Jazz, Contrafact",
+    "note": "「How High the Moon」のコード進行に基づく。"
+  },
+  {
+    "title": "OUT OF NOWHERE",
+    "page": 167,
+    "composer": "Johnny Green",
+    "key": "G",
+    "style": "Swing, Bebop, Jazz Standard",
+    "note": "チャーリー・パーカーの演奏が有名。"
+  },
+  {
+    "title": "OVER THE RAINBOW",
+    "page": 168,
+    "composer": "Harold Arlen",
+    "key": "A♭ major",
+    "style": "Ballad, Jazz, Soundtrack, Traditional Pop",
+    "note": "映画「オズの魔法使い」より、ジュディ・ガーランドの歌唱が有名。"
+  },
+  {
+    "title": "PEACE",
+    "page": 169,
+    "composer": "Horace Silver",
+    "key": "B♭ / C Major",
+    "style": "Ballad, Jazz",
+    "note": "ホレス・シルバーの代表曲。"
+  },
+  {
+    "title": "PENT-UP HOUSE",
+    "page": 170,
+    "composer": "Sonny Rollins",
+    "key": "G major / C",
+    "style": "Jazz, Swing",
+    "note": "ソニー・ロリンズの曲。"
+  },
+  {
+    "title": "PERDIDO",
+    "page": 172,
+    "composer": "Juan Tizol",
+    "key": "B♭ major",
+    "style": "Swing, Jazz Standard, Latin",
+    "note": "ジャムセッションで人気の曲。"
+  },
+  {
+    "title": "POLKA DOTS AND MOONBEAMS",
+    "page": 174,
+    "composer": "Jimmy Van Heusen",
+    "key": "F",
+    "style": "Ballad, Jazz Standard",
+    "note": "レスター・ヤングのお気に入り。"
+  },
+  {
+    "title": "PRELUDE TO A KISS",
+    "page": 175,
+    "composer": "Duke Ellington",
+    "key": "C Major",
+    "style": "Ballad, Jazz Standard",
+    "note": "デューク・エリントンの美しいバラード。"
+  },
+  {
+    "title": "RECADO",
+    "page": 176,
+    "composer": "Djalma Ferreira",
+    "key": "D minor",
+    "style": "Bossa Nova, Latin Jazz, Jazz",
+    "note": "ボサノヴァの曲。"
+  },
+  {
+    "title": "RECORDAME",
+    "page": 177,
+    "composer": "Joe Henderson",
+    "key": "A minor",
+    "style": "Bossa Nova, Jazz",
+    "note": "マイナーバンプと速いii-V-Iサイクルが特徴。"
+  },
+  {
+    "title": "RHYTHM-A-NING",
+    "page": 178,
+    "composer": "Thelonious Monk",
+    "key": "B♭ major",
+    "style": "Swing, Bebop, Hard Bop, Jazz",
+    "note": "セロニアス・モンクの代表曲。"
+  },
+  {
+    "title": "ROUND MIDNIGHT",
+    "page": 180,
+    "composer": "Thelonious Monk, Cootie Williams",
+    "key": "E♭ / E♭ minor",
+    "style": "Ballad, Jazz Standard",
+    "note": "ジャズミュージシャンが作曲した最も録音されたスタンダード。"
+  },
+  {
+    "title": "SAMBA DE ORFEU",
+    "page": 182,
+    "composer": "Luiz Bonfá",
+    "key": "C Major / D",
+    "style": "Samba, Bossa Nova, Latin Jazz, Jazz",
+    "note": "映画「黒いオルフェ」より。"
+  },
+  {
+    "title": "SATIN DOLL",
+    "page": 183,
+    "composer": "Duke Ellington, Billy Strayhorn",
+    "key": "C major / B♭ major",
+    "style": "Swing, Jazz Standard, Big Band",
+    "note": "デューク・エリントンの代表曲。オリジナルはC major。"
+  },
+  {
+    "title": "SCRAPPLE FROM THE APPLE",
+    "page": 184,
+    "composer": "Charlie Parker",
+    "key": "F major",
+    "style": "Bebop, Swing, Jazz",
+    "note": "「Honeysuckle Rose」と「I Got Rhythm」のコード進行に基づく。"
+  },
+  {
+    "title": "SECRET LOVE",
+    "page": 185,
+    "composer": "Sammy Fain",
+    "key": "E♭ major",
+    "style": "Jazz, Pop, Show/Broadway, Standards",
+    "note": "映画「カラミティ・ジェーン」より。"
+  },
+  {
+    "title": "SEVEN STEPS TO HEAVEN",
+    "page": 186,
+    "composer": "Victor Feldman, Miles Davis",
+    "key": "F Major",
+    "style": "Swing, Jazz",
+    "note": "マイルス・デイビスの代表曲。"
+  },
+  {
+    "title": "SHADOW OF YOUR SMILE, THE",
+    "page": 188,
+    "composer": "Johnny Mandel",
+    "key": "G",
+    "style": "Swing, Ballad, Bossa Nova, Jazz",
+    "note": "映画「いそしぎ」のテーマ曲。バラードとしてもボサノヴァとしても演奏される。"
+  },
+  {
+    "title": "SHINY STOCKINGS",
+    "page": 189,
+    "composer": "Frank Foster",
+    "key": "F Major / A♭ major / F minor",
+    "style": "Swing, Jazz, Big Band",
+    "note": "カウント・ベイシー・オーケストラの代表曲。F Majorが一般的。"
+  },
+  {
+    "title": "SMOKE GETS IN YOUR EYES",
+    "page": 190,
+    "composer": "Jerome Kern",
+    "key": "E♭ major",
+    "style": "Ballad, Jazz Standard, Traditional Pop, Musical",
+    "note": "ミュージカル「Roberta」より。オリジナルはE♭ major。"
+  },
+  {
+    "title": "SO WHAT",
+    "page": 191,
+    "composer": "Miles Davis",
+    "key": "D Dorian (Aセクション), E♭ Dorian (Bセクション)",
+    "style": "Modal Jazz, Swing, Jazz",
+    "note": "マイルス・デイビスの「Kind of Blue」収録の代表的なモーダルジャズ。DドリアンとE♭ドリアン間でキーが変化する。"
+  },
+  {
+    "title": "SOFTLY, AS IN A MORNING SUNRISE",
+    "page": 192,
+    "composer": "Sigmund Romberg",
+    "key": "C minor",
+    "style": "Swing, Jazz Standard, Musical",
+    "note": "オペレッタ「The New Moon」より。C minorが一般的だがオリジナルはD minor。"
+  },
+  {
+    "title": "SOLAR",
+    "page": 193,
+    "composer": "Miles Davis",
+    "key": "C minor",
+    "style": "Jazz, Swing",
+    "note": "ブルースのような印象を与えるが実際は異なる。頻繁に転調する。"
+  },
+  {
+    "title": "SOME OTHER BLUES",
+    "page": 194,
+    "composer": "John Coltrane",
+    "key": "F major / D minor",
+    "style": "Blues, Jazz",
+    "note": "ジョン・コルトレーンのブルース曲。"
+  },
+  {
+    "title": "SOMEDAY MY PRINCE WILL COME",
+    "page": 195,
+    "composer": "Frank Churchill",
+    "key": "B♭ major",
+    "style": "Jazz Waltz, Jazz Standard, Soundtrack",
+    "note": "ディズニー映画「白雪姫」より。"
+  },
+  {
+    "title": "SOMEONE TO WATCH OVER ME",
+    "page": 196,
+    "composer": "George Gershwin",
+    "key": "E♭ major",
+    "style": "Swing, Jazz, Musical, Traditional Pop",
+    "note": "ミュージカル「Oh, Kay!」より。"
+  },
+  {
+    "title": "SONG FOR MY FATHER",
+    "page": 197,
+    "composer": "Horace Silver",
+    "key": "F minor",
+    "style": "Bossa Nova, Latin, Jazz",
+    "note": "ホレス・シルバーの代表曲。"
+  },
+  {
+    "title": "SONG IS YOU",
+    "page": 198,
+    "composer": "Jerome Kern & Oscar Hammerstein II",
+    "key": "C",
+    "style": "Swing, Jazz Standard, Musical",
+    "note": "ミュージカル「Music in the Air」より。"
+  },
+  {
+    "title": "SONNYMOON FOR TWO",
+    "page": 199,
+    "composer": "Sonny Rollins",
+    "key": "B♭",
+    "style": "Blues, Jazz",
+    "note": "ソニー・ロリンズのブルース曲。"
+  },
+  {
+    "title": "SOPHISTICATED LADY",
+    "page": 200,
+    "composer": "Duke Ellington",
+    "key": "A♭ major",
+    "style": "Ballad, Jazz Standard",
+    "note": "デューク・エリントンの代表的なバラード。"
+  },
+  {
+    "title": "SPAIN",
+    "page": 202,
+    "composer": "Chick Corea, Joaquín Rodrigo",
+    "key": "B minor / D major",
+    "style": "Jazz Fusion, Latin Jazz, Piano Jazz",
+    "note": "チック・コリアの代表曲。B minorが一般的。"
+  },
+  {
+    "title": "SPRING CAN REALLY HANG YOU UP THE MOST",
+    "page": 204,
+    "composer": "Tommy Wolf",
+    "key": "C Major",
+    "style": "Jazz Standard, Ballad, Traditional Pop",
+    "note": "春の憂鬱を歌った曲。"
+  },
+  {
+    "title": "SPEAK LOW",
+    "page": 206,
+    "composer": "Kurt Weill",
+    "key": "F / G major",
+    "style": "Swing, Jazz Standard",
+    "note": "ラテンタッチで演奏されることもある。"
+  },
+  {
+    "title": "ST. THOMAS",
+    "page": 207,
+    "composer": "Sonny Rollins",
+    "key": "C",
+    "style": "Latin, Hard Bop, Jazz",
+    "note": "カリプソリズムの影響を受けた曲。"
+  },
+  {
+    "title": "STABLE MATES",
+    "page": 208,
+    "composer": "Benny Golson",
+    "key": "D♭ major",
+    "style": "Hard Bop, Jazz, Swing",
+    "note": "ベニー・ゴルソンの代表曲。"
+  },
+  {
+    "title": "STAR EYES",
+    "page": 209,
+    "composer": "Gene De Paul, Don Raye",
+    "key": "E♭ / F major",
+    "style": "Swing, Jazz Standard",
+    "note": "チャーリー・パーカーによって有名に。E♭が一般的だがオリジナルはF major。"
+  },
+  {
+    "title": "STARDUST",
+    "page": 210,
+    "composer": "Hoagy Carmichael",
+    "key": "C Major / D♭",
+    "style": "Ballad, Jazz Standard, Traditional Pop",
+    "note": "ホーギー・カーマイケルの代表曲。"
+  },
+  {
+    "title": "STELLA BY STARLIGHT",
+    "page": 211,
+    "composer": "Victor Young",
+    "key": "B♭",
+    "style": "Swing, Ballad, Jazz Standard",
+    "note": "映画「招かれざる客」より。"
+  },
+  {
+    "title": "STOLEN MOMENTS",
+    "page": 212,
+    "composer": "Oliver Nelson",
+    "key": "C minor",
+    "style": "Blues, Jazz",
+    "note": "リラックスしたマイナーブルース。"
+  },
+  {
+    "title": "STOMPIN' AT THE SAVOY",
+    "page": 213,
+    "composer": "Benny Goodman, Edgar Sampson, Chick Webb, Andy Razaf",
+    "key": "D♭ major",
+    "style": "Swing, Jazz Standard, Hard Bop",
+    "note": "ハーレムのボールルームに敬意を表して書かれたスウィング時代のアンセム。"
+  },
+  {
+    "title": "STRAIGHT, NO CHASER",
+    "page": 214,
+    "composer": "Thelonious Monk",
+    "key": "F / B♭",
+    "style": "Blues, Bebop, Jazz",
+    "note": "オフビートが特徴のブルース。"
+  },
+  {
+    "title": "STROLLIN'",
+    "page": 215,
+    "composer": "Horace Silver",
+    "key": "D♭ / G major",
+    "style": "Swing, Jazz, Hard Bop",
+    "note": "ホレス・シルバーのアップビートなスウィング曲。"
+  },
+  {
+    "title": "SUMMERTIME",
+    "page": 216,
+    "composer": "George Gershwin",
+    "key": "A minor / B minor (オリジナル)",
+    "style": "Jazz, Blues, Opera, Lullaby",
+    "note": "オペラ「ポーギーとベス」より、ジャズスタンダードとして広く演奏される。A minorが一般的。"
+  },
+  {
+    "title": "TAKE FIVE",
+    "page": 217,
+    "composer": "Paul Desmond",
+    "key": "E♭ minor",
+    "style": "Cool Jazz, Jazz",
+    "note": "5/4拍子の特徴的なリズムを持つ、史上最も売れたジャズ曲。"
+  },
+  {
+    "title": "TAKE THE \"A\" TRAIN",
+    "page": 218,
+    "composer": "Billy Strayhorn",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "デューク・エリントン・オーケストラのテーマ曲。"
+  },
+  {
+    "title": "TELL ME A BEDTIME STORY",
+    "page": 220,
+    "composer": "Herbie Hancock",
+    "key": "E minor (オリジナル), B minor, C major",
+    "style": "Straight 8th, Jazz, Funk",
+    "note": "ハービー・ハンコックのクラシック曲。ファンキーなストレートエイトのグルーヴが特徴。"
+  },
+  {
+    "title": "TENOR MADNESS",
+    "page": 222,
+    "composer": "Sonny Rollins",
+    "key": "B♭ major",
+    "style": "Blues, Hard Bop, Swing, Jazz",
+    "note": "ソニー・ロリンズのブルース曲。"
+  },
+  {
+    "title": "THERE IS NO GREATER LOVE",
+    "page": 223,
+    "composer": "Isham Jones",
+    "key": "B♭",
+    "style": "Swing, Jazz Standard, Ballad",
+    "note": "ハーモニーがシンプルで魅力的。"
+  },
+  {
+    "title": "THERE WILL NEVER BE ANOTHER YOU",
+    "page": 224,
+    "composer": "Harry Warren",
+    "key": "E♭",
+    "style": "Swing, Jazz Standard",
+    "note": "長いメロディフレーズが特徴。"
+  },
+  {
+    "title": "UP JUMPED SPRING",
+    "page": 225,
+    "composer": "Freddie Hubbard",
+    "key": "B♭ major / G minor",
+    "style": "Jazz, Waltz",
+    "note": "3拍子のワルツ。"
+  },
+  {
+    "title": "VERY EARLY",
+    "page": 226,
+    "composer": "Bill Evans",
+    "key": "C major (開始), B major (終了)",
+    "style": "Jazz, Waltz",
+    "note": "ビル・エヴァンスのワルツ曲。複雑なハーモニーと転調が特徴。"
+  },
+  {
+    "title": "WALKIN'",
+    "page": 227,
+    "composer": "Miles Davis",
+    "key": "F",
+    "style": "Blues, Hard Bop, Swing, Jazz",
+    "note": "マイルス・デイビスのブルース曲。"
+  },
+  {
+    "title": "WALTZ FOR DEBBY",
+    "page": 228,
+    "composer": "Bill Evans",
+    "key": "F Major",
+    "style": "Waltz, Jazz",
+    "note": "ビル・エヴァンスの代表的なワルツ。"
+  },
+  {
+    "title": "WATERMELON MAN",
+    "page": 230,
+    "composer": "Herbie Hancock",
+    "key": "F",
+    "style": "Swing, Funk, Latin-Rock, Blues",
+    "note": "ハードバップとして録音され、後にファンクスタイルでも演奏された。"
+  },
+  {
+    "title": "WAVE",
+    "page": 231,
+    "composer": "Antônio Carlos Jobim",
+    "key": "D Major",
+    "style": "Bossa Nova, Latin Jazz, Jazz",
+    "note": "ブルースのような形式を持つボサノヴァ。"
+  },
+  {
+    "title": "WELL YOU NEEDN'T",
+    "page": 232,
+    "composer": "Thelonious Monk",
+    "key": "F major",
+    "style": "Swing, Bebop",
+    "note": "セロニアス・モンクの代表的なビバップ曲。"
+  },
+  {
+    "title": "WHAT A DIFFERENCE A DAY MADE",
+    "page": 233,
+    "composer": "María Grever",
+    "key": "C Major / F",
+    "style": "Pop, Standards, Jazz",
+    "note": "ダイナ・ワシントンのヒット曲。"
+  },
+  {
+    "title": "WHAT ARE YOU DOING THE REST OF YOUR LIFE?",
+    "page": 234,
+    "composer": "Michel Legrand",
+    "key": "C major",
+    "style": "Jazz Ballad, Jazz",
+    "note": "挑戦的なコードチェンジを持つバラード。"
+  },
+  {
+    "title": "WHAT IS THIS THING CALLED LOVE?",
+    "page": 235,
+    "composer": "Cole Porter",
+    "key": "C",
+    "style": "Swing, Jazz Standard",
+    "note": "アップテンポで演奏されることが多い。"
+  },
+  {
+    "title": "WHAT'S NEW?",
+    "page": 236,
+    "composer": "Bob Haggart",
+    "key": "C major",
+    "style": "Ballad, Jazz, Pop",
+    "note": "ハーモニーのメジャー/マイナーの曖昧さが特徴。C majorがオリジナルキーだが転調が多い。"
+  },
+  {
+    "title": "WHEN I FALL IN LOVE",
+    "page": 237,
+    "composer": "Victor Young",
+    "key": "E♭ major",
+    "style": "Ballad, Jazz Standard",
+    "note": "ロマンチックなバラード。"
+  },
+  {
+    "title": "WHEN SUNNY GETS BLUE",
+    "page": 238,
+    "composer": "Marvin Fisher",
+    "key": "F Major",
+    "style": "Ballad, Jazz, Traditional Pop",
+    "note": "ゆっくりとしたブルーステンポで演奏されることが多い。"
+  },
+  {
+    "title": "WHEN YOU WISH UPON A STAR",
+    "page": 239,
+    "composer": "Leigh Harline",
+    "key": "C Major",
+    "style": "Disney, Jazz, Soundtrack",
+    "note": "ディズニー映画「ピノキオ」より。"
+  },
+  {
+    "title": "WHISPER NOT",
+    "page": 240,
+    "composer": "Benny Golson",
+    "key": "Minor key",
+    "style": "Jazz Standard, Hard Bop",
+    "note": "マイナーキーの曲であることが強調されている。"
+  },
+  {
+    "title": "WHITE CHRISTMAS",
+    "page": 242,
+    "composer": "Irving Berlin",
+    "key": "B♭ / A major (オリジナル) / C / G",
+    "style": "Christmas Song, Pop, Jazz, Traditional Pop",
+    "note": "ビング・クロスビーの歌唱で有名。B♭が一般的。"
+  },
+  {
+    "title": "WOODY'N YOU",
+    "page": 243,
+    "composer": "Dizzy Gillespie",
+    "key": "D♭ major",
+    "style": "Bebop, Latin, Jazz",
+    "note": "アフロ・キューバンリズムの影響を受けたビバップ曲。"
+  },
+  {
+    "title": "WORK SONG",
+    "page": 244,
+    "composer": "Nat Adderley",
+    "key": "F minor / A♭ major",
+    "style": "Blues, Jazz, Funk",
+    "note": "ファンキーなブルースフィーリング。F minorが一般的。"
+  },
+  {
+    "title": "YARDBIRD SUITE",
+    "page": 245,
+    "composer": "Charlie Parker",
+    "key": "C",
+    "style": "Bebop, Swing, Jazz",
+    "note": "チャーリー・パーカーの代表曲。"
+  },
+  {
+    "title": "YES OR NO",
+    "page": 246,
+    "composer": "Wayne Shorter",
+    "key": "G major / F major / A minor",
+    "style": "Swing, Jazz",
+    "note": "アップテンポのスウィング曲。"
+  },
+  {
+    "title": "YESTERDAYS",
+    "page": 247,
+    "composer": "Jerome Kern",
+    "key": "D minor",
+    "style": "Swing, Jazz Standard, Ballad",
+    "note": "ミュージカル「Roberta」より。"
+  },
+  {
+    "title": "YOU AND THE NIGHT AND THE MUSIC",
+    "page": 248,
+    "composer": "Arthur Schwartz",
+    "key": "C minor",
+    "style": "Jazz, Musical, Traditional Pop",
+    "note": "ブロードウェイミュージカル「Revenge With Music」より。"
+  },
+  {
+    "title": "YOU DON'T KNOW WHAT LOVE IS",
+    "page": 249,
+    "composer": "Gene De Paul",
+    "key": "F minor / G minor",
+    "style": "Ballad, Jazz, Film Noir",
+    "note": "ブルージーなフィーリングを持つバラード。"
+  },
+  {
+    "title": "YOU MUST BELIEVE IN SPRING",
+    "page": 250,
+    "composer": "Michel Legrand",
+    "key": "B minor / C minor",
+    "style": "Jazz Ballad, Jazz",
+    "note": "ビル・エヴァンスの演奏で有名。B minorが主要キー。"
+  },
+  {
+    "title": "YOU STEPPED OUT OF A DREAM",
+    "page": 251,
+    "composer": "Nacio Herb Brown",
+    "key": "C / D major",
+    "style": "Swing, Jazz",
+    "note": "映画「Ziegfeld Girl」より。Cが一般的。"
+  },
+  {
+    "title": "YOU'D BE SO NICE TO COME HOME TO",
+    "page": 252,
+    "composer": "Cole Porter",
+    "key": "A minor / B♭ major",
+    "style": "Jazz, Swing, Traditional Pop",
+    "note": "マイナーキーからメジャーキーへの変化が特徴。オリジナルはA minor。"
+  }
+]
