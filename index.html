@@ -408,19 +408,20 @@
 }
 
 .lang-switch a {
-  color: #ffd700;
+  color: #b0d8ff; /* 淡い水色テキスト */
   text-decoration: none;
   font-weight: bold;
-  border: 1px solid #ffd700;
+  border: 1px solid #4ca3dd; /* 水色寄りのボーダー */
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
-  transition: background 0.2s, color 0.2s;
-  background: rgba(10, 61, 102, 0.8); /* 背景になじむ半透明 */
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  background: rgba(76, 163, 221, 0.1); /* ほんのり水色の半透明背景 */
 }
 
 .lang-switch a:hover {
-  background-color: #fff0a0;
-  color: #0a3d66;
+  background-color: rgba(76, 163, 221, 0.2); /* 少し濃く */
+  color: #ffffff;
+  border-color: #b0d8ff;
 }
   </style>
 </head>
