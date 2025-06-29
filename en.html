@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Access Counter (GoatCounter) -->
+  <script data-goatcounter="https://coda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAZZ STANDARD BIBLE 1 Roulette</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a3d66;
+      color: #fff;
+      justify-content: flex-start;
+      min-height: 100vh; 
+      min-width: 485px;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .filters {
+      background: #0c4c7a;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .filter-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .filter-row label {
+      width: 80px;
+      text-align: right;
+      margin-right: 0.5rem;
+    }
+
+    .filter-row select {
+      flex: 1;
+      padding: 0.4rem;
+      border-radius: 5px;
+      border: none;
+      font-size: 0.9rem;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+      margin-left: 80px;
+    }
+
+    .tag {
+      background: #1d88d6;
+      padding: 0.3rem 0.6rem;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .tag button {
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .button-container button {
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: 0.3rem;
+    }
+    .button-container button:not(.reset-button) { /* Styles for the main pick button */
+      background-color: #ffffff;
+      color: #0a3d66;
+    }
+    .button-container button:hover:not(.reset-button) {
+      background-color: #ddd;
+    }
+
+
+    .button-container button.reset-button {
+      background-color: #0c4c7a;
+      /* Darker background */
+      color: #fff;
+      /* White text */
+      padding: 0.5rem 1rem;
+      /* Smaller padding */
+      font-size: 0.85rem;
+      /* Smaller font size */
+      margin-top: 0.5rem;
+      /* Add some top margin to separate from pick button */
+      border: 1px solid #1d88d6;
+      border-radius: 10px;
+      /* Subtle border */
+    }
+
+    .button-container button.reset-button:hover {
+      background-color: #1d88d6;
+      /* Slightly lighter on hover */
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+      line-height: 1.6;
+      font-weight: bold;
+      text-align: center;
+      min-height: 200px;
+    }
+
+    .result-sub {
+      font-size: 0.9rem;
+      color: #ccc;
+      font-weight: normal;
+      margin-top: 0.5rem;
+    }
+
+    .result-sub a {
+      color: #ffd700;
+    }
+
+    #history {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+      max-height: 200px;
+      overflow-y: auto;
+      width: 100%;
+      max-width: 600px;
+      min-height: 200px;
+    }
+
+    #history ul {
+      padding-left: 1rem;
+    }
+
+    .support-section { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: none;
+      border: 1px dashed #888;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: #ccc;
+      max-width: 800px;
+      font-size: 0.85rem;
+      text-align: center; 
+      margin: 0 auto;
+    }
+
+    .support-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .support-buttons a {
+      background: #ffe066;
+      color: #0a3d66;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .support-buttons a:hover {
+      background: #fff0a0;
+    }
+
+
+    .carousel-section {
+      background: none;
+      border: 1px dashed #888;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 2rem auto;
+      color: #ccc;
+      max-width: 800px;
+      font-size: 0.85rem;
+    }
+
+    .carousel-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .carousel-tabs div {
+      cursor: pointer;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      background: #ffe066;
+      color: #0a3d66;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+
+    .carousel-tabs .active {
+      background: #fff0a0;
+      font-weight: bold;
+    }
+
+    .carousel-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0 2rem; /* Space for left/right arrows */
+  box-sizing: border-box;
+}
+
+    .carousel-group {
+      display: none;
+    }
+
+    .carousel-group.active {
+      display: block;
+    }
+
+    .carousel {
+      display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 12px;
+  padding: 10px 5%; /* Centered-like */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.carousel.centered-if-few {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px;
+}
+
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .carousel-item {
+      flex: 0 0 auto;
+      width: 110px;
+  max-width: 180px;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+    }
+
+    .carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+
+    .carousel-item a {
+      color: #f0f0f0;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.carousel-item a:hover {
+  color: #ffe066; /* Highlight on hover */
+  text-decoration: underline;
+}
+.carousel-item a:focus {
+  outline: 2px dashed #ffe066;
+  outline-offset: 4px;
+}
+
+
+    .carousel-item img {
+      max-height: 150px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      display: block;
+      margin: 0 auto 5px;
+    }
+
+    .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 2; /* Above products */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-button.left {
+  left: 0;
+}
+
+.carousel-button.right {
+  right: 0;
+}
+
+.carousel-button.left::before,
+.carousel-button.right::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: filter 0.2s ease;
+}
+
+.carousel-button.left::before {
+  border-width: 10px 14px 10px 0;
+  border-color: transparent #ffe066 transparent transparent;
+}
+
+.carousel-button.right::before {
+  border-width: 10px 0 10px 14px;
+  border-color: transparent transparent transparent #ffe066;
+}
+
+.carousel-button:hover::before {
+  filter: brightness(1.3);
+}
+
+.carousel-item.spacer {
+  flex: 0 0 auto;
+  width: 40px;  /* Adjust as needed */
+  pointer-events: none;
+  visibility: hidden;
+}
+
+  </style>
+</head>
+
+<body>
+  <main>
+  <h1>JAZZ STANDARD BIBLE Roulette</h1>
+  <div class="filters">
+    <div class="filter-row">
+      <label for="keySelector">Key:</label>
+      <select id="keySelector">
+        <option value="">Select</option>
+      </select>
+    </div>
+    <div id="keyTags" class="tag-container"></div>
+
+    <div class="filter-row">
+      <label for="styleSelector">Style:</label>
+      <select id="styleSelector">
+        <option value="">Select</option>
+      </select>
+    </div>
+    <div id="styleTags" class="tag-container"></div>
+  </div>
+
+  <div class="button-container">
+    <button onclick="pickRandomTune()">Pick a Random Tune</button>
+    <button onclick="resetSongs()" class="reset-button">Reset</button>
+  </div>
+  <div id="result">🎷 Result will be displayed here</div>
+  <div id="history">
+    <h2 style="font-size: 1rem;">🎼 Played Tunes List</h2>
+    <ul id="historyList"></ul>
+  </div>
+</main>
+
+
+
+
+
+  <div class="carousel-section">
+    <div class="carousel-tabs">
+      <div class="active" onclick="switchCarouselTab('group-kurohon', this)">JAZZ STANDARD BIBLE</div>
+      <div onclick="switchCarouselTab('group-theory', this)">Jazz Theory Books</div>
+      <div onclick="switchCarouselTab('group-realbook', this)">Real Book Series</div>
+    </div>
+    <!-- Kurohon Series -->
+    <div class="carousel-wrapper carousel-group active" id="group-kurohon">
+      <button class="carousel-button left" onclick="scrollCarousel('carousel-kurohon', -1)">‹</button>
+      <div class="carousel" id="carousel-kurohon">
+
+        <div class="carousel-item">
+          <a href="https://amzn.to/4keZTfY" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845618710.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE (in C)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3GofCLZ" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845628244.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE Handy (in C)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/40uRJcr" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845619458.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE (in Bb)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/4eoVhme" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845629828.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE Handy (in Bb)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3ZSTLTv" target="_blank">
+            <img src="https://images.amazon.com/images/P/484561944X.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE (in Eb)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/45MmA7P" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845629968.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE 2 (in C)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/45N1G8D" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845638037.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE 2 Handy (in C)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/4er8N8Q" target="_blank">
+            <img src="https://images.amazon.com/images/P/484563256X.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE 2 (in Bb)
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3ZXmu9Q" target="_blank">
+            <img src="https://images.amazon.com/images/P/4845632578.09_SL110_.jpg" alt="">
+            JAZZ STANDARD BIBLE 2 (in Eb)
+          </a>
+        </div>
+        
+      </div>
+      
+      <button class="carousel-button right" onclick="scrollCarousel('carousel-kurohon', 1)">›</button>
+    </div>
+
+  <!-- Jazz Theory Books -->
+  <div class="carousel-wrapper carousel-group" id="group-theory">
+    <button class="carousel-button left" onclick="scrollCarousel('carousel-theory', -1)">‹</button>
+    <div class="carousel centered-if-few" id="carousel-theory">
+      <div class="carousel-item">
+        <a href="https://amzn.to/3TS742U" target="_blank">
+          <img src="https://images.amazon.com/images/P/4845623994.09_SL110_.jpg" alt="">
+          Jazz Standard Theory
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/4lwJ1CF" target="_blank">
+          <img src="https://images.amazon.com/images/P/499019411X.09_SL110_.jpg" alt="">
+          Jazz Theory Workshop
+        </a>
+      </div>
+    </div>
+    <button class="carousel-button right" onclick="scrollCarousel('carousel-theory', 1)">›</button>
+  </div>
+
+  <!-- Real Book Series -->
+  <div class="carousel-wrapper carousel-group" id="group-realbook">
+    <button class="carousel-button left" onclick="scrollCarousel('carousel-realbook', -1)">‹</button>
+
+    <div class="carousel" id="carousel-realbook">
+      <div class="carousel-item">
+        <a href="https://amzn.to/4emFZOQ" target="_blank">
+          <img src="https://images.amazon.com/images/P/0634060384.09_SL110_.jpg" alt="">
+          Vol.1 (C)
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/44nzp6l" target="_blank">
+          <img src="https://images.amazon.com/images/P/1423424522.09_SL110_.jpg" alt="">
+          Vol.2 (C)
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/3TiJvAh" target="_blank">
+          <img src="https://images.amazon.com/images/P/0634060848.09_SL110_.jpg" alt="">
+          Vol.1 (Bb)
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/3Glhu8c" target="_blank">
+          <img src="https://images.amazon.com/images/P/1480384534.09_SL110_.jpg" alt="">
+          Vol.2 (Bb)
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/3TS7o1C" target="_blank">
+          <img src="https://images.amazon.com/images/P/1495027929.09_SL110_.jpg" alt="">
+          Vol.1 (Eb)
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://amzn.to/4nolB44" target="_blank">
+          <img src="https://images.amazon.com/images/P/B0F63YDNCN.09_SL110_.jpg" alt="">
+          Vol.2 (Eb/Kindle)
+        </a>
+      </div>
+    </div>
+    <button class="carousel-button right" onclick="scrollCarousel('carousel-realbook', 1)">›</button>
+  </div>
+  </div>
+
+
+  <div class="support-section">
+    🎷 This site is supported by your contributions.<br>
+    🎺 If you like it, please consider supporting us.
+    <div class="support-buttons">
+      <a href="https://coff.ee/sopurani88f" target="_blank">Buy Me a Coffee</a>
+      <a href="https://github.com/sponsors/Ranats" target="_blank">GitHub Sponsors</a>
+      <a href="https://ofuse.me/d2c3aa65" target="_blank">OFUSE</a>
+      <a href="https://ko-fi.com/ranats" target="_blank">Ko-fi</a>
+    </div>
+  </div>
+
+  <script>
+    function switchCarouselTab(groupId, tabElement) {
+      document.querySelectorAll('.carousel-group').forEach(group => group.classList.remove('active'));
+      document.getElementById(groupId).classList.add('active');
+
+      document.querySelectorAll('.carousel-tabs div').forEach(btn => btn.classList.remove('active'));
+      tabElement.classList.add('active');
+    }
+
+    function scrollCarousel(id, direction) {
+  const container = document.getElementById(id);
+  const item = container.querySelector('.carousel-item');
+  const scrollAmount = item.offsetWidth + 12; // including gap
+  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+
+  // Update after scroll completes (approx)
+  setTimeout(() => updateButtonState(id), 100);
+}
+
+
+
+function updateButtonState(id) {
+  const container = document.getElementById(id);
+  const wrapper = container.closest('.carousel-wrapper');
+  const leftBtn = wrapper.querySelector('.carousel-button.left');
+  const rightBtn = wrapper.querySelector('.carousel-button.right');
+
+  const maxScrollLeft = container.scrollWidth - container.clientWidth;
+  const currentScrollLeft = container.scrollLeft;
+
+  // If at the left end
+  if (currentScrollLeft <= 0) {
+    leftBtn.disabled = true;
+    leftBtn.style.opacity = 0.3;
+    leftBtn.style.pointerEvents = 'none';
+  } else {
+    leftBtn.disabled = false;
+    leftBtn.style.opacity = 1;
+    leftBtn.style.pointerEvents = 'auto';
+  }
+
+  // If at the right end
+  if (currentScrollLeft >= maxScrollLeft - 1) {
+    rightBtn.disabled = true;
+    rightBtn.style.opacity = 0.3;
+    rightBtn.style.pointerEvents = 'none';
+  } else {
+    rightBtn.disabled = false;
+    rightBtn.style.opacity = 1;
+    rightBtn.style.pointerEvents = 'auto';
+  }
+}
+
+
+
+    const keyOptions = ["C", "D♭", "D", "E♭", "E", "F", "G", "A♭", "A", "B♭", "B"];
+    const styleOptions = ["Jazz Standard", "Swing", "Ballad", "Blues", "Bebop", "Latin", "Hard Bop", "Jazz", "Funk"];
+    const keyTags = new Set();
+    const styleTags = new Set();
+    let allSongs = [];
+    let songs = [];
+    const historyList = [];
+
+    async function loadSongs() {
+      const response = await fetch("jazz_standard_bible_1.json");
+      const data = await response.json();
+      allSongs = data;
+      applyFilters();
+    }
+
+    function normalizeKeys(keys) {
+      return keys.split(/[,/]/).map(k => k.trim()).filter(Boolean);
+    }
+
+    function updateTagDisplay() {
+      const kt = document.getElementById("keyTags");
+      const st = document.getElementById("styleTags");
+      kt.innerHTML = "";
+      st.innerHTML = "";
+
+      keyTags.forEach(k => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.innerHTML = `${k} <button onclick="removeTag('key', '${k}')">×</button>`;
+        kt.appendChild(span);
+      });
+      styleTags.forEach(s => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.innerHTML = `${s} <button onclick="removeTag('style', '${s}')">×</button>`;
+        st.appendChild(span);
+      });
+    }
+
+    function removeTag(type, value) {
+      if (type === 'key') keyTags.delete(value);
+      if (type === 'style') styleTags.delete(value);
+      updateTagDisplay();
+      applyFilters();
+    }
+
+    function addTagFromSelector(selectorId, tagSet) {
+      const selector = document.getElementById(selectorId);
+      const val = selector.value;
+      if (val && !tagSet.has(val)) {
+        tagSet.add(val);
+        selector.value = "";
+        updateTagDisplay();
+        applyFilters();
+      }
+    }
+
+    function setupTagSelectors() {
+      const keySel = document.getElementById("keySelector");
+      keyOptions.forEach(k => {
+        const opt = document.createElement("option");
+        opt.value = k;
+        opt.textContent = k;
+        keySel.appendChild(opt);
+      });
+      keySel.onchange = () => addTagFromSelector("keySelector", keyTags);
+
+      const styleSel = document.getElementById("styleSelector");
+      styleOptions.forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s;
+        opt.textContent = s;
+        styleSel.appendChild(opt);
+      });
+      styleSel.onchange = () => addTagFromSelector("styleSelector", styleTags);
+    }
+
+    function applyFilters() {
+      const keySelected = [...keyTags];
+      const styleSelected = [...styleTags];
+      songs = allSongs.filter(song => {
+        const keys = song.key ? normalizeKeys(song.key) : [];
+        const styles = song.style ? song.style.split(',').map(s => s.trim()) : [];
+        const keyMatch = keySelected.length === 0 || keySelected.some(k => keys.some(songKey => songKey.startsWith(k)));
+        const styleMatch = styleSelected.length === 0 || styleSelected.some(s => styles.includes(s));
+        return keyMatch && styleMatch;
+      });
+    }
+
+    function pickRandomTune() {
+      if (songs.length === 0) {
+        alert("All tunes have been picked!\nPlease reset the list or change the filters.");
+        return;
+      }
+      const index = Math.floor(Math.random() * songs.length);
+      const selected = songs[index];
+      songs.splice(index, 1); // Exclude the picked tune
+      const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
+      const resultText = `🎵 ${selected.title} (p.${selected.page})<div class="result-sub">
+        Composer: ${selected.composer || "Unknown"}<br>
+        Key: ${selected.key || "Unknown"}<br>
+        Style: ${selected.style || "Unknown"}<br>
+        Note: ${selected.note || "None"}<br>
+        🔗 <a href="${searchUrl}" target="_blank">Search on YouTube</a></div>`;
+      document.getElementById("result").innerHTML = resultText;
+      historyList.unshift(`🎵 ${selected.title}`);
+      updateHistory();
+    }
+
+    function resetSongs() {
+      songs = [...allSongs]; // Reset all tunes
+      historyList.length = 0; // Clear history
+      keyTags.clear(); // Clear key filters
+      styleTags.clear(); // Clear style filters
+      updateTagDisplay(); // Update tag display
+      applyFilters(); // Reapply filters
+      document.getElementById("result").innerHTML = "🎷 Result will be displayed here";
+      updateHistory();
+    }
+
+    function updateHistory() {
+      const ul = document.getElementById("historyList");
+      ul.innerHTML = "";
+      historyList.slice(0, 20).forEach(item => {
+        const li = document.createElement("li");
+        li.innerHTML = item;
+        ul.appendChild(li);
+      });
+    }
+
+    setupTagSelectors();
+    updateTagDisplay();
+    loadSongs();
+  </script>
+</body>
+
+</html>
