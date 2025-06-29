@@ -1,0 +1,2018 @@
+[
+    {
+      "title": "ACTUAL PROOF",
+      "page": "8",
+      "composer": "Herbie Hancock",
+      "key": "不明",
+      "style": "Funk, Jazz Fusion",
+      "note": "ハービー・ハンコックの代表曲の一つ。ファンクとスウィングのリズムを融合させたフュージョン曲",
+      "note_en": "One of Herbie Hancock's signature songs. A fusion piece blending funk and swing rhythms."
+    },
+    {
+      "title": "AFFIRMATION",
+      "page": "10",
+      "composer": "José Feliciano",
+      "key": "D major, B minor",
+      "style": "Jazz Standard",
+      "note": "ジョージ・ベンソンが有名にした曲",
+      "note_en": "A song popularized by George Benson."
+    },
+    {
+      "title": "AFRO BLUE",
+      "page": "11",
+      "composer": "Mongo Santamaria",
+      "key": "F minor",
+      "style": "Jazz Waltz, Minor key jazz waltz",
+      "note": "1959年作曲。ジョン・コルトレーンによって有名になった3/4拍子の曲",
+      "note_en": "Composed in 1959. A 3/4 time piece popularized by John Coltrane."
+    },
+    {
+      "title": "AGUA DE BEBER",
+      "page": "12",
+      "composer": "Antônio Carlos Jobim",
+      "key": "A minor",
+      "style": "Bossa Nova, Jazz Standard, Latin Jazz",
+      "note": "英題は「Water to Drink」。ヴィニシウス・ヂ・モライスがポルトガル語の歌詞を、ノーマン・ギンベルが英語の歌詞を執筆",
+      "note_en": "English title is 'Water to Drink'. Vinícius de Moraes wrote the Portuguese lyrics, and Norman Gimbel wrote the English lyrics."
+    },
+    {
+      "title": "AIN'T MISBEHAVIN'",
+      "page": "13",
+      "composer": "Fats Waller, Harry Brooks, Andy Razaf",
+      "key": "E-flat major (オリジナル), F major (アレンジ版)",
+      "style": "Stride jazz, early swing",
+      "note": "1929年作曲。ブロードウェイミュージカル「Connie's Hot Chocolates」のために書かれ、ルイ・アームストロングが有名に",
+      "note_en": "Composed in 1929 for the Broadway musical 'Connie's Hot Chocolates', popularized by Louis Armstrong."
+    },
+    {
+      "title": "ALFIE",
+      "page": "14",
+      "composer": "Burt Bacharach, Hal David (歌詞)",
+      "key": "C Major (オリジナル出版), F-sharp major (オリジナル録音), B-flat major (ライブ・録音版)",
+      "style": "Movie/TV Pop, Pop folk, Soul, Pop",
+      "note": "1966年の映画「Alfie」のプロモーションのために書かれ、シラ・ブラックやディオンヌ・ワーウィックによって有名に",
+      "note_en": "Written for the 1966 film 'Alfie' for promotional purposes, popularized by Cilla Black and Dionne Warwick."
+    },
+    {
+      "title": "ALMOST LIKE BEING IN LOVE",
+      "page": "15",
+      "composer": "Frederick Loewe (音楽), Alan Jay Lerner (歌詞)",
+      "key": "BbMA, Ab major (アレンジ版)",
+      "style": "Musical, Jazz, Swing",
+      "note": "ミュージカル「Brigadoon」からの曲",
+      "note_en": "A song from the musical 'Brigadoon'."
+    },
+    {
+      "title": "ALONG CAME BETTY",
+      "page": "16",
+      "composer": "Benny Golson",
+      "key": "Ab",
+      "style": "Swing, Post-Bop, Latin",
+      "note": "アート・ブレイキー＆ザ・ジャズ・メッセンジャーズの演奏が有名",
+      "note_en": "Popularized by Art Blakey & The Jazz Messengers."
+    },
+    {
+      "title": "ANA MARIA",
+      "page": "18",
+      "composer": "Wayne Shorter",
+      "key": "C major, A minor",
+      "style": "Jazz Standard",
+      "note": "ウェイン・ショーターの曲",
+      "note_en": "A composition by Wayne Shorter."
+    },
+    {
+      "title": "ANGEL EYES",
+      "page": "20",
+      "composer": "Matt Dennis (音楽), Earl K. Brent (歌詞)",
+      "key": "C minor, D minor (オリジナル); B-flat majorやA majorへの一時的な転調あり",
+      "style": "Swing, Slow swing tune with a strong minor blues feel",
+      "note": "エラ・フィッツジェラルドが有名に。映画「Jennifer (1953)」や「Leaving Las Vegas (1995)」で使用",
+      "note_en": "Popularized by Ella Fitzgerald. Used in the films 'Jennifer' (1953) and 'Leaving Las Vegas' (1995)."
+    },
+    {
+      "title": "ARMANDO'S RHUMBA",
+      "page": "22",
+      "composer": "Chick Corea",
+      "key": "C minor",
+      "style": "Rhumba, Latin Jazz",
+      "note": "チック・コリアのピアノ曲",
+      "note_en": "A piano piece by Chick Corea."
+    },
+    {
+      "title": "AS TIME GOES BY",
+      "page": "24",
+      "composer": "Herman Hupfeld",
+      "key": "Eb (一般的), D Major (オリジナル出版)",
+      "style": "Ballad, Pop",
+      "note": "1931年作曲。映画「カサブランカ」で有名に",
+      "note_en": "Composed in 1931. Popularized in the film 'Casablanca'."
+    },
+    {
+      "title": "ASK ME NOW",
+      "page": "25",
+      "composer": "Thelonious Monk",
+      "key": "Db Major",
+      "style": "Ballad, sometimes played at a medium swing",
+      "note": "1951年作曲。セロニアス・モンクのクラシックバラード",
+      "note_en": "Composed in 1951. A classic ballad by Thelonious Monk."
+    },
+    {
+      "title": "BE-BOP",
+      "page": "26",
+      "composer": "John \"Dizzy\" Gillespie",
+      "key": "Ab Major",
+      "style": "Bebop, Jazz",
+      "note": "1944年作曲。チャーリー・パーカーも関連",
+      "note_en": "Composed in 1944. Also associated with Charlie Parker."
+    },
+    {
+      "title": "BEMSHA SWING",
+      "page": "27",
+      "composer": "Thelonious Monk, Denzil Best",
+      "key": "C-maj, C Maj concert (D Maj tenor key)",
+      "style": "COOL, Swing",
+      "note": "1952年作曲。元々のタイトルは「Bimsha Swing」で、バルバドスを指す「Bimshire」に由来",
+      "note_en": "Composed in 1952. Originally titled 'Bimsha Swing', referring to 'Bimshire' (Barbados)."
+    },
+    {
+      "title": "BERNIE'S TUNE",
+      "page": "28",
+      "composer": "Bernie Miller",
+      "key": "D minor",
+      "style": "Swing",
+      "note": "1952年作曲。ジェリー・マリガンによって有名に。シンプルだがキャッチーなマイナーキーの曲",
+      "note_en": "Composed in 1952. Popularized by Gerry Mulligan. A simple but catchy minor-key tune."
+    },
+    {
+      "title": "BESAME MUCHO",
+      "page": "29",
+      "composer": "Consuelo Velázquez",
+      "key": "D minor (ボサノバアレンジ), C Minor (オリジナル出版)",
+      "style": "Bossa Nova, Bolero (オリジナル), Jazz, Pop, Rock",
+      "note": "最も有名なメキシコの歌の一つ。元々はボレロとして作曲",
+      "note_en": "One of the most famous Mexican songs. Originally composed as a Bolero."
+    },
+    {
+      "title": "BEWITCHED",
+      "page": "30",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "F major (アレンジ版), A Major (オリジナル出版)",
+      "style": "Jazz, Show/Broadway, Standards, Traditional Pop, Musical, Swing",
+      "note": "ミュージカル「Pal Joey」からの曲",
+      "note_en": "A song from the musical 'Pal Joey'."
+    },
+    {
+      "title": "BILLY BOY",
+      "page": "31",
+      "composer": "Traditional",
+      "key": "C Major",
+      "style": "Folk, Traditional, Children's Nursery Rhymes, Jazz",
+      "note": "アハマド・ジャマルやレッド・ガーランドによってジャズアレンジが有名に",
+      "note_en": "Popularized through jazz arrangements by Ahmad Jamal and Red Garland."
+    },
+    {
+      "title": "BLACK COFFEE",
+      "page": "32",
+      "composer": "Sonny Burke, Paul Francis Webster",
+      "key": "C Major (オリジナル出版), F Major (アレンジ版)",
+      "style": "Jazz Standards, Traditional Pop, Vocal Jazz, Moderate Ballad",
+      "note": "1948年作曲。サラ・ヴォーンの歌唱が有名",
+      "note_en": "Composed in 1948. Popularized by Sarah Vaughan."
+    },
+    {
+      "title": "BLAME IT ON MY YOUTH",
+      "page": "33",
+      "composer": "Oscar Levant",
+      "key": "Eb Major (オリジナル出版), Bb (アレンジ版)",
+      "style": "Jazz, Standards",
+      "note": "クラシックバラード",
+      "note_en": "A classic ballad."
+    },
+    {
+      "title": "BLUE MOON",
+      "page": "34",
+      "composer": "Richard Rodgers",
+      "key": "Eb major (オリジナル), G Major (アレンジ版)",
+      "style": "Ballads, Standards, Traditional Pop, Vocal Pop",
+      "note": "ロジャース＆ハートの曲",
+      "note_en": "A Rodgers and Hart composition."
+    },
+    {
+      "title": "BLUE TRAIN",
+      "page": "35",
+      "composer": "John Coltrane",
+      "key": "Eb (一般的), E Flat Minor and E Flat Major",
+      "style": "Blues, Hard Bop",
+      "note": "1957年作曲。リフをベースにしたEbブルース",
+      "note_en": "Composed in 1957. An Eb blues based on riffs."
+    },
+    {
+      "title": "BLUES FOR ALICE",
+      "page": "36",
+      "composer": "Charlie Parker",
+      "key": "F major",
+      "style": "Bebop Blues, Blues",
+      "note": "1951年作曲。「バードブルース」として知られる複雑なハーモニーを持つ曲",
+      "note_en": "Composed in 1951. A complex harmonic piece known as 'Bird Blues'."
+    },
+    {
+      "title": "BOUNCING WITH BUD",
+      "page": "37",
+      "composer": "Bud Powell, Gil Fuller",
+      "key": "Bb Major",
+      "style": "Bebop, Jazz, Bop, Post-Bop, Instrumental Jazz",
+      "note": "1946年作曲。元々のタイトルは「Bebop in Pastel」",
+      "note_en": "Composed in 1946. Originally titled 'Bebop in Pastel'."
+    },
+    {
+      "title": "BUD POWELL",
+      "page": "38",
+      "composer": "N/A",
+      "key": "N/A",
+      "style": "N/A",
+      "note": "これは作曲家名であり、特定の曲名ではない",
+      "note_en": "This is a composer's name, not a specific song title."
+    },
+    {
+      "title": "BUT BEAUTIFUL",
+      "page": "40",
+      "composer": "Jimmy Van Heusen",
+      "key": "G Major (標準), A-flat Major (アレンジ版)",
+      "style": "Jazz Standard, Ballad",
+      "note": "1947年の映画「Road to Rio」のために作曲",
+      "note_en": "Composed for the 1947 film 'Road to Rio'."
+    },
+    {
+      "title": "BYE-YA",
+      "page": "41",
+      "composer": "Thelonious Monk",
+      "key": "Ab (A) (一般的), Ab concert (Bb tenor key)",
+      "style": "Medium Swing",
+      "note": "1952年作曲。元々のタイトルは「Vaya」",
+      "note_en": "Composed in 1952. Originally titled 'Vaya'."
+    },
+    {
+      "title": "CEORA",
+      "page": "42",
+      "composer": "Lee Morgan",
+      "key": "Ab (一般的), Ab Major",
+      "style": "Bossa, Bossa Nova",
+      "note": "1965年作曲。アルバム「Cornbread」で発表",
+      "note_en": "Composed in 1965. Released on the album 'Cornbread'."
+    },
+    {
+      "title": "CHASING THE BIRD",
+      "page": "43",
+      "composer": "Charlie Parker",
+      "key": "F Major (オリジナル出版), F major, D minor",
+      "style": "Jazz, Bebop, Bop, Instrumental Jazz",
+      "note": "チャーリー・パーカーの曲",
+      "note_en": "A composition by Charlie Parker."
+    },
+    {
+      "title": "CHEEK TO CHEEK",
+      "page": "44",
+      "composer": "Irving Berlin",
+      "key": "C Major (標準), A-flat Major / F Major (アレンジ版)",
+      "style": "Jazz, Swing",
+      "note": "1935年の映画「Top Hat」のためにフレッド・アステアが演奏",
+      "note_en": "Performed by Fred Astaire for the 1935 film 'Top Hat'."
+    },
+    {
+      "title": "CHEGA DE SAUDADE",
+      "page": "46",
+      "composer": "Antonio Carlos Jobim",
+      "key": "D Minor",
+      "style": "Bossa Nova, Latin, Jazz",
+      "note": "英題は「No More Blues」",
+      "note_en": "English title is 'No More Blues'."
+    },
+    {
+      "title": "CHELSEA BRIDGE",
+      "page": "48",
+      "composer": "Billy Strayhorn",
+      "key": "Db Major (オリジナル出版)",
+      "style": "Jazz, Post-Bop, Ballad",
+      "note": "1941年作曲",
+      "note_en": "Composed in 1941."
+    },
+    {
+      "title": "COME SUNDAY",
+      "page": "49",
+      "composer": "Duke Ellington",
+      "key": "Bb Major (オリジナル出版), B♭ major, G minor",
+      "style": "Jazz Standards, Traditional Pop",
+      "note": "1942年作曲。組曲「Black, Brown and Beige」の一部",
+      "note_en": "Composed in 1942. Part of the suite 'Black, Brown and Beige'."
+    },
+    {
+      "title": "COLD DUCK TIME",
+      "page": "50",
+      "composer": "Eddie Harris",
+      "key": "E-flat",
+      "style": "Jazz, Funk, Funky-rock groove",
+      "note": "マーク・テイラーによるアレンジが有名",
+      "note_en": "Popularized by Mark Taylor's arrangement."
+    },
+    {
+      "title": "COOL STRUTTIN'",
+      "page": "51",
+      "composer": "Sonny Clark",
+      "key": "F",
+      "style": "Hard bop",
+      "note": "1958年リリース。ソニー・クラークの代表作",
+      "note_en": "Released in 1958. A signature work by Sonny Clark."
+    },
+    {
+      "title": "COTTON TAIL",
+      "page": "52",
+      "composer": "Duke Ellington",
+      "key": "Bb Major",
+      "style": "Swing",
+      "note": "1940年作曲。「I Got Rhythm」のコード進行に基づくリズムチェンジ曲",
+      "note_en": "Composed in 1940. A rhythm changes tune based on the chord progression of 'I Got Rhythm'."
+    },
+    {
+      "title": "CRY ME A RIVER",
+      "page": "53",
+      "composer": "Arthur Hamilton",
+      "key": "Eb Major",
+      "style": "Ballad, Jazz",
+      "note": "ブルージーなリックやリフが特徴",
+      "note_en": "Characterized by bluesy licks and riffs."
+    },
+    {
+      "title": "DANNY BOY",
+      "page": "54",
+      "composer": "Traditional Irish",
+      "key": "D Major (オリジナル出版), F Major (アレンジ版)",
+      "style": "Folk, Celtic, Irish, Traditional",
+      "note": "1913年作曲",
+      "note_en": "Composed in 1913."
+    },
+    {
+      "title": "DARN THAT DREAM",
+      "page": "55",
+      "composer": "Jimmy Van Heusen",
+      "key": "G (一般的), G Major",
+      "style": "Swing",
+      "note": "1939年作曲。ビリー・ホリデイ、マイルス・デイヴィス、ビル・エヴァンスなど多くのジャズミュージシャンに演奏",
+      "note_en": "Composed in 1939. Performed by many jazz musicians including Billie Holiday, Miles Davis, and Bill Evans."
+    },
+    {
+      "title": "DAT DERE",
+      "page": "56",
+      "composer": "Bobby Timmons",
+      "key": "G minor",
+      "style": "Jazz, Medium Swing",
+      "note": "コールアンドレスポンスの歌詞が特徴",
+      "note_en": "Characterized by call-and-response lyrics."
+    },
+    {
+      "title": "DAY DREAM",
+      "page": "57",
+      "composer": "Billy Strayhorn",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz",
+      "note": "1939年作曲。ジョニー・ホッジスによって最初に録音",
+      "note_en": "Composed in 1939. First recorded by Johnny Hodges."
+    },
+    {
+      "title": "DEL SASSER",
+      "page": "58",
+      "composer": "Sam Jones",
+      "key": "F major, D minor",
+      "style": "Jazz",
+      "note": "キャノンボール・アダレイの演奏が有名",
+      "note_en": "Popularized by Cannonball Adderley's performance."
+    },
+    {
+      "title": "DESAFINADO",
+      "page": "60",
+      "composer": "Antonio Carlos Jobim",
+      "key": "F (一般的), F Major (オリジナル出版)",
+      "style": "Bossa, Brazilian Jazz, Latin Jazz, Latin, World, Brazilian, Bossa Nova, Standards",
+      "note": "英題は「Out of Tune」。1962年にスタン・ゲッツがヒット",
+      "note_en": "English title is 'Out of Tune'. Hit by Stan Getz in 1962."
+    },
+    {
+      "title": "DEXTERITY",
+      "page": "62",
+      "composer": "Charlie Parker",
+      "key": "B-flat major",
+      "style": "Bebop",
+      "note": "1947年作曲。「I Got Rhythm」のコード進行に基づくリズムチェンジ曲",
+      "note_en": "Composed in 1947. A rhythm changes tune based on the chord progression of 'I Got Rhythm'."
+    },
+    {
+      "title": "DINDI",
+      "page": "63",
+      "composer": "Antonio Carlos Jobim",
+      "key": "C Major (オリジナル出版), Eb Major (アレンジ版)",
+      "style": "Jazz, Latin Jazz, World, Brazilian, Bossa Nova, Standards",
+      "note": "1965年作曲",
+      "note_en": "Composed in 1965."
+    },
+    {
+      "title": "DON'T GET AROUND MUCH ANYMORE",
+      "page": "64",
+      "composer": "Duke Ellington",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz & Blues, Jazz, Jazz Standards, Traditional Pop",
+      "note": "1942年作曲",
+      "note_en": "Composed in 1942."
+    },
+    {
+      "title": "The DUKE",
+      "page": "65",
+      "composer": "Duke Ellington",
+      "key": "N/A",
+      "style": "Big-band jazz",
+      "note": "デューク・エリントンの作曲家としての業績に関する情報が多く、特定の曲名ではない",
+      "note_en": "Primarily refers to Duke Ellington's compositional legacy, not a specific song title."
+    },
+    {
+      "title": "E.S.P.",
+      "page": "66",
+      "composer": "Wayne Shorter",
+      "key": "F (一般的), F Major",
+      "style": "Swing",
+      "note": "1965年作曲。マイルス・デイヴィスのアルバム「E.S.P.」で発表",
+      "note_en": "Composed in 1965. Released on Miles Davis' album 'E.S.P.'."
+    },
+    {
+      "title": "EASY TO LOVE",
+      "page": "67",
+      "composer": "Cole Porter",
+      "key": "Bb Major (オリジナル出版), G major (オリジナル)",
+      "style": "Standards, Traditional Pop, Torch, Vocal Jazz, American Popular Song",
+      "note": "1935年作曲。映画「Born To Dance」より",
+      "note_en": "Composed in 1935. From the film 'Born To Dance'."
+    },
+    {
+      "title": "EIDERDOWN",
+      "page": "68",
+      "composer": "Steve Swallow",
+      "key": "N/A",
+      "style": "Jazz",
+      "note": "ビル・エヴァンスの演奏が有名",
+      "note_en": "Popularized by Bill Evans' performance."
+    },
+    {
+      "title": "EIGHTY ONE",
+      "page": "69",
+      "composer": "Miles Davis, Ron Carter",
+      "key": "G Major",
+      "style": "Jazz, Hard Bop, Afro-Bossa",
+      "note": "1965年作曲。マイルス・デイヴィスのアルバム「E.S.P.」に収録",
+      "note_en": "Composed in 1965. Included on Miles Davis' album 'E.S.P.'."
+    },
+    {
+      "title": "EL GAUCHO",
+      "page": "70",
+      "composer": "Wayne Shorter",
+      "key": "F Major",
+      "style": "Jazz",
+      "note": "ウェイン・ショーターの曲",
+      "note_en": "A composition by Wayne Shorter."
+    },
+    {
+      "title": "EMBRACEABLE YOU",
+      "page": "71",
+      "composer": "George Gershwin",
+      "key": "G (一般的), G major (オリジナル), E minor and D major (一時的な転調)",
+      "style": "Swing",
+      "note": "1930年のミュージカル「Girl Crazy」より",
+      "note_en": "From the 1930 musical 'Girl Crazy'."
+    },
+    {
+      "title": "The END OF A LOVE AFFAIR",
+      "page": "72",
+      "composer": "Edward C. Redding",
+      "key": "F Major (オリジナル出版)",
+      "style": "Standards, Traditional Pop, Vocal Jazz, Vocal Pop, Slow Ballad",
+      "note": "1950年作曲。メイベル・マーサーによって最初に録音",
+      "note_en": "Composed in 1950. First recorded by Mabel Mercer."
+    },
+    {
+      "title": "EPISTROPHY",
+      "page": "73",
+      "composer": "Thelonious Monk, Kenny Clarke",
+      "key": "C Major (オリジナル出版), C major, A minor",
+      "style": "Jazz, Bebop, Hard Bop, Piano Jazz",
+      "note": "セロニアス・モンクの曲。複雑なメロディとハーモニーが特徴",
+      "note_en": "A composition by Thelonious Monk, characterized by complex melodies and harmonies."
+    },
+    {
+      "title": "ERONEL",
+      "page": "74",
+      "composer": "Thelonious Monk, Idrees Sulieman, Sadik Hakim",
+      "key": "G Major (オリジナル出版), G major, E minor",
+      "style": "Bebop, Hard Bop, Piano Jazz, Medium Swing",
+      "note": "1962年作曲。セロニアス・モンクのアルバム「Criss Cross」に収録",
+      "note_en": "Composed in 1962. Included on Thelonious Monk's album 'Criss Cross'."
+    },
+    {
+      "title": "ESTATE",
+      "page": "75",
+      "composer": "Bruno Martino",
+      "key": "F (リアルブック), B minor, G, F minor, E minor, A minor (演奏キー)",
+      "style": "Bossa",
+      "note": "イタリアの曲で、ジャズスタンダードとして広く演奏",
+      "note_en": "An Italian song, widely performed as a jazz standard."
+    },
+    {
+      "title": "EV'RY TIME WE SAY GOODBYE",
+      "page": "76",
+      "composer": "Cole Porter",
+      "key": "C Major (オリジナル出版), A♭ major (オリジナル)",
+      "style": "Jazz, Standards, Traditional Pop, Vocal Jazz, Vocal Pop, Soft Ballad",
+      "note": "1944年作曲。ビリー・ローズのミュージカルレビュー「Seven Lively Arts」で発表",
+      "note_en": "Composed in 1944. Debuted in Billy Rose's musical revue 'Seven Lively Arts'."
+    },
+    {
+      "title": "EYE OF THE HURRICANE",
+      "page": "77",
+      "composer": "Herbie Hancock",
+      "key": "C major, A minor",
+      "style": "Jazz, Swing",
+      "note": "ハービー・ハンコックのクラシック曲",
+      "note_en": "A classic composition by Herbie Hancock."
+    },
+    {
+      "title": "FASCINATING RHYTHM",
+      "page": "78",
+      "composer": "George Gershwin",
+      "key": "Eb Major (オリジナル出版)",
+      "style": "Swing",
+      "note": "ミュージカル「Lady Be Good」からの曲",
+      "note_en": "A song from the musical 'Lady Be Good'."
+    },
+    {
+      "title": "FEE-FI-FO-FUM",
+      "page": "79",
+      "composer": "Wayne Shorter",
+      "key": "Bb (一般的)",
+      "style": "Swing",
+      "note": "1966年作曲。アルバム「Speak No Evil」に収録",
+      "note_en": "Composed in 1966. Included on the album 'Speak No Evil'."
+    },
+    {
+      "title": "FIRM ROOTS",
+      "page": "80",
+      "composer": "Cedar Walton",
+      "key": "Eb",
+      "style": "Hard bop",
+      "note": "1970年代に発表されたシダー・ウォルトンの代表曲の一つ",
+      "note_en": "One of Cedar Walton's signature compositions from the 1970s."
+    },
+    {
+      "title": "FIRST SONG",
+      "page": "81",
+      "composer": "N/A",
+      "key": "N/A",
+      "style": "Ragtime",
+      "note": "ラグタイムの歴史に関する情報が多く、特定の曲名ではない",
+      "note_en": "Primarily refers to the history of Ragtime, not a specific song title."
+    },
+    {
+      "title": "FIVE HUNDRED MILES HIGH",
+      "page": "82",
+      "composer": "Chick Corea",
+      "key": "C Major (オリジナル出版), A Minor (アレンジ版)",
+      "style": "Jazz, Post-Bop, Latin, Jazz Fusion, West Coast Jazz",
+      "note": "1972年作曲。リターン・トゥ・フォーエヴァーのアルバム「Light as a Feather」に収録",
+      "note_en": "Composed in 1972. Included on Return to Forever's album 'Light as a Feather'."
+    },
+    {
+      "title": "FIVE SPOT AFTER DARK",
+      "page": "83",
+      "composer": "Benny Golson",
+      "key": "D major, B minor",
+      "style": "Swing",
+      "note": "ベニー・ゴルソンのジャズスタンダード",
+      "note_en": "A jazz standard by Benny Golson."
+    },
+    {
+      "title": "FOR ALL WE KNOW",
+      "page": "84",
+      "composer": "J. Fred Coots",
+      "key": "Eb Major (オリジナル出版), F major (オリジナル)",
+      "style": "Standards, Traditional Pop, Vocal Jazz, Vocal Pop",
+      "note": "1934年作曲",
+      "note_en": "Composed in 1934."
+    },
+    {
+      "title": "FOR ONCE IN MY LIFE",
+      "page": "85",
+      "composer": "Orlando Murden (音楽), Ronald Miller (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Soul, R&B, Motown, Pop, Rock, Pop-Soul",
+      "note": "1965年作曲。スティーヴィー・ワンダーのヒット曲",
+      "note_en": "Composed in 1965. A hit song by Stevie Wonder."
+    },
+    {
+      "title": "FOUR BROTHERS",
+      "page": "86",
+      "composer": "Jimmy Giuffre",
+      "key": "Ab Key",
+      "style": "Jazz Standard",
+      "note": "1947年作曲。ウディ・ハーマンのセカンドバンドのサックスセクション「フォー・ブラザーズ」のために作曲",
+      "note_en": "Composed in 1947. Written for the saxophone section 'Four Brothers' of Woody Herman's Second Herd."
+    },
+    {
+      "title": "FREEDOM JAZZ DANCE",
+      "page": "87",
+      "composer": "Eddie Harris",
+      "key": "Bb (一般的), C major, A minor (アレンジ版)",
+      "style": "Funk, Jazz",
+      "note": "1965年作曲",
+      "note_en": "Composed in 1965."
+    },
+    {
+      "title": "FRIDAY THE 13TH",
+      "page": "88",
+      "composer": "Thelonious Monk",
+      "key": "G Major",
+      "style": "Jazz, Hard Bop, Piano Jazz, Medium swing",
+      "note": "1953年作曲。セロニアス・モンクの曲",
+      "note_en": "Composed in 1953. A composition by Thelonious Monk."
+    },
+    {
+      "title": "The GENTLE RAIN",
+      "page": "89",
+      "composer": "Luiz Bonfa",
+      "key": "A Minor (オリジナル出版)",
+      "style": "Jazz, Bossa Nova, Latin, Movie/TV, Traditional Pop, Soundtrack, Vocal Jazz, Vocal Pop",
+      "note": "1965年作曲",
+      "note_en": "Composed in 1965."
+    },
+    {
+      "title": "GIRL TALK",
+      "page": "90",
+      "composer": "Neal Hefti (音楽), Bobby Troup (歌詞)",
+      "key": "C Major (オリジナル出版), E♭ major, C minor",
+      "style": "Easy Listening, Lounge Jazz, Movie/TV, Traditional Pop, Soundtrack",
+      "note": "1965年作曲。映画「Harlow」より",
+      "note_en": "Composed in 1965. From the film 'Harlow'."
+    },
+    {
+      "title": "GOD BLESS THE CHILD",
+      "page": "91",
+      "composer": "Billie Holiday, Arthur Herzog Jr.",
+      "key": "C Major (アレンジ版), E♭ major, C minor",
+      "style": "Gospel, Jazz",
+      "note": "ビリー・ホリデイの代表曲",
+      "note_en": "A signature song by Billie Holiday."
+    },
+    {
+      "title": "GOLDEN EARRINGS",
+      "page": "92",
+      "composer": "Victor Young (音楽), Jay Livingston, Ray Evans (歌詞)",
+      "key": "C Minor (オリジナル出版)",
+      "style": "Movie/TV, Soundtrack, Vocal Pop, Standards, Traditional Pop",
+      "note": "1947年の映画「Golden Earrings」より",
+      "note_en": "From the 1947 film 'Golden Earrings'."
+    },
+    {
+      "title": "GONE WITH THE WIND",
+      "page": "93",
+      "composer": "Allie Wrubel (音楽), Herb Magidson (歌詞)",
+      "key": "Eb major (オリジナル); 「A」セクション後半でG majorに転調",
+      "style": "Primarily major (Tonality), Swing",
+      "note": "1937年作曲。ホレス・ハイドのバージョンがチャート1位に",
+      "note_en": "Composed in 1937. Horace Heidt's version reached #1 on the charts."
+    },
+    {
+      "title": "GOOD MORNING HEARTACHE",
+      "page": "94",
+      "composer": "Ervin Drake, Daniel Fisher, Irene Higginbotham",
+      "key": "F Major (オリジナル出版), D Major (オリジナル出版)",
+      "style": "Jazz Standards, Vocal Jazz, Classic Female Blues, Standards",
+      "note": "1945年作曲。ビリー・ホリデイの代表曲",
+      "note_en": "Composed in 1945. A signature song by Billie Holiday."
+    },
+    {
+      "title": "GOT A MATCH?",
+      "page": "95",
+      "composer": "Chick Corea",
+      "key": "D Minor (オリジナル出版)",
+      "style": "Jazz, Fusion, Post-Bop, West Coast Jazz, Fast Swing",
+      "note": "1986年作曲。チック・コリア・エレクトリック・バンドのアルバム「The Chick Corea Elektric Band」に収録",
+      "note_en": "Composed in 1986. Included on The Chick Corea Elektric Band's album 'The Chick Corea Elektric Band'."
+    },
+    {
+      "title": "HACKENSACK",
+      "page": "96",
+      "composer": "Thelonious Monk",
+      "key": "F Major (オリジナル出版)",
+      "style": "Bebop, Hard Bop, Piano Jazz, Medium up swing",
+      "note": "セロニアス・モンクの曲",
+      "note_en": "A composition by Thelonious Monk."
+    },
+    {
+      "title": "HALF NELSON",
+      "page": "97",
+      "composer": "Miles Davis",
+      "key": "C (一般的), C major, A minor",
+      "style": "Swing",
+      "note": "1948年作曲。タッド・ダメロンの「Lady Bird」のコード進行に基づくコントラファクト",
+      "note_en": "Composed in 1948. A contrafact based on Tadd Dameron's 'Lady Bird' chord progression."
+    },
+    {
+      "title": "HONEYSUCKLE ROSE",
+      "page": "98",
+      "composer": "Fats Waller (音楽), Andy Razaf (歌詞)",
+      "key": "F (一般的), F Major (オリジナル出版)",
+      "style": "Swing, Jazz",
+      "note": "1929年作曲。ハーレム・ストライドの代表曲",
+      "note_en": "Composed in 1929. A representative piece of Harlem stride."
+    },
+    {
+      "title": "HUMPTY, DUMPTY",
+      "page": "99",
+      "composer": "Chick Corea",
+      "key": "Eb Major",
+      "style": "Swing",
+      "note": "1978年作曲。チック・コリアのアルバム「The Mad Hatter」に収録",
+      "note_en": "Composed in 1978. Included on Chick Corea's album 'The Mad Hatter'."
+    },
+    {
+      "title": "HUSH-A-BYE",
+      "page": "100",
+      "composer": "Archie Naish",
+      "key": "D major",
+      "style": "Early 20th century, Lullaby",
+      "note": "1912年作曲。ユーモラスな子守唄",
+      "note_en": "Composed in 1912. A humorous lullaby."
+    },
+    {
+      "title": "I GOT IT BAD (AND THAT AIN'T GOOD)",
+      "page": "101",
+      "composer": "Duke Ellington (音楽), Paul Francis Webster (歌詞)",
+      "key": "G Major (オリジナル出版)",
+      "style": "Jazz, Big Band, Swing, Standards, Vocal Pop",
+      "note": "1941年作曲。デューク・エリントンのオリジナルバージョンが決定版",
+      "note_en": "Composed in 1941. Duke Ellington's original version is definitive."
+    },
+    {
+      "title": "I GOT RHYTHM",
+      "page": "102",
+      "composer": "George Gershwin",
+      "key": "D♭ major (オリジナル), Bb major (最も一般的)",
+      "style": "Jazz",
+      "note": "1930年のミュージカル「Girl Crazy」からの曲。多くのジャズ曲のコード進行の基礎となる「リズムチェンジ」の元になった",
+      "note_en": "From the 1930 musical 'Girl Crazy'. The basis for 'rhythm changes', a fundamental chord progression in many jazz tunes."
+    },
+    {
+      "title": "I HEAR MUSIC",
+      "page": "103",
+      "composer": "Burton Lane (音楽), Frank Loesser (歌詞)",
+      "key": "D Minor (オリジナル出版)",
+      "style": "Movie/TV, Soundtrack, Vocal Jazz, Vocal Pop",
+      "note": "1940年作曲。映画「Dancing on a Dime」より",
+      "note_en": "Composed in 1940. From the film 'Dancing on a Dime'."
+    },
+    {
+      "title": "I LEFT MY HEART IN SAN FRANCISCO",
+      "page": "104",
+      "composer": "George Cory (音楽), Douglas Cross (歌詞)",
+      "key": "Bb Major (オリジナル出版), C",
+      "style": "Standards, Jazz-Pop",
+      "note": "1954年作曲。トニー・ベネットの代表曲。1984年にサンフランシスコ市の公式アンセムに",
+      "note_en": "Composed in 1954. A signature song by Tony Bennett. Became the official anthem of San Francisco in 1984."
+    },
+    {
+      "title": "I LET A SONG GO OUT OF MY HEART",
+      "page": "105",
+      "composer": "Duke Ellington",
+      "key": "Eb major (オリジナル出版), E♭ major, C minor",
+      "style": "Jazz, Swing",
+      "note": "1938年作曲。デューク・エリントンのヒット曲",
+      "note_en": "Composed in 1938. A hit song by Duke Ellington."
+    },
+    {
+      "title": "I LOVES YOU, PORGY",
+      "page": "106",
+      "composer": "George Gershwin (音楽), Ira Gershwin (歌詞)",
+      "key": "F major",
+      "style": "Opera, Jazz",
+      "note": "1935年のオペラ「Porgy and Bess」からのデュエット曲。ニーナ・シモンズのバージョンが有名",
+      "note_en": "A duet from the 1935 opera 'Porgy and Bess'. Popularized by Nina Simone's version."
+    },
+    {
+      "title": "I ONLY HAVE EYES FOR YOU",
+      "page": "107",
+      "composer": "Harry Warren (音楽), Al Dubin (歌詞)",
+      "key": "C major (オリジナル)",
+      "style": "Jazz, Doo-wop, pop, rock and roll, Soft rock",
+      "note": "1934年の映画「Dames」のために作曲",
+      "note_en": "Composed for the 1934 film 'Dames'."
+    },
+    {
+      "title": "I WANT TO TALK ABOUT YOU",
+      "page": "108",
+      "composer": "Billy Eckstine",
+      "key": "E♭ major, C minor",
+      "style": "Jazz Standard",
+      "note": "1944年作曲。「Misty」とコード進行が似ている。タッド・ダメロンが作曲したという説も",
+      "note_en": "Composed in 1944. Features a chord progression similar to 'Misty'. Some sources attribute its composition to Tadd Dameron."
+    },
+    {
+      "title": "I WILL WAIT FOR YOU",
+      "page": "109",
+      "composer": "Michel Legrand (音楽), Norman Gimbel (歌詞)",
+      "key": "F major, D minor",
+      "style": "Soundtrack, Jazz",
+      "note": "映画「シェルブールの雨傘」のテーマ曲",
+      "note_en": "The theme song from the film 'The Umbrellas of Cherbourg'."
+    },
+    {
+      "title": "I WISH I KNEW",
+      "page": "110",
+      "composer": "Billy Taylor",
+      "key": "F (一般的), B♭ Major",
+      "style": "Gospel, Even 8ths",
+      "note": "1963年作曲。ニーナ・シモンズのバージョンが有名。公民権運動のアンセム",
+      "note_en": "Composed in 1963. Popularized by Nina Simone's version. An anthem of the civil rights movement."
+    },
+    {
+      "title": "I'M A FOOL TO WANT YOU",
+      "page": "111",
+      "composer": "Jack Wolf, Frank Sinatra, Joel Herron",
+      "key": "E Minor (オリジナル出版)",
+      "style": "Cabaret, Jazz Standards, Swing, Show/Broadway, Traditional Pop, Pop Vocal",
+      "note": "1951年作曲。フランク・シナトラの代表曲",
+      "note_en": "Composed in 1951. A signature song by Frank Sinatra."
+    },
+    {
+      "title": "I'M BEGINNING TO SEE THE LIGHT",
+      "page": "112",
+      "composer": "Don George, Duke Ellington, Harry James, Johnny Hodges",
+      "key": "F major",
+      "style": "Swing, Jazz",
+      "note": "デューク・エリントンのクラシックなスウィング曲",
+      "note_en": "A classic swing tune by Duke Ellington."
+    },
+    {
+      "title": "I'M GETTIN SENTIMENTAL OVER YOU",
+      "page": "113",
+      "composer": "George Bassman (音楽), Ned Washington (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz, Ballads, Big Band, Standards, Traditional Pop",
+      "note": "トミー・ドーシーのテーマソングとして有名",
+      "note_en": "Popular as Tommy Dorsey's theme song."
+    },
+    {
+      "title": "I'M IN THE MOOD FOR LOVE",
+      "page": "114",
+      "composer": "Jimmy McHugh (音楽), Dorothy Fields (歌詞)",
+      "key": "C Major (オリジナル出版)",
+      "style": "Standards, Traditional Pop, Torch, Vocal Jazz",
+      "note": "1935年作曲",
+      "note_en": "Composed in 1935."
+    },
+    {
+      "title": "I'M WALKIN'",
+      "page": "115",
+      "composer": "Donald McClurkin",
+      "key": "Ab Major (オリジナル出版)",
+      "style": "Gospel, Black Gospel, Christian, Contemporary Gospel",
+      "note": "2003年作曲",
+      "note_en": "Composed in 2003."
+    },
+    {
+      "title": "I'VE GOT THE WORLD ON A STRING",
+      "page": "116",
+      "composer": "Harold Arlen (音楽), Ted Koehler (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz, Swing, Big Band",
+      "note": "1932年作曲。ルイ・アームストロングやフランク・シナトラのバージョンが有名",
+      "note_en": "Composed in 1932. Popularized by Louis Armstrong and Frank Sinatra's versions."
+    },
+    {
+      "title": "I'VE NEVER BEEN IN LOVE BEFORE",
+      "page": "117",
+      "composer": "Frank Loesser",
+      "key": "Bb Major (標準)",
+      "style": "Jazz Standard",
+      "note": "1950年のミュージカル「Guys and Dolls」からの曲",
+      "note_en": "A song from the 1950 musical 'Guys and Dolls'."
+    },
+    {
+      "title": "IN THE WEE SMALL HOURS OF THE MORNING",
+      "page": "118",
+      "composer": "David Mann (音楽), Bob Hilliard (歌詞)",
+      "key": "C Major (オリジナル出版), C and G major",
+      "style": "Jazz, Standards, Traditional Pop, Vocal Jazz",
+      "note": "1955年作曲。フランク・シナトラのアルバムで有名",
+      "note_en": "Composed in 1955. Popularized by Frank Sinatra's album."
+    },
+    {
+      "title": "IN WALKED BUD",
+      "page": "119",
+      "composer": "Thelonious Monk",
+      "key": "Ab Major",
+      "style": "Swing",
+      "note": "1947年作曲。バド・パウエルへのトリビュート曲",
+      "note_en": "Composed in 1947. A tribute song to Bud Powell."
+    },
+    {
+      "title": "INFANT EYES",
+      "page": "120",
+      "composer": "Wayne Shorter",
+      "key": "Bb (一般的), Eb",
+      "style": "Jazz",
+      "note": "ウェイン・ショーターのアルバム「Speak No Evil」に収録。ハーモニーが複雑",
+      "note_en": "Included on Wayne Shorter's album 'Speak No Evil'. Features complex harmonies."
+    },
+    {
+      "title": "ISN'T IT ROMANTIC?",
+      "page": "121",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "C Major (オリジナル出版)",
+      "style": "Standards, Traditional Pop, Vocal Jazz, Vocal Pop",
+      "note": "1932年の映画「Love Me Tonight」より",
+      "note_en": "From the 1932 film 'Love Me Tonight'."
+    },
+    {
+      "title": "ISN'T SHE LOVELY",
+      "page": "122",
+      "composer": "Stevie Wonder",
+      "key": "E major",
+      "style": "Pop, Jazz",
+      "note": "1976年のアルバム「Songs in the Key of Life」に収録。商業シングルとしてはリリースされていないが、広く放送",
+      "note_en": "Included on the 1976 album 'Songs in the Key of Life'. Not released as a commercial single but widely broadcast."
+    },
+    {
+      "title": "IT NEVER ENTERED MY MIND",
+      "page": "123",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz Standards, Movie/TV, Show/Broadway, Standards, Soundtrack, Musical",
+      "note": "1940年作曲。マイルス・デイヴィスの演奏が有名",
+      "note_en": "Composed in 1940. Popularized by Miles Davis's performance."
+    },
+    {
+      "title": "IT'S EASY TO REMEMBER",
+      "page": "124",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "Eb Major (オリジナル出版), E♭ major, C minor",
+      "style": "Movie/TV, Standards, Traditional Pop, Soundtrack",
+      "note": "1934年の映画「Mississippi」より",
+      "note_en": "From the 1934 film 'Mississippi'."
+    },
+    {
+      "title": "JUST IN TIME",
+      "page": "125",
+      "composer": "Jule Styne (音楽), Betty Comden, Adolph Green (歌詞)",
+      "key": "C to D-flat to B-flat (転調)",
+      "style": "Swing",
+      "note": "ミュージカル「Bells Are Ringing」からの曲",
+      "note_en": "A song from the musical 'Bells Are Ringing'."
+    },
+    {
+      "title": "JUST SQUEEZE ME",
+      "page": "126",
+      "composer": "Duke Ellington (音楽), Lee Gaines (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz, Big Band, Swing",
+      "note": "1946年作曲",
+      "note_en": "Composed in 1946."
+    },
+    {
+      "title": "LA FIESTA",
+      "page": "127",
+      "composer": "Chick Corea",
+      "key": "C major, A minor",
+      "style": "Jazz, Fusion, Post-Bop, Latin, Children's, West Coast Jazz, Flamenco",
+      "note": "1972年作曲。チック・コリアの代表曲",
+      "note_en": "Composed in 1972. A signature composition by Chick Corea."
+    },
+    {
+      "title": "LAURA",
+      "page": "128",
+      "composer": "David Raskin",
+      "key": "C (一般的), C Major",
+      "style": "Ballad",
+      "note": "1945年の映画「Laura」のテーマ曲",
+      "note_en": "The theme song from the 1945 film 'Laura'."
+    },
+    {
+      "title": "LITHA",
+      "page": "129",
+      "composer": "Chick Corea",
+      "key": "N/A",
+      "style": "Jazz Standard",
+      "note": "チック・コリアの曲",
+      "note_en": "A composition by Chick Corea."
+    },
+    {
+      "title": "LITTLE SUNFLOWER",
+      "page": "130",
+      "composer": "Freddie Hubbard",
+      "key": "D minor",
+      "style": "Modal, Latin",
+      "note": "1967年作曲。フレディ・ハバードのアルバム「Backlash」に収録",
+      "note_en": "Composed in 1967. Included on Freddie Hubbard's album 'Backlash'."
+    },
+    {
+      "title": "The LOOK OF LOVE",
+      "page": "131",
+      "composer": "Burt Bacharach (音楽), Hal David (歌詞)",
+      "key": "C minor",
+      "style": "Jazz, Latin",
+      "note": "1967年の映画「Casino Royale」のテーマ曲",
+      "note_en": "The theme song from the 1967 film 'Casino Royale'."
+    },
+    {
+      "title": "LUSH LIFE",
+      "page": "132",
+      "composer": "Billy Strayhorn",
+      "key": "D-flat major (一般的), D♭ major, B♭ minor",
+      "style": "Jazz Standard, Ballad",
+      "note": "1933年から1938年にかけて作曲。ビリー・ストレイホーンの代表曲",
+      "note_en": "Composed between 1933 and 1938. A signature composition by Billy Strayhorn."
+    },
+    {
+      "title": "MAMBO INN",
+      "page": "134",
+      "composer": "Mario Bauza, Grace Sampson, Bobby Woodlen",
+      "key": "F",
+      "style": "Latin/Mambo, Latin Jazz",
+      "note": "ティト・プエンテのバンドで有名に",
+      "note_en": "Popularized by Tito Puente's band."
+    },
+    {
+      "title": "The MAN I LOVE",
+      "page": "135",
+      "composer": "George Gershwin (音楽), Ira Gershwin (歌詞)",
+      "key": "Eb Major (オリジナル出版), C Major (オリジナル出版)",
+      "style": "Jazz, Jazz Standards, Show/Broadway, Standards, Traditional Pop, Musical",
+      "note": "1924年作曲。ミュージカル「Strike Up the Band」より",
+      "note_en": "Composed in 1924. From the musical 'Strike Up the Band'."
+    },
+    {
+      "title": "MANTECA",
+      "page": "136",
+      "composer": "Dizzy Gillespie, Walter \"Gil\" Fuller, Luciano Pozo Gonzales",
+      "key": "Bb Major (オリジナル出版)",
+      "style": "Jazz Mambo, Jazz, Latin Jazz, Afro-Cuban Jazz",
+      "note": "1948年作曲。ディジー・ガレスピーの代表曲",
+      "note_en": "Composed in 1948. A signature composition by Dizzy Gillespie."
+    },
+    {
+      "title": "MAS QUE NADA",
+      "page": "137",
+      "composer": "Jorge Ben",
+      "key": "F Minor (オリジナル出版)",
+      "style": "Easy Listening, Lounge, Latin Jazz, Latin, World, Brazilian, Samba, Jazz-Pop",
+      "note": "1963年作曲。セルジオ・メンデス＆ブラジル’66のバージョンが有名",
+      "note_en": "Composed in 1963. Popularized by Sérgio Mendes & Brasil '66's version."
+    },
+    {
+      "title": "MEAN TO ME",
+      "page": "138",
+      "composer": "Fred E. Ahlert (音楽), Roy Turk (歌詞)",
+      "key": "F Major (オリジナル出版), G major (オリジナル)",
+      "style": "Standards",
+      "note": "1929年作曲。ビリー・ホリデイやレスター・ヤングのバージョンが有名",
+      "note_en": "Composed in 1929. Popularized by Billie Holiday and Lester Young's versions."
+    },
+    {
+      "title": "MEDITATION",
+      "page": "139",
+      "composer": "Antonio Carlos Jobim",
+      "key": "C (一般的), C Major (オリジナル出版)",
+      "style": "Bossa, Brazilian Jazz, Latin Jazz, Brazilian, Bossa Nova",
+      "note": "1962年作曲",
+      "note_en": "Composed in 1962."
+    },
+    {
+      "title": "MEMORIES OF YOU",
+      "page": "140",
+      "composer": "Eubie Blake (音楽), Andy Razaf (歌詞)",
+      "key": "Eb Major (オリジナル), Eb major; ブリッジでC minorに転調",
+      "style": "Jazz, Standards, Traditional Pop",
+      "note": "1930年のミュージカルレビュー「Blackbirds of 1930」で発表",
+      "note_en": "Debuted in the 1930 musical revue 'Blackbirds of 1930'."
+    },
+    {
+      "title": "MIDNIGHT MOOD",
+      "page": "142",
+      "composer": "Joe Zawinul",
+      "key": "Db, D, F (演奏キー), F (ソロキー)",
+      "style": "Jazz",
+      "note": "ビル・エヴァンスの演奏が有名",
+      "note_en": "Popularized by Bill Evans' performance."
+    },
+    {
+      "title": "MISTERIOSO",
+      "page": "143",
+      "composer": "Thelonious Monk",
+      "key": "Bb Major (オリジナル出版)",
+      "style": "Jazz, Bebop",
+      "note": "1948年作曲。セロニアス・モンクの代表曲の一つ",
+      "note_en": "Composed in 1948. One of Thelonious Monk's signature pieces."
+    },
+    {
+      "title": "MISTY",
+      "page": "144",
+      "composer": "Erroll Garner",
+      "key": "Eb major",
+      "style": "Jazz, Ballad",
+      "note": "1954年作曲。ジョニー・バークが歌詞を追加。ジョニー・マティスのバージョンが有名",
+      "note_en": "Composed in 1954. Lyrics added by Johnny Burke. Popularized by Johnny Mathis's version."
+    },
+    {
+      "title": "MONA LISA",
+      "page": "145",
+      "composer": "Jay Livingston (音楽), Ray Evans (歌詞)",
+      "key": "C Major (オリジナル出版), C major (ナット・キング・コールの録音はDb majorだが、C majorに転調して記載)",
+      "style": "Jazz, Standards, Traditional Pop, Vocal Pop",
+      "note": "1950年の映画「Captain Carey, U.S.A.」より。ナット・キング・コールのバージョンが有名",
+      "note_en": "From the 1950 film 'Captain Carey, U.S.A.'. Popularized by Nat King Cole's version."
+    },
+    {
+      "title": "MONK'S DREAM",
+      "page": "146",
+      "composer": "Thelonious Monk",
+      "key": "C (コード進行からCM7などが示唆)",
+      "style": "Jazz, Bebop",
+      "note": "セロニアス・モンクの曲。II-V-I進行のモンク流の解釈が特徴",
+      "note_en": "A composition by Thelonious Monk. Features Monk's unique interpretation of II-V-I progressions."
+    },
+    {
+      "title": "MONK'S MOOD",
+      "page": "147",
+      "composer": "Thelonious Monk",
+      "key": "C major (推測)",
+      "style": "Jazz, Bebop",
+      "note": "セロニアス・モンクの曲。複雑なハーモニーと転調が特徴",
+      "note_en": "A composition by Thelonious Monk. Characterized by complex harmonies and modulations."
+    },
+    {
+      "title": "MOOD INDIGO",
+      "page": "148",
+      "composer": "Duke Ellington",
+      "key": "Ab (一般的), B♭ Major",
+      "style": "Ballad, Jazz",
+      "note": "1930年作曲。デューク・エリントンの初期の傑作",
+      "note_en": "Composed in 1930. An early masterpiece by Duke Ellington."
+    },
+    {
+      "title": "MOON RIVER",
+      "page": "149",
+      "composer": "Henry Mancini (音楽), Johnny Mercer (歌詞)",
+      "key": "C (一般的), C Major (オリジナル出版), Eb (アレンジ版)",
+      "style": "Instrumental Pop, Movie/TV, Standards, Traditional Pop, Soundtrack",
+      "note": "1961年の映画「ティファニーで朝食を」のテーマ曲",
+      "note_en": "The theme song from the 1961 film 'Breakfast at Tiffany's'."
+    },
+    {
+      "title": "MOONLIGHT IN VERMONT",
+      "page": "150",
+      "composer": "Karl Suessdorf (音楽), John Blackburn (歌詞)",
+      "key": "Eb (一般的), Db major (オリジナル), C major (アレンジ版)",
+      "style": "Swing, Ballad",
+      "note": "1944年作曲。ジョニー・スミスとスタン・ゲッツのインストゥルメンタルバージョンが有名",
+      "note_en": "Composed in 1944. Popularized by instrumental versions by Johnny Smith and Stan Getz."
+    },
+    {
+      "title": "MOONLIGHT SERENADE",
+      "page": "151",
+      "composer": "Glenn Miller (音楽), Mitchell Parish (歌詞)",
+      "key": "E♭ Major",
+      "style": "Jazz, Big Band",
+      "note": "グレン・ミラー・オーケストラのテーマ曲",
+      "note_en": "The theme song of the Glenn Miller Orchestra."
+    },
+    {
+      "title": "MOOSE THE MOOCHE",
+      "page": "152",
+      "composer": "Charlie Parker",
+      "key": "B-flat",
+      "style": "Bebop, Fast Bebop",
+      "note": "1946年作曲。「I Got Rhythm」のコード進行に基づく",
+      "note_en": "Composed in 1946. Based on the chord progression of 'I Got Rhythm'."
+    },
+    {
+      "title": "MORE THAN YOU KNOW",
+      "page": "153",
+      "composer": "Vincent Youmans (音楽), William Rose, Edward Eliscu (歌詞)",
+      "key": "F Major (オリジナル出版), Ab major (オリジナル); ブリッジで一時的にC minorとEb majorに転調",
+      "style": "Standards, Traditional Pop, Vocal Pop, Fox Trot",
+      "note": "1929年作曲",
+      "note_en": "Composed in 1929."
+    },
+    {
+      "title": "MY IDEAL",
+      "page": "154",
+      "composer": "Richard Whiting, Leo Robin, Newell Chase",
+      "key": "E♭ major, C major (アレンジ版)",
+      "style": "Jazz",
+      "note": "1930年作曲",
+      "note_en": "Composed in 1930."
+    },
+    {
+      "title": "MY SHINING HOUR",
+      "page": "155",
+      "composer": "Harold Arlen (音楽), Johnny Mercer (歌詞)",
+      "key": "Eb Major (一般的), Eb Major and C Major",
+      "style": "Swing",
+      "note": "1943年の映画「The Sky's the Limit」のために作曲",
+      "note_en": "Composed for the 1943 film 'The Sky's the Limit'."
+    },
+    {
+      "title": "MY SHIP",
+      "page": "156",
+      "composer": "Kurt Weill (音楽), Ira Gershwin (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz, Show/Broadway, Standards, Traditional Pop, American Popular Song, Musical",
+      "note": "1941年のブロードウェイミュージカル「Lady in the Dark」より",
+      "note_en": "From the 1941 Broadway musical 'Lady in the Dark'."
+    },
+    {
+      "title": "NANCY",
+      "page": "157",
+      "composer": "James Van Heusen (音楽), Phil Silvers (歌詞)",
+      "key": "Eb Major (オリジナル出版), C Major (アレンジ版)",
+      "style": "Standards, Traditional Pop, Vocal Pop, Ballads",
+      "note": "フランク・シナトラの「Nancy (with the Laughing Face)」が有名",
+      "note_en": "Popularized by Frank Sinatra's 'Nancy (with the Laughing Face)'."
+    },
+    {
+      "title": "The NEARNESS OF YOU",
+      "page": "158",
+      "composer": "Hoagy Carmichael (音楽), Ned Washington (歌詞)",
+      "key": "F Major",
+      "style": "Ballad",
+      "note": "1938年作曲",
+      "note_en": "Composed in 1938."
+    },
+    {
+      "title": "NEFERTITI",
+      "page": "159",
+      "composer": "Wayne Shorter",
+      "key": "C Major (オリジナル出版), B♭ major, G minor",
+      "style": "Jazz, Post-Bop",
+      "note": "1968年作曲。マイルス・デイヴィスのアルバム「Nefertiti」に収録",
+      "note_en": "Composed in 1968. Included on Miles Davis' album 'Nefertiti'."
+    },
+    {
+      "title": "NEVER LET ME GO",
+      "page": "160",
+      "composer": "Jay Livingston (音楽), Ray Evans (歌詞)",
+      "key": "Bb major (一般的), G minor, F minor, Ab major (アレンジ版)",
+      "style": "Ballad",
+      "note": "美しいバラード",
+      "note_en": "A beautiful ballad."
+    },
+    {
+      "title": "NICE WORK IF YOU CAN GET IT",
+      "page": "161",
+      "composer": "George Gershwin (音楽), Ira Gershwin (歌詞)",
+      "key": "G Major (オリジナル出版)",
+      "style": "Jazz Standards, Movie/TV, Show/Broadway, Standards, Traditional Pop, Soundtrack, Vocal Jazz, Musical, Vocal Pop",
+      "note": "1937年作曲。ミュージカル「A Damsel in Distress」より",
+      "note_en": "Composed in 1937. From the musical 'A Damsel in Distress'."
+    },
+    {
+      "title": "A NIGHTINGALE SANG IN BERKELEY SQUARE",
+      "page": "162",
+      "composer": "Manning Sherwin (音楽), Eric Maschwitz (歌詞)",
+      "key": "D-flat major (一般的), Eb",
+      "style": "British romantic popular song, Jazz Standard",
+      "note": "1939年作曲。グレン・ミラーの録音が有名",
+      "note_en": "Composed in 1939. Popularized by Glenn Miller's recording."
+    },
+    {
+      "title": "NOTHING PERSONAL",
+      "page": "164",
+      "composer": "Don Grolnick",
+      "key": "D Minor",
+      "style": "Jazz, Smooth Jazz, Instrumental",
+      "note": "マイケル・ブレッカーによって録音",
+      "note_en": "Recorded by Michael Brecker."
+    },
+    {
+      "title": "O GRANDE AMOR",
+      "page": "166",
+      "composer": "Antonio Carlos Jobim (音楽), Vinicius de Moraes (歌詞)",
+      "key": "A Minor (オリジナル出版)",
+      "style": "Jazz, Brazilian Jazz, Latin Jazz, World, Bossa Nova",
+      "note": "1965年作曲。スタン・ゲッツとジョアン・ジルベルトのアルバム「Getz/Gilberto」に収録",
+      "note_en": "Composed in 1965. Included on Stan Getz and João Gilberto's album 'Getz/Gilberto'."
+    },
+    {
+      "title": "OFF MINOR",
+      "page": "167",
+      "composer": "Thelonious Monk",
+      "key": "G Minor (オリジナル出版)",
+      "style": "Jazz, Bebop",
+      "note": "1947年作曲。セロニアス・モンクの曲",
+      "note_en": "Composed in 1947. A composition by Thelonious Monk."
+    },
+    {
+      "title": "ON A MISTY NIGHT",
+      "page": "168",
+      "composer": "Tadd Dameron",
+      "key": "E♭ major, C minor",
+      "style": "Jazz, Medium Swing",
+      "note": "タッド・ダメロンのジャズスタンダード",
+      "note_en": "A jazz standard by Tadd Dameron."
+    },
+    {
+      "title": "ON THE STREET WHERE YOU LIVE",
+      "page": "169",
+      "composer": "Frederick Loewe (音楽), Alan Jay Lerner (歌詞)",
+      "key": "Ab",
+      "style": "Musical, Popular music, Jazz",
+      "note": "1956年のミュージカル「My Fair Lady」より",
+      "note_en": "From the 1956 musical 'My Fair Lady'."
+    },
+    {
+      "title": "ONCE IN A WHILE",
+      "page": "170",
+      "composer": "Michael Edwards (音楽), Bud Green (歌詞)",
+      "key": "Eb Major (オリジナル出版), C Major (アレンジ版)",
+      "style": "Standards, Lounge, Jazz, Traditional Pop",
+      "note": "1937年作曲",
+      "note_en": "Composed in 1937."
+    },
+    {
+      "title": "ONE BY ONE",
+      "page": "171",
+      "composer": "Wayne Shorter",
+      "key": "B♭ major, G minor",
+      "style": "Jazz",
+      "note": "アート・ブレイキー＆ザ・ジャズ・メッセンジャーズのアルバム「Ugetsu」に収録",
+      "note_en": "Included on Art Blakey and the Jazz Messengers' album 'Ugetsu'."
+    },
+    {
+      "title": "ONE FINGER SNAP",
+      "page": "172",
+      "composer": "Herbie Hancock",
+      "key": "C7 (コード進行から推測)",
+      "style": "Jazz",
+      "note": "ハービー・ハンコックのアルバム「Empyrean Isles」に収録",
+      "note_en": "Included on Herbie Hancock's album 'Empyrean Isles'."
+    },
+    {
+      "title": "OUR SPANISH LOVE SONG",
+      "page": "173",
+      "composer": "Charlie Haden",
+      "key": "G major, E minor",
+      "style": "Jazz",
+      "note": "チャーリー・ヘイデンとパット・メセニーのアルバム「Beyond the Missouri Sky」に収録",
+      "note_en": "Included on Charlie Haden and Pat Metheny's album 'Beyond the Missouri Sky'."
+    },
+    {
+      "title": "PANNONICA",
+      "page": "174",
+      "composer": "Thelonious Monk",
+      "key": "C Major",
+      "style": "Jazz, Swing, Piano Jazz",
+      "note": "1956年作曲。セロニアス・モンクのアルバム「Brilliant Corners」に収録",
+      "note_en": "Composed in 1956. Included on Thelonious Monk's album 'Brilliant Corners'."
+    },
+    {
+      "title": "The PEACOCKS",
+      "page": "175",
+      "composer": "Jimmy Rowles",
+      "key": "D♭ major, B♭ minor",
+      "style": "Jazz, Impressionistic",
+      "note": "ジミー・ロウレスの代表曲。ビル・エヴァンスの演奏が有名",
+      "note_en": "A signature composition by Jimmy Rowles. Popularized by Bill Evans' performance."
+    },
+    {
+      "title": "PERI'S SCOPE",
+      "page": "176",
+      "composer": "Bill Evans",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Post-Bop, Instrumental Jazz, Piano Jazz, Medium Swing",
+      "note": "ビル・エヴァンスの代表曲",
+      "note_en": "A signature composition by Bill Evans."
+    },
+    {
+      "title": "PINOCCHIO",
+      "page": "177",
+      "composer": "Wayne Shorter",
+      "key": "B♭ major, G minor",
+      "style": "Jazz",
+      "note": "マイルス・デイヴィス・クインテットのアルバムに収録",
+      "note_en": "Included on Miles Davis Quintet's album."
+    },
+    {
+      "title": "POINCIANA",
+      "page": "178",
+      "composer": "Nat Simon (音楽), Buddy Bernier (歌詞)",
+      "key": "G Major (オリジナル出版)",
+      "style": "Latin Jazz, Latin, Standards, Vocal Pop",
+      "note": "1936年作曲。アハマド・ジャマルのバージョンが有名",
+      "note_en": "Composed in 1936. Popularized by Ahmad Jamal's version."
+    },
+    {
+      "title": "PRINCE OF DARKNESS",
+      "page": "179",
+      "composer": "Wayne Shorter",
+      "key": "C-",
+      "style": "Jazz Standard",
+      "note": "ウェイン・ショーターの曲",
+      "note_en": "A composition by Wayne Shorter."
+    },
+    {
+      "title": "QUIET NOW",
+      "page": "180",
+      "composer": "Denny Zeitlin",
+      "key": "C major (オリジナル), E flat major, D major, G major (転調)",
+      "style": "Jazz, Ballad",
+      "note": "ビル・エヴァンスがこの曲を好み、自身のアルバムタイトルにもした",
+      "note_en": "A favorite of Bill Evans, who also titled one of his albums after this piece."
+    },
+    {
+      "title": "REFLECTIONS",
+      "page": "181",
+      "composer": "Thelonious Monk",
+      "key": "Ab Major (オリジナル出版), E♭ major, C minor",
+      "style": "Jazz, Bebop",
+      "note": "セロニアス・モンクの曲",
+      "note_en": "A composition by Thelonious Monk."
+    },
+    {
+      "title": "RELAXIN' AT CAMARILLO",
+      "page": "182",
+      "composer": "Charlie Parker",
+      "key": "C major",
+      "style": "Blues",
+      "note": "チャーリー・パーカーがカマリロ州立病院に滞在した経験から着想を得た曲",
+      "note_en": "A song inspired by Charlie Parker's stay at Camarillo State Hospital."
+    },
+    {
+      "title": "ROAD SONG",
+      "page": "183",
+      "composer": "Wes Montgomery",
+      "key": "G minor",
+      "style": "Latin",
+      "note": "ウェス・モンゴメリーの代表曲",
+      "note_en": "A signature composition by Wes Montgomery."
+    },
+    {
+      "title": "ROBBINS' NEST",
+      "page": "184",
+      "composer": "Illinois Jacquet, Sir Charles Thompson",
+      "key": "C Major (オリジナル出版), Db major (アレンジ版)",
+      "style": "Jazz, Swing",
+      "note": "1947年作曲",
+      "note_en": "Composed in 1947."
+    },
+    {
+      "title": "RUBY MY DEAR",
+      "page": "185",
+      "composer": "Thelonious Monk",
+      "key": "F Minor (オリジナル出版)",
+      "style": "Jazz, Ballads, Piano Jazz",
+      "note": "1945年作曲。セロニアス・モンクの代表的なバラード",
+      "note_en": "Composed in 1945. A representative ballad by Thelonious Monk."
+    },
+    {
+      "title": "S'WONDERFUL",
+      "page": "186",
+      "composer": "George Gershwin (音楽), Ira Gershwin (歌詞)",
+      "key": "A-flat, E-flat (アレンジ版)",
+      "style": "Jazz, Standards",
+      "note": "1927年のミュージカル「Funny Face」より",
+      "note_en": "From the 1927 musical 'Funny Face'."
+    },
+    {
+      "title": "SAY IT",
+      "page": "187",
+      "composer": "Frank Loesser (音楽), Jimmy McHugh (音楽)",
+      "key": "F",
+      "style": "Jazz",
+      "note": "「Say it (Over and Over)」として知られる",
+      "note_en": "Also known as 'Say it (Over and Over)'."
+    },
+    {
+      "title": "SEA JOURNEY",
+      "page": "188",
+      "composer": "Chick Corea",
+      "key": "C major, A minor",
+      "style": "Jazz, Fusion, Post-Bop, Latin",
+      "note": "チック・コリアの曲",
+      "note_en": "A composition by Chick Corea."
+    },
+    {
+      "title": "SENTIMENTAL JOURNEY",
+      "page": "189",
+      "composer": "Bud Green, Les Brown, Ben Homer",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Standards, Traditional Pop, Vocal Jazz",
+      "note": "1944年作曲。ドリス・デイのバージョンが有名",
+      "note_en": "Composed in 1944. Popularized by Doris Day's version."
+    },
+    {
+      "title": "SEPTEMBER IN THE RAIN",
+      "page": "190",
+      "composer": "Harry Warren (音楽), Al Dubin (歌詞)",
+      "key": "Eb Major (オリジナル出版), C Major (オリジナル出版)",
+      "style": "Jazz Ballads, Jazz Standards, Love, Traditional Pop, Vocal Pop",
+      "note": "1937年作曲",
+      "note_en": "Composed in 1937."
+    },
+    {
+      "title": "The SIDEWINDER",
+      "page": "191",
+      "composer": "Lee Morgan",
+      "key": "Eb-maj",
+      "style": "Hardbop, Latin, Blues",
+      "note": "1963年作曲。リー・モーガンの代表曲",
+      "note_en": "Composed in 1963. A signature composition by Lee Morgan."
+    },
+    {
+      "title": "SISTER SADIE",
+      "page": "192",
+      "composer": "Horace Silver",
+      "key": "G Major (オリジナル出版), Bb Major (アレンジ版)",
+      "style": "Jazz",
+      "note": "ホレス・シルバーの代表曲",
+      "note_en": "A signature composition by Horace Silver."
+    },
+    {
+      "title": "SKYLARK",
+      "page": "193",
+      "composer": "Hoagy Carmichael (音楽), Johnny Mercer (歌詞)",
+      "key": "Eb (一般的), Eb major (オリジナル); ブリッジでAbに一時転調",
+      "style": "Ballad",
+      "note": "1941年作曲",
+      "note_en": "Composed in 1941."
+    },
+    {
+      "title": "SMILE",
+      "page": "194",
+      "composer": "Charles Chaplin (音楽), John Turner, Geoffrey Parsons (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Movie/TV, Standards, Traditional Pop, Soundtrack, Vocal Pop",
+      "note": "1936年の映画「モダン・タイムス」のテーマ曲",
+      "note_en": "The theme song from the 1936 film 'Modern Times'."
+    },
+    {
+      "title": "SO IN LOVE",
+      "page": "195",
+      "composer": "Cole Porter",
+      "key": "Eb Major (オリジナル), F Minor (オリジナル出版)",
+      "style": "Show/Broadway, Standards, American Popular Song, Musical",
+      "note": "1948年のミュージカル「Kiss Me Kate」より",
+      "note_en": "From the 1948 musical 'Kiss Me Kate'."
+    },
+    {
+      "title": "SO MANY STARS",
+      "page": "196",
+      "composer": "Alan Bergman, Marilyn Bergman, Sergio Mendes",
+      "key": "C Major (オリジナル出版)",
+      "style": "Latin, Traditional, Bossa Nova, Standards, Vocal Pop",
+      "note": "1967年作曲。バーブラ・ストライサンドのバージョンが有名",
+      "note_en": "Composed in 1967. Popularized by Barbra Streisand's version."
+    },
+    {
+      "title": "SOLITUDE",
+      "page": "197",
+      "composer": "Duke Ellington (音楽), Irving Mills, Edgar 'Eddie' DeLange (歌詞)",
+      "key": "Eb Major (オリジナル), Db major",
+      "style": "Jazz, Swing, Standards",
+      "note": "1934年作曲",
+      "note_en": "Composed in 1934."
+    },
+    {
+      "title": "SOMEBODY LOVES ME",
+      "page": "198",
+      "composer": "George Gershwin (音楽), Ballard MacDonald, Buddy DeSylva (歌詞)",
+      "key": "G major (オリジナル)",
+      "style": "Jazz, Popular song",
+      "note": "1924年のミュージカル「George White's Scandals of 1924」で発表",
+      "note_en": "Debuted in the 1924 musical 'George White's Scandals of 1924'."
+    },
+    {
+      "title": "SOUL EYES",
+      "page": "199",
+      "composer": "Mal Waldron",
+      "key": "C minor",
+      "style": "Jazz, Ballad",
+      "note": "1957年作曲。ジョン・コルトレーンが録音したことで有名に",
+      "note_en": "Composed in 1957. Popularized by John Coltrane's recording."
+    },
+    {
+      "title": "SOULTRANE",
+      "page": "200",
+      "composer": "N/A",
+      "key": "N/A",
+      "style": "N/A",
+      "note": "これはアルバム名であり、特定の曲名ではない",
+      "note_en": "This is an album title, not a specific song title."
+    },
+    {
+      "title": "SPEAK NO EVIL",
+      "page": "201",
+      "composer": "Wayne Shorter",
+      "key": "C-",
+      "style": "Swing",
+      "note": "1964年作曲。ウェイン・ショーターのアルバム「Speak No Evil」に収録",
+      "note_en": "Composed in 1964. Included on Wayne Shorter's album 'Speak No Evil'."
+    },
+    {
+      "title": "SPRING IS HERE",
+      "page": "202",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "G Major (オリジナル出版), Ab Major (アレンジ版)",
+      "style": "Jazz, Show/Broadway, Standards, Traditional Pop, Vocal Jazz, Musical",
+      "note": "1938年作曲",
+      "note_en": "Composed in 1938."
+    },
+    {
+      "title": "SUGAR",
+      "page": "203",
+      "composer": "Stanley Turrentine",
+      "key": "C Minor (オリジナル出版)",
+      "style": "Jazz Fusion, Hard Bop, Soul-Jazz",
+      "note": "1970年作曲。スタンリー・タレンタインの代表曲",
+      "note_en": "Composed in 1970. A signature composition by Stanley Turrentine."
+    },
+    {
+      "title": "The SUMMER KNOWS",
+      "page": "204",
+      "composer": "Michel Legrand (音楽), Alan Bergman, Marilyn Bergman (歌詞)",
+      "key": "F Minor (オリジナル出版)",
+      "style": "Movie/TV, Pop",
+      "note": "1971年の映画「Summer of '42」のテーマ曲",
+      "note_en": "The theme song from the 1971 film 'Summer of '42'."
+    },
+    {
+      "title": "SUMMER NIGHT",
+      "page": "205",
+      "composer": "Jim Jacobs",
+      "key": "D Major",
+      "style": "Musical, Rock",
+      "note": "ミュージカル「Grease」からの曲",
+      "note_en": "A song from the musical 'Grease'."
+    },
+    {
+      "title": "SUNNY",
+      "page": "206",
+      "composer": "Bobby Hebb",
+      "key": "Em (オリジナル), Fm, F#m, Gm (転調), A minor (アレンジ版)",
+      "style": "Soul, Jazz-Rock",
+      "note": "1966年作曲。ジョージ・ベンソンがジャズアレンジで有名に",
+      "note_en": "Composed in 1966. Popularized by George Benson's jazz arrangement."
+    },
+    {
+      "title": "TADD'S DELIGHT",
+      "page": "207",
+      "composer": "Tadd Dameron",
+      "key": "Ab Major (オリジナル出版)",
+      "style": "Jazz, Bebop, Jazz Standards, Medium swing",
+      "note": "1946年作曲",
+      "note_en": "Composed in 1946."
+    },
+    {
+      "title": "TAKING A CHANCE ON LOVE",
+      "page": "208",
+      "composer": "Vernon Duke (音楽), Ted Fetter, John Latouche (歌詞)",
+      "key": "Ab Major (オリジナル出版), C major, F, Bb (アレンジ版)",
+      "style": "Jazz, Movie/TV, Standards, Traditional Pop, Soundtrack, Vocal Jazz",
+      "note": "1940年のブロードウェイミュージカル「Cabin in the Sky」より",
+      "note_en": "From the 1940 Broadway musical 'Cabin in the Sky'."
+    },
+    {
+      "title": "TANGERINE",
+      "page": "209",
+      "composer": "Victor Schertzinger (音楽), Johnny Mercer (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Jazz, Big Band, Standards, Traditional Pop",
+      "note": "1942年の映画「The Fleet's In」より",
+      "note_en": "From the 1942 film 'The Fleet's In'."
+    },
+    {
+      "title": "TEA FOR TWO",
+      "page": "210",
+      "composer": "Vincent Youmans (音楽), Irving Caesar (歌詞)",
+      "key": "Ab major (オリジナル)",
+      "style": "Popular music, musical theater, Jazz",
+      "note": "1924年のミュージカル「No, No, Nanette」より",
+      "note_en": "From the 1924 musical 'No, No, Nanette'."
+    },
+    {
+      "title": "TEACH ME TONIGHT",
+      "page": "211",
+      "composer": "Gene De Paul (音楽), Sammy Cahn (歌詞)",
+      "key": "Eb Major (オリジナル出版), Bb, Db (アレンジ版)",
+      "style": "Jazz, Swing, Standards, Traditional Pop, Vocal Jazz",
+      "note": "1953年作曲",
+      "note_en": "Composed in 1953."
+    },
+    {
+      "title": "TEE BAG",
+      "page": "212",
+      "composer": "Thelonious Monk",
+      "key": "Eb minor (オリジナル)",
+      "style": "Jazz, Bebop",
+      "note": "セロニアス・モンクの曲である可能性が高い",
+      "note_en": "Likely a composition by Thelonious Monk."
+    },
+    {
+      "title": "TEEN TOWN",
+      "page": "214",
+      "composer": "Jaco Pastorius",
+      "key": "C major, A minor",
+      "style": "Contemporary, Jazz",
+      "note": "ウェザー・リポートのアルバム「Heavy Weather」に収録。ジャコ・パストリアスの代表曲",
+      "note_en": "Included on Weather Report's album 'Heavy Weather'. A signature composition by Jaco Pastorius."
+    },
+    {
+      "title": "TENDERLY",
+      "page": "216",
+      "composer": "Walter Gross (音楽), Jack Lawrence (歌詞)",
+      "key": "Eb (一般的), Eb (オリジナル)",
+      "style": "Ballad, Jazz",
+      "note": "1946年作曲。サラ・ヴォーンやビリー・ホリデイのバージョンが有名",
+      "note_en": "Composed in 1946. Popularized by Sarah Vaughan and Billie Holiday's versions."
+    },
+    {
+      "title": "THAT'S ALL",
+      "page": "217",
+      "composer": "Alan E. Brandt (音楽), Bob Haymes (歌詞)",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Big Band, Swing, Standards, Traditional Pop",
+      "note": "1953年作曲",
+      "note_en": "Composed in 1953."
+    },
+    {
+      "title": "THEY CAN'T TAKE THAT AWAY FROM ME",
+      "page": "218",
+      "composer": "George Gershwin (音楽), Ira Gershwin (歌詞)",
+      "key": "B-flat, E-flat (アレンジ版)",
+      "style": "Swing, Jazz",
+      "note": "1937年の映画「Shall We Dance」より",
+      "note_en": "From the 1937 film 'Shall We Dance'."
+    },
+    {
+      "title": "THEY SAY IT'S WONDERFUL",
+      "page": "219",
+      "composer": "Irving Berlin",
+      "key": "F Major (オリジナル出版), F major, D minor (アレンジ版)",
+      "style": "Show/Broadway, Standards, Musical, Jazz, Classical",
+      "note": "1946年のミュージカル「Annie Get Your Gun」より",
+      "note_en": "From the 1946 musical 'Annie Get Your Gun'."
+    },
+    {
+      "title": "THINGS AIN'T WHAT THEY USED TO BE",
+      "page": "220",
+      "composer": "Mercer Ellington (音楽), Ted Persons (歌詞)",
+      "key": "F Major (オリジナル出版), C Major (アレンジ版)",
+      "style": "Jazz, Big Band, Standards, Traditional Pop",
+      "note": "1942年作曲。デューク・エリントンのバンドで有名",
+      "note_en": "Composed in 1942. Popularized by Duke Ellington's band."
+    },
+    {
+      "title": "THINK OF ONE",
+      "page": "221",
+      "composer": "Thelonious Monk",
+      "key": "F Major (オリジナル出版), F major, D minor",
+      "style": "Jazz, Bebop",
+      "note": "セロニアス・モンクの曲",
+      "note_en": "A composition by Thelonious Monk."
+    },
+    {
+      "title": "THIS MASQUERADE",
+      "page": "222",
+      "composer": "Leon Russell",
+      "key": "F Minor (オリジナル出版), C Minor (アレンジ版)",
+      "style": "R&B, Crossover Jazz, Jazz-Pop, Soft Rock",
+      "note": "1972年作曲。ジョージ・ベンソンのバージョンが有名",
+      "note_en": "Composed in 1972. Popularized by George Benson's version."
+    },
+    {
+      "title": "THREE VIEWS OF A SECRET",
+      "page": "224",
+      "composer": "Jaco Pastorius",
+      "key": "D-flat (D-flatに転調), E (Eを中心に)",
+      "style": "Jazz, Jazz Fusion, Jazz Waltz",
+      "note": "ウェザー・リポートのアルバム「Night Passage」に収録",
+      "note_en": "Included on Weather Report's album 'Night Passage'."
+    },
+    {
+      "title": "A TIME FOR LOVE",
+      "page": "226",
+      "composer": "Johnny Mandel (音楽), Paul Francis Webster (歌詞)",
+      "key": "C Major (オリジナル出版), F Major, Bb (アレンジ版)",
+      "style": "Movie/TV, Standards, Traditional Pop, Soundtrack, Vocal Pop",
+      "note": "1966年作曲",
+      "note_en": "Composed in 1966."
+    },
+    {
+      "title": "TIME REMEMBERED",
+      "page": "227",
+      "composer": "Bill Evans",
+      "key": "C Major (オリジナル出版), Bb major",
+      "style": "Jazz, Post-Bop, Instrumental Jazz, Piano Jazz",
+      "note": "1965年作曲。ビル・エヴァンスの代表曲",
+      "note_en": "Composed in 1965. A signature composition by Bill Evans."
+    },
+    {
+      "title": "TRISTE",
+      "page": "228",
+      "composer": "Antonio Carlos Jobim",
+      "key": "A (一般的), A Major (オリジナル出版)",
+      "style": "Bossa, Brazilian Jazz, Latin Jazz, Jazz Standards, Bossa Nova",
+      "note": "1966年作曲",
+      "note_en": "Composed in 1966."
+    },
+    {
+      "title": "TUNE UP",
+      "page": "229",
+      "composer": "Eddie Vinson",
+      "key": "D Major (一般的), D Major, C major, Bb major (転調)",
+      "style": "Jazz",
+      "note": "マイルス・デイヴィスが有名に",
+      "note_en": "Popularized by Miles Davis."
+    },
+    {
+      "title": "TURN OUT THE STARS",
+      "page": "230",
+      "composer": "Bill Evans",
+      "key": "C major, A minor",
+      "style": "Jazz, Ballad",
+      "note": "1966年作曲。ビル・エヴァンスの代表曲",
+      "note_en": "Composed in 1966. A signature composition by Bill Evans."
+    },
+    {
+      "title": "TWO BASS HIT",
+      "page": "231",
+      "composer": "John Lewis, Dizzy Gillespie",
+      "key": "C",
+      "style": "Blues, Jazz",
+      "note": "マイルス・デイヴィスのアルバム「Milestones」に収録",
+      "note_en": "Included on Miles Davis' album 'Milestones'."
+    },
+    {
+      "title": "TWO FOR THE ROAD",
+      "page": "232",
+      "composer": "Henry Mancini (音楽), Leslie Bricusse (歌詞)",
+      "key": "G Major (オリジナル出版), G major, E minor",
+      "style": "Easy Listening, Movie/TV, Traditional Pop, Soundtrack, Pop, Jazz",
+      "note": "1967年の映画「Two for the Road」のテーマ曲",
+      "note_en": "The theme song from the 1967 film 'Two for the Road'."
+    },
+    {
+      "title": "UNIT 7",
+      "page": "233",
+      "composer": "Sam Jones",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Hard Bop, Soul-Jazz, Instrumental Jazz",
+      "note": "1962年作曲。ウェス・モンゴメリーのアルバム「Smokin' at the Half Note」に収録",
+      "note_en": "Composed in 1962. Included on Wes Montgomery's album 'Smokin' at the Half Note'."
+    },
+    {
+      "title": "UPPER MANHATTAN MEDICAL GROUP",
+      "page": "234",
+      "composer": "Billy Strayhorn",
+      "key": "D♭ Major",
+      "style": "Jazz",
+      "note": "ビリー・ストレイホーンの曲",
+      "note_en": "A composition by Billy Strayhorn."
+    },
+    {
+      "title": "The VERY THOUGHT OF YOU",
+      "page": "235",
+      "composer": "Ray Noble",
+      "key": "Ab Major (オリジナル出版)",
+      "style": "Love, Nostalgia, Standards, Pop standard, British dance band",
+      "note": "1934年作曲。レイ・ノーブルとアル・ボウリーのバージョンがヒット",
+      "note_en": "Composed in 1934. Hit by Ray Noble and Al Bowlly's versions."
+    },
+    {
+      "title": "WATCH WHAT HAPPENS",
+      "page": "237",
+      "composer": "Michel Legrand",
+      "key": "F Major (オリジナル), Eb major",
+      "style": "Jazz, Musical, Soundtrack, Traditional Pop",
+      "note": "オリジナル仏語歌詞はジャック・ドゥミ、英語歌詞はノーマン・ギンベル。映画「シェルブールの雨傘」より",
+      "note_en": "Original French lyrics by Jacques Demy, English lyrics by Norman Gimbel. From the film 'The Umbrellas of Cherbourg'."
+    },
+    {
+      "title": "The WAY YOU LOOK TONIGHT",
+      "page": "238",
+      "composer": "Jerome Kern",
+      "key": "Eb major (オリジナル); ブリッジでGb majorに転調",
+      "style": "Jazz, Standards, Traditional Pop, Musical",
+      "note": "1936年の映画「スウィング・タイム」より。フレッド・アステアが有名に",
+      "note_en": "From the 1936 film 'Swing Time'. Popularized by Fred Astaire."
+    },
+    {
+      "title": "WE'LL BE TOGETHER AGAIN",
+      "page": "239",
+      "composer": "Carl Fischer, Frankie Laine",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Standards, Vocal Pop, Ballad",
+      "note": "1945年作曲",
+      "note_en": "Composed in 1945."
+    },
+    {
+      "title": "A WEAVER OF DREAMS",
+      "page": "240",
+      "composer": "Victor Young, Jack Elliott",
+      "key": "C (標準), F (代替キー)",
+      "style": "Jazz, Standards, Ballad",
+      "note": "ケニー・バレル、キャノンボール・アダレイ、ソニー・ロリンズ、ナット・キング・コール、カーメン・マクレーらが録音",
+      "note_en": "Recorded by Kenny Burrell, Cannonball Adderley, Sonny Rollins, Nat King Cole, Carmen McRae, among others."
+    },
+    {
+      "title": "WHAT A WONDERFUL WORLD",
+      "page": "241",
+      "composer": "Bob Thiele, George David Weiss",
+      "key": "F major (多くのバージョン)",
+      "style": "Pop, Jazz, Standards, Vocal Pop",
+      "note": "1967年ルイ・アームストロングが有名に",
+      "note_en": "Popularized by Louis Armstrong in 1967."
+    },
+    {
+      "title": "WHEN LIGHTS ARE LOW",
+      "page": "242",
+      "composer": "Benny Carter, Spencer Williams",
+      "key": "Eb major (一般的)",
+      "style": "Jazz, Swing",
+      "note": "1936年作曲",
+      "note_en": "Composed in 1936."
+    },
+    {
+      "title": "WHERE OR WHEN",
+      "page": "243",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "Eb Major (オリジナル出版), C minor",
+      "style": "Jazz, Big Band, Swing, Standards, Show/Broadway, Musical",
+      "note": "1937年作曲。ミュージカル「Babes in Arms」より",
+      "note_en": "Composed in 1937. From the musical 'Babes in Arms'."
+    },
+    {
+      "title": "WHO CAN I TURN TO",
+      "page": "244",
+      "composer": "Leslie Bricusse, Anthony Newley",
+      "key": "C Major (オリジナル出版), E♭ major, C minor",
+      "style": "Show/Broadway, Musical, Jazz",
+      "note": "1964年作曲。ミュージカル「The Roar of the Greasepaint – The Smell of the Crowd」より",
+      "note_en": "Composed in 1964. From the musical 'The Roar of the Greasepaint – The Smell of the Crowd'."
+    },
+    {
+      "title": "WILL YOU STILL BE MINE",
+      "page": "245",
+      "composer": "Matt Dennis (音楽), Tom Adair (歌詞)",
+      "key": "G major, E minor",
+      "style": "Jazz, Standards",
+      "note": "1941年作曲",
+      "note_en": "Composed in 1941."
+    },
+    {
+      "title": "WINDOWS",
+      "page": "246",
+      "composer": "Chick Corea",
+      "key": "C Major (オリジナル出版)",
+      "style": "Jazz, Post-Bop, Jazz Waltz",
+      "note": "1968年作曲。チック・コリアのアルバム「Now He Sings, Now He Sobs」に収録",
+      "note_en": "Composed in 1968. Included on Chick Corea's album 'Now He Sings, Now He Sobs'."
+    },
+    {
+      "title": "WITH A SONG IN MY HEART",
+      "page": "247",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "Eb Major (オリジナル出版), C minor",
+      "style": "Jazz, Show/Broadway, Standards, Traditional Pop, Musical",
+      "note": "1929年作曲。ミュージカル「Spring Is Here」より",
+      "note_en": "Composed in 1929. From the musical 'Spring Is Here'."
+    },
+    {
+      "title": "WITHOUT A SONG",
+      "page": "248",
+      "composer": "Vincent Youmans",
+      "key": "Eb major (一般的), D♭ major, B♭ minor",
+      "style": "Jazz Standard, Musical, Pop, Traditional Pop, Vocal Jazz",
+      "note": "1929年作曲。ミュージカル「Great Day」より",
+      "note_en": "Composed in 1929. From the musical 'Great Day'."
+    },
+    {
+      "title": "YOU ARE THE SUNSHINE OF MY LIFE",
+      "page": "250",
+      "composer": "Stevie Wonder",
+      "key": "B major (オリジナル), C major (終盤で転調)",
+      "style": "Pop, R&B, Soul, Singer-Songwriter",
+      "note": "1972年作曲",
+      "note_en": "Composed in 1972."
+    },
+    {
+      "title": "YOU ARE TOO BEAUTIFUL",
+      "page": "251",
+      "composer": "Richard Rodgers (音楽), Lorenz Hart (歌詞)",
+      "key": "F Major (オリジナル出版)",
+      "style": "Pop, Standards, Love, Show/Broadway, Traditional Pop, Vocal Jazz, Musical, Ballad",
+      "note": "1932年作曲。映画「Hallelujah, I'm a Bum」より",
+      "note_en": "Composed in 1932. From the film 'Hallelujah, I'm a Bum'."
+    }
+  ]

@@ -1,0 +1,417 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a3d66;
+    color: #fff;
+    justify-content: flex-start;
+    min-height: 100vh;
+    min-width: 485px;
+    margin: 0;
+    padding: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.filters {
+    background: #0c4c7a;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.filter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.filter-row label {
+    width: 80px;
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+.filter-row select {
+    flex: 1;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.book-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.book-selector label {
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.book-selector input[type="checkbox"] {
+    margin-right: 0.3rem;
+}
+
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 80px;
+}
+
+.tag {
+    background: #1d88d6;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.tag button {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.button-container button {
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0.3rem;
+    background-color: #ffffff;
+    color: #0a3d66;
+}
+
+.button-container button:hover {
+    background-color: #ddd;
+}
+
+
+.button-container button.reset-button {
+    background-color: #0c4c7a;
+    /* Darker background */
+    color: #fff;
+    /* White text */
+    padding: 0.5rem 1rem;
+    /* Smaller padding */
+    font-size: 0.85rem;
+    /* Smaller font size */
+    margin-top: 0.5rem;
+    /* Add some top margin to separate from pick button */
+    border: 1px solid #1d88d6;
+    border-radius: 10px;
+    /* Subtle border */
+}
+
+.button-container button.reset-button:hover {
+    background-color: #1d88d6;
+    /* Slightly lighter on hover */
+}
+
+#result {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: bold;
+    text-align: center;
+    min-height: 200px;
+}
+
+.result-sub {
+    font-size: 0.9rem;
+    color: #ccc;
+    font-weight: normal;
+    margin-top: 0.5rem;
+}
+
+.result-sub a {
+    color: #ffd700;
+}
+
+#history {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+}
+
+#history ul {
+    padding-left: 1rem;
+}
+
+.support-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: 1px dashed #888;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #ccc;
+    max-width: 800px;
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.support-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.support-buttons a {
+    background: #ffe066;
+    color: #0a3d66;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.support-buttons a:hover {
+    background: #fff0a0;
+}
+
+
+.carousel-section {
+    background: none;
+    border: 1px dashed #888;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem auto;
+    color: #ccc;
+    max-width: 800px;
+    font-size: 0.85rem;
+}
+
+.carousel-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.carousel-tabs div {
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    background: #ffe066;
+    color: #0a3d66;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.carousel-tabs .active {
+    background: #fff0a0;
+    font-weight: bold;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0 2rem;
+    /* 左右矢印のための余白 */
+    box-sizing: border-box;
+}
+
+.carousel-group {
+    display: none;
+}
+
+.carousel-group.active {
+    display: block;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 12px;
+    padding: 10px 5%;
+    /* ← 中央寄せ風に */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel.centered-if-few {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 110px;
+    max-width: 180px;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+.carousel-item a {
+    color: #f0f0f0;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s;
+}
+
+.carousel-item a:hover {
+    color: #ffe066;
+    /* ホバー時に強調 */
+    text-decoration: underline;
+}
+
+.carousel-item a:focus {
+    outline: 2px dashed #ffe066;
+    outline-offset: 4px;
+}
+
+
+.carousel-item img {
+    max-height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 2;
+    /* ← 商品より上 */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-button.left {
+    left: 0;
+}
+
+.carousel-button.right {
+    right: 0;
+}
+
+.carousel-button.left::before,
+.carousel-button.right::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: filter 0.2s ease;
+}
+
+.carousel-button.left::before {
+    border-width: 10px 14px 10px 0;
+    border-color: transparent #ffe066 transparent transparent;
+}
+
+.carousel-button.right::before {
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent #ffe066;
+}
+
+.carousel-button:hover::before {
+    filter: brightness(1.3);
+}
+
+.carousel-item.spacer {
+    flex: 0 0 auto;
+    width: 40px;
+    /* ← お好みで調整 */
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.lang-switch {
+    position: fixed;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 0.85rem;
+    z-index: 999;
+}
+
+.lang-switch a {
+    color: #b0d8ff;
+    /* 淡い水色テキスト */
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #4ca3dd;
+    /* 水色寄りのボーダー */
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    background: rgba(76, 163, 221, 0.1);
+    /* ほんのり水色の半透明背景 */
+}
+
+.lang-switch a:hover {
+    background-color: rgba(76, 163, 221, 0.2);
+    /* 少し濃く */
+    color: #ffffff;
+    border-color: #b0d8ff;
+}

@@ -2,475 +2,57 @@
 <html lang="ja">
 
 <head>
-  <!-- アクセスカウンター（GoatCounter） -->
-  <script data-goatcounter="https://coda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZH5SRGQL0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5ZH5SRGQL0');
-</script>
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>黒本 ルーレット</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0a3d66;
-      color: #fff;
-      justify-content: flex-start;
-      min-height: 100vh; 
-      min-width: 485px;
-      margin: 0;
-      padding: 2rem;
-    }
-
-    main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .filters {
-      background: #0c4c7a;
-      padding: 1rem;
-      border-radius: 10px;
-      margin-bottom: 1rem;
-      width: 100%;
-      max-width: 600px;
-    }
-
-    .filter-row {
-      display: flex;
-      align-items: center;
-      margin-bottom: 0.5rem;
-    }
-
-    .filter-row label {
-      width: 80px;
-      text-align: right;
-      margin-right: 0.5rem;
-    }
-
-    .filter-row select {
-      flex: 1;
-      padding: 0.4rem;
-      border-radius: 5px;
-      border: none;
-      font-size: 0.9rem;
-    }
-
-    .book-selector {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
-
-.book-selector label {
-  color: #fff;
-  font-size: 0.95rem;
-  cursor: pointer;
-}
-
-.book-selector input[type="checkbox"] {
-  margin-right: 0.3rem;
-}
-
-
-    .tag-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-      margin-left: 80px;
-    }
-
-    .tag {
-      background: #1d88d6;
-      padding: 0.3rem 0.6rem;
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .tag button {
-      background: transparent;
-      border: none;
-      color: white;
-      cursor: pointer;
-      font-size: 0.9rem;
-    }
-
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 1rem;
-    }
-    .button-container button {
-      border: none;
-      padding: 0.8rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 10px;
-      cursor: pointer;
-      margin: 0.3rem;
-      background-color: #ffffff;
-      color: #0a3d66;
-    }
-    .button-container button:hover {
-      background-color: #ddd;
-    }
-
-
-    .button-container button.reset-button {
-      background-color: #0c4c7a;
-      /* Darker background */
-      color: #fff;
-      /* White text */
-      padding: 0.5rem 1rem;
-      /* Smaller padding */
-      font-size: 0.85rem;
-      /* Smaller font size */
-      margin-top: 0.5rem;
-      /* Add some top margin to separate from pick button */
-      border: 1px solid #1d88d6;
-      border-radius: 10px;
-      /* Subtle border */
-    }
-
-    .button-container button.reset-button:hover {
-      background-color: #1d88d6;
-      /* Slightly lighter on hover */
-    }
-
-    #result {
-      margin-top: 1.5rem;
-      font-size: 1.4rem;
-      line-height: 1.6;
-      font-weight: bold;
-      text-align: center;
-      min-height: 200px;
-    }
-
-    .result-sub {
-      font-size: 0.9rem;
-      color: #ccc;
-      font-weight: normal;
-      margin-top: 0.5rem;
-    }
-
-    .result-sub a {
-      color: #ffd700;
-    }
-
-    #history {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #ccc;
-      max-height: 200px;
-      overflow-y: auto;
-      width: 100%;
-      max-width: 600px;
-      min-height: 200px;
-    }
-
-    #history ul {
-      padding-left: 1rem;
-    }
-
-    .support-section { 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: none;
-      border: 1px dashed #888;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-top: 2rem;
-      color: #ccc;
-      max-width: 800px;
-      font-size: 0.85rem;
-      text-align: center; 
-      margin: 0 auto;
-    }
-
-    .support-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-    }
-
-    .support-buttons a {
-      background: #ffe066;
-      color: #0a3d66;
-      padding: 0.4rem 0.8rem;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      text-decoration: none;
-      transition: background 0.2s;
-    }
-
-    .support-buttons a:hover {
-      background: #fff0a0;
-    }
-
-
-    .carousel-section {
-      background: none;
-      border: 1px dashed #888;
-      border-radius: 10px;
-      padding: 1rem;
-      margin: 2rem auto;
-      color: #ccc;
-      max-width: 800px;
-      font-size: 0.85rem;
-    }
-
-    .carousel-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin-bottom: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .carousel-tabs div {
-      cursor: pointer;
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      background: #ffe066;
-      color: #0a3d66;
-      font-size: 0.9rem;
-      transition: background 0.2s;
-    }
-
-    .carousel-tabs .active {
-      background: #fff0a0;
-      font-weight: bold;
-    }
-
-    .carousel-wrapper {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding: 0 2rem; /* 左右矢印のための余白 */
-  box-sizing: border-box;
-}
-
-    .carousel-group {
-      display: none;
-    }
-
-    .carousel-group.active {
-      display: block;
-    }
-
-    .carousel {
-      display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 12px;
-  padding: 10px 5%; /* ← 中央寄せ風に */
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-.carousel.centered-if-few {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
-  gap: 12px;
-  padding: 10px;
-}
-
-    .carousel::-webkit-scrollbar {
-      display: none;
-    }
-
-    .carousel-item {
-      flex: 0 0 auto;
-      width: 110px;
-  max-width: 180px;
-  box-sizing: border-box;
-  padding: 0 0.5rem;
-    }
-
-    .carousel-track {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
-  will-change: transform;
-}
-
-    .carousel-item a {
-      color: #f0f0f0;
-  text-decoration: none;
-  display: inline-block;
-  transition: color 0.2s;
-}
-
-.carousel-item a:hover {
-  color: #ffe066; /* ホバー時に強調 */
-  text-decoration: underline;
-}
-.carousel-item a:focus {
-  outline: 2px dashed #ffe066;
-  outline-offset: 4px;
-}
-
-
-    .carousel-item img {
-      max-height: 150px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      display: block;
-      margin: 0 auto 5px;
-    }
-
-    .carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  z-index: 2; /* ← 商品より上 */
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-button.left {
-  left: 0;
-}
-
-.carousel-button.right {
-  right: 0;
-}
-
-.carousel-button.left::before,
-.carousel-button.right::before {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  transition: filter 0.2s ease;
-}
-
-.carousel-button.left::before {
-  border-width: 10px 14px 10px 0;
-  border-color: transparent #ffe066 transparent transparent;
-}
-
-.carousel-button.right::before {
-  border-width: 10px 0 10px 14px;
-  border-color: transparent transparent transparent #ffe066;
-}
-
-.carousel-button:hover::before {
-  filter: brightness(1.3);
-}
-
-.carousel-item.spacer {
-  flex: 0 0 auto;
-  width: 40px;  /* ← お好みで調整 */
-  pointer-events: none;
-  visibility: hidden;
-}
-.lang-switch {
-  position: fixed;
-  top: 1rem;
-  right: 1.5rem;
-  font-size: 0.85rem;
-  z-index: 999;
-}
-
-.lang-switch a {
-  color: #b0d8ff; /* 淡い水色テキスト */
-  text-decoration: none;
-  font-weight: bold;
-  border: 1px solid #4ca3dd; /* 水色寄りのボーダー */
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-  background: rgba(76, 163, 221, 0.1); /* ほんのり水色の半透明背景 */
-}
-
-.lang-switch a:hover {
-  background-color: rgba(76, 163, 221, 0.2); /* 少し濃く */
-  color: #ffffff;
-  border-color: #b0d8ff;
-}
-  </style>
+  <div w3-include-html="./includes/head.html"></div>
+  <link rel="stylesheet" href="./includes/main.css">
 </head>
 
 <body>
-<div class="lang-switch">
-  <a href="./en/">🌐English</a>
-</div>
+  <div w3-include-html="/includes/header.html"></div>
+
+  <div class="lang-switch">
+    <a href="./en/">🌐English</a>
+  </div>
   <main>
-  <h1>黒本 ルーレット</h1>
-  <div class="filters">
+    <h1>黒本 ルーレット</h1>
+    <div class="filters">
 
-    <div class="filter-row">
-      <label>対象本:</label>
-      <div id="bookSelector" style="margin-left: 0.5rem;">
-        <label><input type="checkbox" value="bible_1" checked disabled> 黒本1</label>
-        <label><input type="checkbox" value="bible_2" disabled> 黒本2（準備中）</label>
+      <div class="filter-row">
+        <label>対象本:</label>
+        <div id="bookSelector" style="margin-left: 0.5rem;">
+          <label><input type="checkbox" id="book1" onchange="toggleBookSet()" value="bible_1" checked> 黒本1</label>
+          <label><input type="checkbox" id="book2" onchange="toggleBookSet()" value="bible_2"> 黒本2</label>
+        </div>
       </div>
-    </div>
-    
-    
 
-    <div class="filter-row">
-      <label for="keySelector">キー:</label>
-      <select id="keySelector">
-        <option value="">選択してください</option>
-      </select>
-    </div>
-    <div id="keyTags" class="tag-container"></div>
 
-    <div class="filter-row">
-      <label for="styleSelector">スタイル:</label>
-      <select id="styleSelector">
-        <option value="">選択してください</option>
-      </select>
-    </div>
-    <div id="styleTags" class="tag-container"></div>
-  </div>
 
-  <div class="button-container">
-    <button onclick="pickRandomTune()">ランダムで1曲選ぶ</button>
-    <button onclick="resetSongs()" class="reset-button">リセット</button>
-  </div>
-  <div id="result">🎷 結果がここに表示されます</div>
-  <div id="history">
-    <h2 style="font-size: 1rem;">🎼 やった曲リスト</h2>
-    <ul id="historyList"></ul>
-  </div>
-</main>
+      <div class="filter-row">
+        <label for="keySelector">キー:</label>
+        <select id="keySelector">
+          <option value="">選択してください</option>
+        </select>
+      </div>
+      <div id="keyTags" class="tag-container"></div>
+
+      <div class="filter-row">
+        <label for="styleSelector">スタイル:</label>
+        <select id="styleSelector">
+          <option value="">選択してください</option>
+        </select>
+      </div>
+      <div id="styleTags" class="tag-container"></div>
+    </div>
+
+    <div class="button-container">
+      <button onclick="pickRandomTune()">ランダムで1曲選ぶ</button>
+      <button onclick="resetSongs()" class="reset-button">リセット</button>
+    </div>
+    <div id="result">🎷 結果がここに表示されます</div>
+    <div id="history">
+      <h2 style="font-size: 1rem;">🎼 やった曲リスト</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </main>
 
 
 
@@ -541,76 +123,76 @@
             黒本 2（In Eb）
           </a>
         </div>
-        
+
       </div>
-      
+
       <button class="carousel-button right" onclick="scrollCarousel('carousel-kurohon', 1)">›</button>
     </div>
 
-  <!-- ジャズ理論書籍 -->
-  <div class="carousel-wrapper carousel-group" id="group-theory">
-    <button class="carousel-button left" onclick="scrollCarousel('carousel-theory', -1)">‹</button>
-    <div class="carousel centered-if-few" id="carousel-theory">
-      <div class="carousel-item">
-        <a href="https://amzn.to/3TS742U" target="_blank">
-          <img src="./assets/4845623994.09_SL110_.jpg" alt="">
-          ジャズ・スタンダード・セオリー
-        </a>
+    <!-- ジャズ理論書籍 -->
+    <div class="carousel-wrapper carousel-group" id="group-theory">
+      <button class="carousel-button left" onclick="scrollCarousel('carousel-theory', -1)">‹</button>
+      <div class="carousel centered-if-few" id="carousel-theory">
+        <div class="carousel-item">
+          <a href="https://amzn.to/3TS742U" target="_blank">
+            <img src="./assets/4845623994.09_SL110_.jpg" alt="">
+            ジャズ・スタンダード・セオリー
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/4lwJ1CF" target="_blank">
+            <img src="./assets/499019411X.09_SL110_.jpg" alt="">
+            ジャズセオリーワークショップ
+          </a>
+        </div>
       </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/4lwJ1CF" target="_blank">
-          <img src="./assets/499019411X.09_SL110_.jpg" alt="">
-          ジャズセオリーワークショップ
-        </a>
-      </div>
+      <button class="carousel-button right" onclick="scrollCarousel('carousel-theory', 1)">›</button>
     </div>
-    <button class="carousel-button right" onclick="scrollCarousel('carousel-theory', 1)">›</button>
-  </div>
 
-  <!-- Real Book シリーズ -->
-  <div class="carousel-wrapper carousel-group" id="group-realbook">
-    <button class="carousel-button left" onclick="scrollCarousel('carousel-realbook', -1)">‹</button>
+    <!-- Real Book シリーズ -->
+    <div class="carousel-wrapper carousel-group" id="group-realbook">
+      <button class="carousel-button left" onclick="scrollCarousel('carousel-realbook', -1)">‹</button>
 
-    <div class="carousel" id="carousel-realbook">
-      <div class="carousel-item">
-        <a href="https://amzn.to/4emFZOQ" target="_blank">
-          <img src="./assets/0634060384.09_SL110_.jpg" alt="">
-          Vol.1（C）
-        </a>
+      <div class="carousel" id="carousel-realbook">
+        <div class="carousel-item">
+          <a href="https://amzn.to/4emFZOQ" target="_blank">
+            <img src="./assets/0634060384.09_SL110_.jpg" alt="">
+            Vol.1（C）
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/44nzp6l" target="_blank">
+            <img src="./assets/1423424522.09_SL110_.jpg" alt="">
+            Vol.2（C）
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3TiJvAh" target="_blank">
+            <img src="./assets/0634060848.09_SL110_.jpg" alt="">
+            Vol.1（Bb）
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3Glhu8c" target="_blank">
+            <img src="./assets/1480384534.09_SL110_.jpg" alt="">
+            Vol.2（Bb）
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/3TS7o1C" target="_blank">
+            <img src="./assets/1495027929.09_SL110_.jpg" alt="">
+            Vol.1（Eb）
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amzn.to/4nolB44" target="_blank">
+            <img src="./assets/B0F63YDNCN.09_SL110_.jpg" alt="">
+            Vol.2（Eb／Kindle）
+          </a>
+        </div>
       </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/44nzp6l" target="_blank">
-          <img src="./assets/1423424522.09_SL110_.jpg" alt="">
-          Vol.2（C）
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/3TiJvAh" target="_blank">
-          <img src="./assets/0634060848.09_SL110_.jpg" alt="">
-          Vol.1（Bb）
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/3Glhu8c" target="_blank">
-          <img src="./assets/1480384534.09_SL110_.jpg" alt="">
-          Vol.2（Bb）
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/3TS7o1C" target="_blank">
-          <img src="./assets/1495027929.09_SL110_.jpg" alt="">
-          Vol.1（Eb）
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://amzn.to/4nolB44" target="_blank">
-          <img src="./assets/B0F63YDNCN.09_SL110_.jpg" alt="">
-          Vol.2（Eb／Kindle）
-        </a>
-      </div>
+      <button class="carousel-button right" onclick="scrollCarousel('carousel-realbook', 1)">›</button>
     </div>
-    <button class="carousel-button right" onclick="scrollCarousel('carousel-realbook', 1)">›</button>
-  </div>
   </div>
 
 
@@ -625,204 +207,69 @@
     </div>
   </div>
 
+  <script src="./includes/main.js"></script>
   <script>
-const fileMap = {
-  bible1: "data/jazz_standard_bible_1.json",
-  bible2: "data/jazz_standard_bible_2.json" // 将来追加用
-};
+    function setupBookSelector() {
+      const checkboxes = document.querySelectorAll('#bookSelector input[type="checkbox"]');
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', (event) => {
+          const value = cb.value;
 
-const selectedBooks = new Set(["bible_1"]); // 初期は黒本1のみ
+          if (cb.checked) {
+            selectedBooks.add(value);
+          } else {
+            selectedBooks.delete(value);
 
-function setupBookSelector() {
-  const checkboxes = document.querySelectorAll('#bookSelector input[type="checkbox"]');
-  checkboxes.forEach(cb => {
-    cb.addEventListener('change', () => {
-      if (cb.checked) {
-        selectedBooks.add(cb.value);
-      } else {
-        selectedBooks.delete(cb.value);
-      }
-      loadSongs(); // チェックが変わるたびに再読み込み
-    });
-  });
-}
+            // 両方外されている場合、キャンセルして元に戻す
+            if (selectedBooks.size === 0) {
+              alert("少なくとも1つは選択してください。");
+              cb.checked = true;
+              selectedBooks.add(value);
+              return;
+            }
+          }
 
-
-    function switchCarouselTab(groupId, tabElement) {
-      document.querySelectorAll('.carousel-group').forEach(group => group.classList.remove('active'));
-      document.getElementById(groupId).classList.add('active');
-
-      document.querySelectorAll('.carousel-tabs div').forEach(btn => btn.classList.remove('active'));
-      tabElement.classList.add('active');
+          loadSongs(); // データの再読み込み
+        });
+      });
     }
-
-    function scrollCarousel(id, direction) {
-  const container = document.getElementById(id);
-  const item = container.querySelector('.carousel-item');
-  const scrollAmount = item.offsetWidth + 12; // gap含む
-  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-
-  // 少し遅れて更新（スクロール完了後）
-  setTimeout(() => updateButtonState(id), 100);
-}
-
-
-
-function updateButtonState(id) {
-  const container = document.getElementById(id);
-  const wrapper = container.closest('.carousel-wrapper');
-  const leftBtn = wrapper.querySelector('.carousel-button.left');
-  const rightBtn = wrapper.querySelector('.carousel-button.right');
-
-  const maxScrollLeft = container.scrollWidth - container.clientWidth;
-  const currentScrollLeft = container.scrollLeft;
-
-  // 左端の場合
-  if (currentScrollLeft <= 0) {
-    leftBtn.disabled = true;
-    leftBtn.style.opacity = 0.3;
-    leftBtn.style.pointerEvents = 'none';
-  } else {
-    leftBtn.disabled = false;
-    leftBtn.style.opacity = 1;
-    leftBtn.style.pointerEvents = 'auto';
-  }
-
-  // 右端の場合
-  if (currentScrollLeft >= maxScrollLeft - 1) {
-    rightBtn.disabled = true;
-    rightBtn.style.opacity = 0.3;
-    rightBtn.style.pointerEvents = 'none';
-  } else {
-    rightBtn.disabled = false;
-    rightBtn.style.opacity = 1;
-    rightBtn.style.pointerEvents = 'auto';
-  }
-}
-
-
-
-    const keyOptions = ["C", "D♭", "D", "E♭", "E", "F", "G", "A♭", "A", "B♭", "B"];
-    const styleOptions = ["Jazz Standard", "Swing", "Ballad", "Blues", "Bebop", "Latin", "Hard Bop", "Jazz", "Funk"];
-    const keyTags = new Set();
-    const styleTags = new Set();
-    let allSongs = [];
-    let songs = [];
-    const historyList = [];
 
     async function loadSongs() {
-  allSongs = [];
-  const fetches = [...selectedBooks].map(async book => {
-    const file = `data/jazz_standard_${book}.json`; // 例: jazz_standard_bible1.json
-    try {
-      const res = await fetch(file);
-      const data = await res.json();
-      data.forEach(song => song.book = book === "bible_1" ? "黒本1" : "黒本2");
-      allSongs.push(...data); // ここで .map(..., book: book) を追加してもOK
-    } catch (e) {
-      console.error(`Failed to load ${file}`, e);
-    }
-  });
-  await Promise.all(fetches);
-  applyFilters();
-}
-
-
-    function normalizeKeys(keys) {
-      return keys.split(/[,/]/).map(k => k.trim()).filter(Boolean);
-    }
-
-    function updateTagDisplay() {
-      const kt = document.getElementById("keyTags");
-      const st = document.getElementById("styleTags");
-      kt.innerHTML = "";
-      st.innerHTML = "";
-
-      keyTags.forEach(k => {
-        const span = document.createElement("span");
-        span.className = "tag";
-        span.innerHTML = `${k} <button onclick="removeTag('key', '${k}')">×</button>`;
-        kt.appendChild(span);
+      allSongs = [];
+      const fetches = [...selectedBooks].map(async book => {
+        const file = `data/jazz_standard_${book}.json`; // 例: jazz_standard_bible1.json
+        try {
+          const res = await fetch(file);
+          const data = await res.json();
+          data.forEach(song => song.book = book === "bible_1" ? "黒本1" : "黒本2");
+          allSongs.push(...data); // ここで .map(..., book: book) を追加してもOK
+        } catch (e) {
+          console.error(`Failed to load ${file}`, e);
+        }
       });
-      styleTags.forEach(s => {
-        const span = document.createElement("span");
-        span.className = "tag";
-        span.innerHTML = `${s} <button onclick="removeTag('style', '${s}')">×</button>`;
-        st.appendChild(span);
-      });
-    }
-
-    function removeTag(type, value) {
-      if (type === 'key') keyTags.delete(value);
-      if (type === 'style') styleTags.delete(value);
-      updateTagDisplay();
+      await Promise.all(fetches);
       applyFilters();
-    }
-
-    function addTagFromSelector(selectorId, tagSet) {
-      const selector = document.getElementById(selectorId);
-      const val = selector.value;
-      if (val && !tagSet.has(val)) {
-        tagSet.add(val);
-        selector.value = "";
-        updateTagDisplay();
-        applyFilters();
-      }
-    }
-
-    setupBookSelector();
-
-    function setupTagSelectors() {
-      const keySel = document.getElementById("keySelector");
-      keyOptions.forEach(k => {
-        const opt = document.createElement("option");
-        opt.value = k;
-        opt.textContent = k;
-        keySel.appendChild(opt);
-      });
-      keySel.onchange = () => addTagFromSelector("keySelector", keyTags);
-
-      const styleSel = document.getElementById("styleSelector");
-      styleOptions.forEach(s => {
-        const opt = document.createElement("option");
-        opt.value = s;
-        opt.textContent = s;
-        styleSel.appendChild(opt);
-      });
-      styleSel.onchange = () => addTagFromSelector("styleSelector", styleTags);
-    }
-
-    function applyFilters() {
-      const keySelected = [...keyTags];
-      const styleSelected = [...styleTags];
-      songs = allSongs.filter(song => {
-        const keys = song.key ? normalizeKeys(song.key) : [];
-        const styles = song.style ? song.style.split(',').map(s => s.trim()) : [];
-        const keyMatch = keySelected.length === 0 || keySelected.some(k => keys.some(songKey => songKey.startsWith(k)));
-        const styleMatch = styleSelected.length === 0 || styleSelected.some(s => styles.includes(s));
-        return keyMatch && styleMatch;
-      });
     }
 
     function pickRandomTune() {
       if (songs.length === 0) {
-    alert("全ての曲を選びました！\nリストをリセットするか，条件を変更してください．");
-    return;
-  }
-  const index = Math.floor(Math.random() * songs.length);
-  const selected = songs[index];
-  songs.splice(index, 1);
-  const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
-  const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
-    作曲: ${selected.composer || "不明"}<br>
-    キー: ${selected.key || "不明"}<br>
-    スタイル: ${selected.style || "不明"}<br>
-    備考: ${selected.note || "なし"}<br>
-    🗂 掲載本: ${selected.book || "不明"}<br>
-    🔗 <a href="${searchUrl}" target="_blank">YouTubeで検索</a></div>`;
-  document.getElementById("result").innerHTML = resultText;
-  historyList.unshift(`🎵 ${selected.title}（${selected.book || "不明"}）`);
-  updateHistory();
+        alert("全ての曲を選びました！\nリストをリセットするか，条件を変更してください．");
+        return;
+      }
+      const index = Math.floor(Math.random() * songs.length);
+      const selected = songs[index];
+      songs.splice(index, 1);
+      const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(selected.title + ' jazz')}`;
+      const resultText = `🎵 ${selected.title}（p.${selected.page}）<div class="result-sub">
+      作曲: ${selected.composer || "不明"}<br>
+      キー: ${selected.key || "不明"}<br>
+      スタイル: ${selected.style || "不明"}<br>
+      備考: ${selected.note || "なし"}<br>
+      🗂 掲載本: ${selected.book || "不明"}<br>
+      🔗 <a href="${searchUrl}" target="_blank">YouTubeで検索</a></div>`;
+      document.getElementById("result").innerHTML = resultText;
+      historyList.unshift(`🎵 ${selected.title}（${selected.book || "不明"}）`);
+      updateHistory();
     }
 
     function resetSongs() {
@@ -835,19 +282,6 @@ function updateButtonState(id) {
       document.getElementById("result").innerHTML = "🎷 結果がここに表示されます";
       updateHistory();
     }
-
-    function updateHistory() {
-      const ul = document.getElementById("historyList");
-      ul.innerHTML = "";
-      historyList.slice(0, 20).forEach(item => {
-        const li = document.createElement("li");
-        li.innerHTML = item;
-        ul.appendChild(li);
-      });
-    }
-
-    setupTagSelectors();
-    updateTagDisplay();
     loadSongs();
   </script>
 </body>
