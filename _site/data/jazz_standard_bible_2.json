@@ -1,13 +1,13 @@
 [
     {
-      "title": "ACTUAL PROOF",
-      "page": "8",
-      "composer": "Herbie Hancock",
-      "key": "不明",
-      "style": "Funk, Jazz Fusion",
-      "note": "ハービー・ハンコックの代表曲の一つ。ファンクとスウィングのリズムを融合させたフュージョン曲",
-      "note_en": "One of Herbie Hancock's signature songs. A fusion piece blending funk and swing rhythms."
-    },
+        "title": "ACTUAL PROOF",
+        "page": "8",
+        "composer": "Herbie Hancock",
+        "key": "C minor (Concert)",
+        "style": "Jazz Funk, Fusion",
+        "note": "ハービー・ハンコックのアルバム「Thrust」収録。ファンクとスウィングの融合が特徴。複雑な転調が多く、ソロではII-Vのパターンが頻繁に現れる。ファンキーなグルーヴが重要。",
+        "note_en": "Included on Herbie Hancock's album 'Thrust'. Features a fusion of funk and swing. Many complex modulations; II-V patterns frequently appear in solos. A funky groove is crucial."
+      },
     {
       "title": "AFFIRMATION",
       "page": "10",
@@ -225,14 +225,14 @@
       "note_en": "Composed in 1946. Originally titled 'Bebop in Pastel'."
     },
     {
-      "title": "BUD POWELL",
-      "page": "38",
-      "composer": "N/A",
-      "key": "N/A",
-      "style": "N/A",
-      "note": "これは作曲家名であり、特定の曲名ではない",
-      "note_en": "This is a composer's name, not a specific song title."
-    },
+        "title": "BUD POWELL",
+        "page": "38",
+        "composer": "Chick Corea",
+        "key": "N/A",
+        "style": "N/A",
+        "note": "セッションでは、バド・パウエルの有名な曲（例:「Bouncing with Bud」）を演奏する意図の可能性。",
+        "note_en": "In sessions, it might refer to an intention to play one of Bud Powell's famous compositions (e.g., 'Bouncing with Bud')."
+      },
     {
       "title": "BUT BEAUTIFUL",
       "page": "40",
@@ -423,14 +423,14 @@
       "note_en": "Composed in 1942."
     },
     {
-      "title": "The DUKE",
-      "page": "65",
-      "composer": "Duke Ellington",
-      "key": "N/A",
-      "style": "Big-band jazz",
-      "note": "デューク・エリントンの作曲家としての業績に関する情報が多く、特定の曲名ではない",
-      "note_en": "Primarily refers to Duke Ellington's compositional legacy, not a specific song title."
-    },
+        "title": "The DUKE",
+        "page": "65",
+        "composer": "Duke Ellington",
+        "key": "C Major",
+        "style": "Jazz, Cool Jazz, Big Band",
+        "note": "デイヴ・ブルーベック作曲の曲。デューク・エリントンへのトリビュート。中間部に5/4拍子のセクションを持つ。比較的シンプルなメロディと特徴的なコード進行。",
+        "note_en": "A composition by Dave Brubeck, dedicated to Duke Ellington. Features a 5/4 section in the middle. Characterized by a relatively simple melody and distinctive chord progression."
+      },
     {
       "title": "E.S.P.",
       "page": "66",
@@ -450,14 +450,14 @@
       "note_en": "Composed in 1935. From the film 'Born To Dance'."
     },
     {
-      "title": "EIDERDOWN",
-      "page": "68",
-      "composer": "Steve Swallow",
-      "key": "N/A",
-      "style": "Jazz",
-      "note": "ビル・エヴァンスの演奏が有名",
-      "note_en": "Popularized by Bill Evans' performance."
-    },
+        "title": "EIDERDOWN",
+        "page": "68",
+        "composer": "Steve Swallow",
+        "key": "Eb Major",
+        "style": "Jazz, Modern Jazz, Fusion",
+        "note": "ビル・エヴァンスの演奏で有名。独特のハーモニーとスムーズなメロディラインが特徴。セッションでは美しいコードヴォイシングがポイント。",
+        "note_en": "Popularized by Bill Evans' performance. Characterized by unique harmonies and a smooth melodic line. Beautiful chord voicings are key in sessions."
+      },
     {
       "title": "EIGHTY ONE",
       "page": "69",
@@ -567,14 +567,14 @@
       "note_en": "One of Cedar Walton's signature compositions from the 1970s."
     },
     {
-      "title": "FIRST SONG",
-      "page": "81",
-      "composer": "N/A",
-      "key": "N/A",
-      "style": "Ragtime",
-      "note": "ラグタイムの歴史に関する情報が多く、特定の曲名ではない",
-      "note_en": "Primarily refers to the history of Ragtime, not a specific song title."
-    },
+        "title": "FIRST SONG（FOR RUTH）",
+        "page": "81",
+        "composer": "Charlie Haden",
+        "key": "C minor",
+        "style": "Jazz, Ballad, Contemplative",
+        "note": "チャーリー・ヘイデンの代表的なバラード。深遠なメロディとハーモニーが特徴。演奏はゆっくりとしたテンポで、感情表現が重要。",
+        "note_en": "A signature ballad by Charlie Haden. Characterized by profound melody and harmony. Requires expressive performance at a slow tempo."
+      },
     {
       "title": "FIVE HUNDRED MILES HIGH",
       "page": "82",
@@ -999,14 +999,14 @@
       "note_en": "The theme song from the 1945 film 'Laura'."
     },
     {
-      "title": "LITHA",
-      "page": "129",
-      "composer": "Chick Corea",
-      "key": "N/A",
-      "style": "Jazz Standard",
-      "note": "チック・コリアの曲",
-      "note_en": "A composition by Chick Corea."
-    },
+        "title": "LITHA",
+        "page": "129",
+        "composer": "Chick Corea",
+        "key": "N/A",
+        "style": "Jazz Fusion, Post-Bop, Latin Jazz",
+        "note": "チック・コリアの代表曲の一つ。複雑なハーモニーとリズムチェンジが特徴。フリージャズ的な要素も含む。セッションでは、明確なキーセンターよりもコード間の関係性を理解することが重要。",
+        "note_en": "One of Chick Corea's signature pieces. Characterized by complex harmonies and rhythmic shifts. Includes free jazz elements. In sessions, understanding chord relationships is more important than a clear key center."
+      },
     {
       "title": "LITTLE SUNFLOWER",
       "page": "130",
@@ -1602,14 +1602,14 @@
       "note_en": "Composed in 1957. Popularized by John Coltrane's recording."
     },
     {
-      "title": "SOULTRANE",
-      "page": "200",
-      "composer": "N/A",
-      "key": "N/A",
-      "style": "N/A",
-      "note": "これはアルバム名であり、特定の曲名ではない",
-      "note_en": "This is an album title, not a specific song title."
-    },
+        "title": "SOULTRANE",
+        "page": "200",
+        "composer": "Tadd Dameron",
+        "key": "N/A",
+        "style": "N/A",
+        "note": "「Soultrane」はジョン・コルトレーンのアルバムタイトルであり、タッド・ダメロンの特定の曲名ではない。セッションでは、コルトレーンの演奏スタイルや、アルバム収録曲を指す可能性。",
+        "note_en": "'Soultrane' is John Coltrane's album title, not a specific song by Tadd Dameron. In sessions, it might refer to Coltrane's playing style or songs from the album."
+      }
     {
       "title": "SPEAK NO EVIL",
       "page": "201",
