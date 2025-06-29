@@ -672,7 +672,7 @@ function updateButtonState(id) {
     const historyList = [];
 
     async function loadSongs() {
-      const response = await fetch("jazz_standard_bible_1.json");
+      const response = await fetch("../data/jazz_standard_bible_1.json");
       const data = await response.json();
       allSongs = data;
       applyFilters();
